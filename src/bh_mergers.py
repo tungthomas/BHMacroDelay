@@ -14,7 +14,13 @@ MergerEvent is a class that stores the details of a merger event.
 
 Stephanie Buttigieg (sb2583@cam.ac.uk)
 
+Modified by Pei-Cheng Tung (pt26aae@herts.ac.uk)
 """
+
+# Parameters
+# LITTLE_H = 0.679
+basepath         = None
+mass_file_path   = None
 
 import numpy as np
 import h5py
@@ -23,8 +29,14 @@ import illustris_python.groupcat as gc
 import utils as util
 import astropy.units as u
 
-LITTLE_H = 0.679
-basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+from initialize import LITTLE_H
+
+
+# basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+# simulation_name = 'seed1e4_se_boost'
+# basepath = f'/beegfs/general/skoudmani/aesopica_proj/data_release/{simulation_name}'
+
+# mass_file_path = f'/home/pctung/beegfs_pctung/bh_merger_project/output/{simulation_name}/bh_masses.hdf5' # modify this as required
 
 def get_correct_mass(BH_id, scale_factor):
     """
@@ -41,9 +53,18 @@ def get_correct_mass(BH_id, scale_factor):
     float
         Mass of the black hole at the given scale factor in solar masses.
     """
-    mass_file_path = '/cosma7/data/dp012/dc-butt3/bh_masses.hdf5' # modify this as required
+    # mass_file_path = '/cosma7/data/dp012/dc-butt3/bh_masses.hdf5' # modify this as required
     with h5py.File(mass_file_path, 'r') as hf:
-        data = np.array(hf[f'{int(BH_id)}'])
+
+        # Deal with errors in the original mass file
+        try:
+            data = np.array(hf[f'{int(BH_id)}'])
+            # print(data)
+        except:
+            print(f"Error: BH ID {BH_id} not found in file {mass_file_path}.")
+            return np.nan
+        
+        # data = np.array(hf[f'{int(BH_id)}'])
         scale_factors = data[:, 0]
         masses = data[:, 1]
 
@@ -116,6 +137,7 @@ class MergerEvent():
         """
         if self.formation_scale_factor > scale_factors[-1]:
             self.snap_no = len(scale_factors) - 1
+            return   # already found the snapshot
         for i in range(len(scale_factors)-1):
             if self.formation_scale_factor > scale_factors[i] and self.formation_scale_factor < scale_factors[i+1]:
                 self.snap_no = i
@@ -126,7 +148,15 @@ class MergerEvent():
 
         """
         bh_data = snapshot.loadSubset(basepath, self.snap_no, 5, fields=['ParticleIDs', 'BH_Hsml'])
-        bh_ids = bh_data['ParticleIDs']
+
+        # Deal with snapshots without black holes
+        if bh_data['count'] == 0:
+            self.binary_separation = -1*u.kpc
+            return
+        else:
+            bh_ids = bh_data['ParticleIDs']
+            
+            
         if self.id1 not in bh_ids:
             self.binary_separation = -1*u.kpc
         else:

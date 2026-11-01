@@ -7,21 +7,29 @@ from os.path import isfile,expanduser
 import numpy as np
 import h5py
 
+offset_dir = None
+
 
 def gcPath(basePath, snapNum, chunkNum=0):
     """ Return absolute path to a group catalog HDF5 file (modify as needed). """
     gcPath = basePath + '/groups_%03d/' % snapNum
     filePath1 = gcPath + 'groups_%03d.%d.hdf5' % (snapNum, chunkNum)
     filePath2 = gcPath + 'fof_subhalo_tab_%03d.%d.hdf5' % (snapNum, chunkNum)
+    filePath3 = gcPath + 'fof_subhalo_tab_%03d.hdf5' % snapNum
+    filePath4 = basePath + '/fof_subhalo_tab_%03d.hdf5' % snapNum
 
     if isfile(expanduser(filePath1)):
         return filePath1
-    return filePath2
+    elif isfile(expanduser(filePath2)):
+        return filePath2
+    elif isfile(expanduser(filePath3)):
+        return filePath3
+    return filePath4
 
 
 def offsetPath(snapNum):
     """ Return absolute path to a separate offset file (modify as needed). """
-    offsetPath = '/cosma7/data/dp012/dc-butt3/FABLE_100_offsets/offsets_%03d.hdf5' % snapNum
+    offsetPath = (offset_dir + '/offsets_%03d.hdf5') % snapNum
 
     return offsetPath
 

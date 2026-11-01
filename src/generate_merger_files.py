@@ -4,8 +4,21 @@ It stores information related to the BH particle and its host subhalo/group at e
 
 It uses MPI to parallelize the process of reading the merger events and creating the hdf5 files.
 
+[Parameters] (Input throgh command line. Refer to initialize.py for more information.)
+------
+    (INPUT_NAME: PARAMETER_NAME)
+    sim_dir: basepath
+    merger_dir: folder_path
+    tree_dir: tree_path
+    expansion_list: expansion_list_path
+    mass_file: mass_file_path
+    output_dir_merger: output_dir
+    min_mass: min_merger_mass
+
 ------------------------------------------------------------------------------------------------
 Stephanie Buttigieg (sb2583@cam.ac.uk)
+
+Modified by Pei-Cheng Tung (pt26aae@herts.ac.uk)
 """
 
 import h5py
@@ -18,7 +31,22 @@ import illustris_python.groupcat as gc
 import illustris_python.snapshot as snapshot
 import astropy.units as u
 
-basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+from mpi4py.util import pkl5 # an extension to handle large datasets
+import argparse
+
+from initialize import initialize, parameters
+
+
+
+# # Paths
+# simulation_name = args.simulation_name  # seed1e2_se_boost, seed1e3_se_boostmax, seed1e4_se_boost
+# # basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+# basepath = f'/beegfs/general/skoudmani/aesopica_proj/data_release/{simulation_name}'
+# output_dir = f'/home/pctung/beegfs_pctung/bh_merger_project/output/{simulation_name}/new_merger_events_extended'
+
+# path_to_files = output_dir  # path to "blackhole_mergers" directory. intrinsically, output_dir should be the same as this one!
+# folder_path = f'/beegfs/general/skoudmani/aesopica_proj/data_release/{simulation_name}/blackhole_mergers'
+
 
 def create_file(merger_event, verbose = False):
     """
@@ -37,7 +65,7 @@ def create_file(merger_event, verbose = False):
     filename = f'{merger_event.id1}_{merger_event.id2}'
     if verbose:
         print(f"Creating tree for merger event {filename}")
-    output_dir = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # modify this as required
+    # output_dir = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # modify this as required
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     hdf5_filename = os.path.join(output_dir, f"{filename}.hdf5")
@@ -45,7 +73,6 @@ def create_file(merger_event, verbose = False):
     snap_before_merger = merger_event.snap_no
 
     # Initialize data structures
-
     bh_data = {
         1:{"SnapNum": [], "SubhaloMassInRad": [], "SubhaloMassInHalfRadType": [], "SubhaloPos": [], "SubfindID": [],
            "Coordinates": [], "Group_R_Crit200": [], "Group_Number": [], "BH_Mass": [], "Central_Subhalo": []},
@@ -149,7 +176,7 @@ def create_file(merger_event, verbose = False):
     if verbose:
         print(f"Finished creating the tree for merger event {hdf5_filename}")
 
-def generate_all_files(verbose=False):
+def generate_all_files(path_to_files, folder_path, verbose=False):
     """
     Iterates through the raw bh merger files.
     It then corrects for the masses of the black holes at the time of merger.
@@ -173,11 +200,16 @@ def generate_all_files(verbose=False):
 
     # Load the list of files to process (done only on rank 0)
     if rank == 0:
-        path_to_files = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended'
+        # path_to_files = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended'
+        
+        # Read existing files. Create directory to store data if it doesn't exist!
+        if not os.path.exists(path_to_files):
+            os.mkdir(path_to_files)
         processed_files = [f for f in os.listdir(path_to_files) if os.path.isfile(os.path.join(path_to_files, f))]
         processed_mergers = set(f.split('.')[0] for f in processed_files)
 
-        folder_path = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100/blackhole_mergers'
+        # Collect merger files
+        # folder_path = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100/blackhole_mergers'
         all_files = sorted([f for f in os.listdir(folder_path) if f.endswith('.txt')])
         file_chunks = np.array_split(all_files, size)
     else:
@@ -201,11 +233,15 @@ def generate_all_files(verbose=False):
         with open(file_path, 'r') as f:
             for line in f:
                 values = line.split()
-                merger_event = bh.MergerEvent(values[1], values[2], values[4])
-                if merger_event.mass1 >= 1e6 and merger_event.mass2 >= 1e6:
+                merger_event = bh.MergerEvent(values[1], values[2], values[4])  # a, id_1, id_2
+                if merger_event.mass1 >= min_merger_mass and merger_event.mass2 >= min_merger_mass:  # The original setup was 1e6 from Buttigieg et al. 2025
                     local_events.append(merger_event)
 
+    if rank == 0 and verbose:
+        print(f"Total events after filtering: {len(local_events)}")
+
     # Gather all merger events at rank 0
+    comm = pkl5.Intracomm(MPI.COMM_WORLD)  # enable large dataset 
     all_events = comm.gather(local_events, root=0)
 
     # On rank 0: flatten the list and redistribute
@@ -228,4 +264,28 @@ def generate_all_files(verbose=False):
             create_file(event, verbose=verbose)
 
 if __name__ == "__main__":
-    generate_all_files(verbose=True)
+
+    # Parameter initialization
+    initialize('generate_merger_files', verbose=(MPI.COMM_WORLD.Get_rank() == 0))
+
+
+    # Set global parameters
+    basepath = parameters.sim_dir
+    output_dir = parameters.output_dir_merger
+    path_to_files = output_dir        # deprecated  
+    folder_path = parameters.merger_dir
+    tree_path = parameters.tree_dir
+
+    expansion_list_path = parameters.expansion_list
+    min_merger_mass = parameters.min_mass
+    mass_file_path = parameters.mass_file
+
+    bh.basepath = basepath
+    bh.mass_file_path = mass_file_path
+    util.path_to_expansion_list = expansion_list_path
+    util.tree_path = tree_path
+
+    # flags
+    verbose = parameters.verbose
+
+    generate_all_files(path_to_files, folder_path, verbose=verbose)

@@ -125,10 +125,25 @@ class TreeDB:
             print('Currently no support for individual tree files.')
             sys.exit()
 
-        # Load file offsets
-        f = h5py.File('%s/offsets/offsets_000.hdf5' % (treedir), 'r')
+        # Load file offsets (from the first offsets file)
+        snap_num = 0
+        while not os.path.exists(f"{treedir}/offsets/offsets_{snap_num:03d}.hdf5"):
+            snap_num += 1
+            if snap_num > 9999:
+                raise FileNotFoundError(f'No offsets files found in {treedir}/offsets')
+        # f = h5py.File('%s/offsets/offsets_000.hdf5' % (treedir), 'r')
+        f = h5py.File(f'{treedir}/offsets/offsets_{snap_num:03d}.hdf5', 'r')
         self._file_offsets = f['FileOffsets'][:]
         f.close()
+
+        # # Load file offsets
+        # f = h5py.File('%s/offsets/offsets_100.hdf5' % (treedir), 'r')
+        # self._file_offsets = f['FileOffsets'][:]
+        # f.close()
+
+        # For single tree file
+        if not os.path.exists(f'{treedir}/{name}.1.hdf5'):
+            self._file_offsets = np.array([0])
 
         # Set some attributes
         self._treedir = treedir

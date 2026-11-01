@@ -1,20 +1,32 @@
 """
 This script calculates the Eddington ratios for black holes in merger events.
+
+[Parameters] (Input throgh command line. Refer to initialize.py for more information.)
+------
+    (INPUT_NAME: PARAMETER_NAME)
+    sim_dir: basepath
+    expansion_list: expansion_list_path
+    offset_dir: offset_path
+    output_dir_delay: delay_path
+    output_dir_eddington: output_path_primary, output_path_secondary
 """
 import utils as util
 import bh_mergers as bh
 import illustris_python.snapshot as snapshot
+import illustris_python.groupcat as gc
 import numpy as np
 import os
 import astropy.units as u
 import astropy.constants as const
 from mpi4py import MPI
 
+from initialize import LITTLE_H, initialize, parameters
+
 comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 
-LITTLE_H = 0.679
+# LITTLE_H = 0.679
 
 def eddington_rate(M_BH):
     epsilon_r = 0.1
@@ -22,9 +34,8 @@ def eddington_rate(M_BH):
     eddington_rate = 4*np.pi*const.G*M_BH*const.m_p/(0.1*const.sigma_T*const.c)
     return eddington_rate.to(u.Msun/u.Gyr).value
 
-basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
-delay_path = '../data/generated_data/delay_data'
-
+# basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+# delay_path = '../data/generated_data/delay_data'
 def get_fable_eddington_ratios():
     """
     Get the Eddington ratios for the black holes in the merger events.
@@ -117,8 +128,8 @@ def get_fable_eddington_ratios():
         secondary_eddington_ratios = np.concatenate(secondary_eddington_ratios)
 
         # save the results to a file
-        output_path_primary = '../data/generated_data/fable_eddington_ratios_primary.txt'
-        output_path_secondary = '../data/generated_data/fable_eddington_ratios_secondary.txt'
+        # output_path_primary = '../data/generated_data/fable_eddington_ratios_primary.txt'
+        # output_path_secondary = '../data/generated_data/fable_eddington_ratios_secondary.txt'
         with open(output_path_primary, 'w') as f:
             for i in range(len(primary_eddington_ratios)):
                 f.write(f'{primary_eddington_ratios[i][0]} {primary_eddington_ratios[i][1]} {primary_eddington_ratios[i][2]}\n')
@@ -127,5 +138,25 @@ def get_fable_eddington_ratios():
                 f.write(f'{secondary_eddington_ratios[i][0]} {secondary_eddington_ratios[i][1]} {secondary_eddington_ratios[i][2]}\n')
 
 if __name__ == "__main__":
-    get_fable_eddington_ratios()
 
+    # Parameter initialization
+    initialize('eddington_rates', verbose=(rank == 0))
+
+    # Set global parameters
+
+    basepath = parameters.sim_dir
+    delay_path = parameters.output_dir_delay
+    output_path_primary = os.path.join(parameters.output_dir_eddington, 'eddington_ratios_primary.txt')
+    output_path_secondary = os.path.join(parameters.output_dir_eddington, 'eddington_ratios_secondary.txt')
+
+    expansion_list_path = parameters.expansion_list
+    offset_path = parameters.offset_dir
+
+    bh.basepath = basepath
+    util.path_to_expansion_list = expansion_list_path
+    gc.offset_dir = offset_path
+
+    if rank == 0:
+        os.makedirs(parameters.output_dir_eddington, exist_ok=True)
+
+    get_fable_eddington_ratios()

@@ -16,9 +16,9 @@ executing==2.0.1
 fonttools==4.53.1
 fuzzywuzzy==0.18.0
 getdist==1.5.2
-h5py==3.11.0
+h5py==3.12.0
 idna==3.8
-illustris_python @ file:./illustris_python-master
+illustris_python @ file:./illustris_python_master
 ipykernel==6.29.5
 ipython==8.26.0
 jedi==0.19.1
@@ -26,7 +26,7 @@ joblib==1.4.2
 jupyter_client==8.6.2
 jupyter_core==5.7.2
 kiwisolver==1.4.5
-llvmlite==0.43.0
+llvmlite==0.44.0
 matplotlib==3.9.1
 matplotlib-inline==0.1.7
 memory-profiler==0.61.0
@@ -35,10 +35,10 @@ mpmath==1.3.0
 msgpack==1.1.0
 ndindex==1.9.2
 nest-asyncio==1.6.0
-numba==0.60.0
+numba==0.61.0
 numexpr==2.10.1
-numpy==2.0.1
-packaging==24.1
+numpy==2.1.3
+packaging==26.3
 pandas==2.2.2
 parso==0.8.4
 pexpect==4.9.0
@@ -61,7 +61,7 @@ pyzmq==26.0.3
 requests==2.32.3
 scipy==1.14.0
 seaborn==0.13.2
-setuptools==74.1.1
+setuptools==84.0.0
 six==1.16.0
 stack-data==0.6.3
 swiftsimio==8.0.1

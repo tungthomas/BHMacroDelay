@@ -3,9 +3,21 @@ This script calculates the macrophysical time delays for all merger events passi
 Note that you require the extended merger files to run this code, which can be generated using generate_merger_files.py.
 This script will also include functionality to calculate the masses of the BHs after this added time delay in future versions.
 
+[Parameters] (Input throgh command line. Refer to initialize.py for more information.)
+------
+    (INPUT_NAME: PARAMETER_NAME)
+    sim_dir: basepath
+    expansion_list: expansion_list_path
+    tree_dir: tree_path
+    output_dir_merger: path_to_extended_merger_files
+    output_dir_delay: delay_path
+    output_dir_accretion: accretion_path
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 Stephanie Buttigieg (sb2583@cam.ac.uk)
+
+Modified by Pei-Cheng Tung (pt26aae@herts.ac.uk)
 """
 
 import h5py
@@ -22,16 +34,18 @@ from scipy.spatial import cKDTree
 import illustris_python.snapshot as snapshot
 from scipy.integrate import solve_ivp
 
-LITTLE_H = 0.679
-DM_MASS = 3.4e7 / LITTLE_H
-SOFTENING_LENGTH = 14.3606
-STELLAR_MASS = 6.4e6/LITTLE_H
+# LITTLE_H = 0.679
+# DM_MASS = 3.4e7 / LITTLE_H
+# SOFTENING_LENGTH = 14.3606
+# STELLAR_MASS = 6.4e6/LITTLE_H
+from initialize import LITTLE_H, STELLAR_MASS, OMEGA_0, BOX_SIZE, initialize, get_bh_params, get_final_snapshot, parameters
+import illustris_python.groupcat as gc
 
-basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
-path_to_extended_merger_files = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # change as required
-treedir = '/cosma7/data/dp012/dc-butt3/MergerTrees/output/Galaxies/FABLE/Fid_test' # path to subhalo merger trees
+# basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
+# path_to_extended_merger_files = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # change as required
+# tree_path = '/cosma7/data/dp012/dc-butt3/MergerTrees/output/Galaxies/FABLE/Fid_test' # path to subhalo merger trees
 
-def periodic_distance(pos1, pos2, box_size=1e5):
+def periodic_distance(pos1, pos2, box_size):
     """
     Calculate the periodic distance between two points in a periodic box.
     Parameters
@@ -41,7 +55,7 @@ def periodic_distance(pos1, pos2, box_size=1e5):
     pos2 : array_like
         Second position vector.
     box_size : float, optional
-        Size of the periodic box in code units. The default is 1e5.
+        Size of the periodic box in code units. 
     Returns
     -------
     float
@@ -146,7 +160,7 @@ def process_one(merger_index, verbose = False):
     if total_mass_1 < 100*STELLAR_MASS and total_mass_2 < 100*STELLAR_MASS:
         return None, None, None, None, None
     
-    tree = readtreeHDF5.TreeDB(treedir)
+    tree = readtreeHDF5.TreeDB(tree_path)
 
     # Ensuring that both host subhalos have a valid subfindID
     good_snap = False
@@ -211,12 +225,12 @@ def process_one(merger_index, verbose = False):
                     merge_by_now = True
                     break
 
-        if max_snap == 135 and host_merger_snap == 0: # this is the case where the host subhalos do not merge before redshift 0
+        if max_snap == snap_final and host_merger_snap == 0: # this is the case where the host subhalos do not merge before redshift 0
             if verbose:
                 print('The last snap before BH merger:', merger_snap)
                 print('The host subhalos did not merge before redshift 0')
             host_merger_snap = max_snap
-        elif max_snap !=135 and host_merger_snap == 0:
+        elif max_snap != snap_final and host_merger_snap == 0:
             # subhalos haven't merged before one of them ceases to exist.
             # in this case I will set the host_merger_snap to the last snap before the subhalos cease to exist
             # this could happen because of ex. tidal disruption events.
@@ -232,8 +246,8 @@ def process_one(merger_index, verbose = False):
         if host_merger_snap != merger_snap:
             # calculate the time delay
             H0 = LITTLE_H * 100
-            Om0 = 0.3065
-            cosmo = FlatLambdaCDM(H0=H0, Om0=Om0)
+            # OMEGA_0 = 0.3065
+            cosmo = FlatLambdaCDM(H0=H0, Om0=OMEGA_0)
             galaxy_merger_a = scale_factors[host_merger_snap]
             bh_z = 1/formation_time - 1
             galaxy_z = 1/galaxy_merger_a - 1
@@ -255,7 +269,7 @@ def process_one(merger_index, verbose = False):
                     i += 1
                 pos1 = pos_dict_combined1[host_merger_snap-i]
                 pos2 = pos_dict_combined2[host_merger_snap-i]
-            distance = periodic_distance(pos1, pos2)*scale_factors[host_merger_snap-1]  / LITTLE_H #in kpc
+            distance = periodic_distance(pos1, pos2, BOX_SIZE)*scale_factors[host_merger_snap-1]  / LITTLE_H #in kpc
 
         else: # the case where the host subhalos merge at the same snap as the BHs/before the BHs
             if merge_by_now == True:
@@ -271,7 +285,7 @@ def process_one(merger_index, verbose = False):
                         initial_snap = max(common_keys)
                         pos1 = pos_dict_combined1[initial_snap]
                         pos2 = pos_dict_combined2[initial_snap]
-                        distance = periodic_distance(pos1, pos2)*scale_factors[initial_snap] / LITTLE_H
+                        distance = periodic_distance(pos1, pos2, BOX_SIZE)*scale_factors[initial_snap] / LITTLE_H
                     else:
                         distance = -1
                 else:
@@ -279,7 +293,7 @@ def process_one(merger_index, verbose = False):
             else:
                 pos1 = pos_dict_combined1[host_merger_snap]
                 pos2 = pos_dict_combined2[host_merger_snap]
-                distance = periodic_distance(pos1, pos2)*scale_factors[host_merger_snap] / LITTLE_H
+                distance = periodic_distance(pos1, pos2, BOX_SIZE)*scale_factors[host_merger_snap] / LITTLE_H
             galaxy_z = 1/formation_time -1 # setting equal to the formation redshift of the BHs
 
     return galaxy_z, host_merger_snap, merge_by_now, distance, initial_snap
@@ -308,20 +322,21 @@ def get_delays_only(verbose = False):
     rank = comm.Get_rank()
     size = comm.Get_size()
 
-    mergers_path = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # change as required
-    path_to_files = '../data/generated_data/delay_data/'
+    # path_to_extended_merger_files = '/cosma7/data/dp012/dc-butt3/new_merger_events_extended' # change as required
+    # delay_path = '../data/generated_data/delay_data/'
+
 
     if rank == 0:
         indices_processed = []
         # Check if the directory exists and if not create it
-        if not os.path.exists(path_to_files):
-            os.makedirs(path_to_files)
+        if not os.path.exists(delay_path):
+            os.makedirs(delay_path)
         # open all the files in this directory and add indices to indices_processed
-        files = os.listdir(path_to_files)
+        files = os.listdir(delay_path)
         for file in files:
             if verbose:
                 print('Processing file:', file)
-            with open(os.path.join(path_to_files, file)) as f:
+            with open(os.path.join(delay_path, file)) as f:
                 lines = f.readlines()
                 for line in lines:
                     data = line.split()
@@ -330,7 +345,7 @@ def get_delays_only(verbose = False):
                     indices_processed.append(f'{id1}_{id2}')
 
         # Get the list of merger files to process
-        merger_files = os.listdir(mergers_path)
+        merger_files = os.listdir(path_to_extended_merger_files)
         merger_files = [file for file in merger_files if file.endswith('.hdf5')]
         indices_to_process = []
         for filename in merger_files:
@@ -347,7 +362,7 @@ def get_delays_only(verbose = False):
     for index in local_indices:
         if verbose:
             print(f'Rank {rank} Processing merger:', index)
-        with h5py.File(os.path.join(mergers_path, f'{index}.hdf5'), 'r') as hf:
+        with h5py.File(os.path.join(path_to_extended_merger_files, f'{index}.hdf5'), 'r') as hf:
             header = dict(hf['Header'].attrs.items())
             try:
                 id1 = header['id1']
@@ -367,7 +382,7 @@ def get_delays_only(verbose = False):
             continue
         
         if galaxy_merger_redshift is not None: # ignoring the ones which are not in well-resolved subhalos at the point of identification.
-            with open(os.path.join(path_to_files, f'delays_{rank}.txt'), 'a') as f:
+            with open(os.path.join(delay_path, f'delays_{rank}.txt'), 'a') as f:
                 f.write(str(id1) + ' ' + str(id2) + ' ' + str(m1) + ' ' + str(m2) + ' ' + str(formation_z) +' ' + str(galaxy_merger_redshift) + ' ' + str(merge_by_now) + ' ' + str(host_distance) + '\n')
 
 
@@ -403,12 +418,12 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
     initial_m2 : float
         The mass of the second black hole after the time delay in solar masses.
     """
-    path_to_detailed_output = '/cosma7/data/dp012/dc-butt3/accretion_details' # where detailed output files will be stored
-    path_to_results = os.path.join(path_to_detailed_output, f'{merger_index}.txt')
+    # accretion_path = '/cosma7/data/dp012/dc-butt3/accretion_details' # where detailed output files will be stored
+    path_to_results = os.path.join(accretion_path, f'{merger_index}.txt')
 
     # check whether folder exists
-    if not os.path.exists(path_to_detailed_output):
-        os.makedirs(path_to_detailed_output)
+    if not os.path.exists(accretion_path):
+        os.makedirs(accretion_path)
     
     # load pressure threshold data to apply the same criteria as in the simulation
     pressure_file_path = os.path.join(basepath, 'bh_pressure_threshold.txt')
@@ -487,7 +502,7 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
     scale_factors = util.get_scale_factors()
 
     # load information about the host galaxies from the subhalo merger trees.
-    tree = readtreeHDF5.TreeDB(treedir)
+    tree = readtreeHDF5.TreeDB(tree_path)
     subhalo_quants = ['SubhaloGrNr', 'SubhaloPos', 'SnapNum', 'SubfindID', 'SubhaloVmax']
 
     subfindID1 = subfind_id_1[initial_snap]
@@ -560,7 +575,7 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
         if len(gas_coordinates) < number_of_neighbours:
             # in this case I just assume that the gas density is not high enough for the BH to accrete.
             return 0, 0, 0
-        tree = cKDTree(gas_coordinates, boxsize = 100000)
+        tree = cKDTree(gas_coordinates, boxsize = BOX_SIZE)
         _, indices = tree.query(subhalo_pos, k=number_of_neighbours)
         chosen_gas_masses = gas_masses[indices]
         chosen_gas_internal_energy = gas_internal_energy[indices]
@@ -591,9 +606,9 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
         elif snap == galaxy_merger_snap:
             # Search forward
             new_snap = snap
-            while new_snap not in subfind_dict and new_snap < 135:
+            while new_snap not in subfind_dict and new_snap < snap_final:
                 new_snap += 1
-            if new_snap == 135 and new_snap not in subfind_dict:
+            if new_snap == snap_final and new_snap not in subfind_dict:
                 return 0, 0, 0, new_snap
         else:
             # if it is an 'internal' snap but is not in the dictionary we can skip this snap and then interpolate
@@ -676,8 +691,8 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
         p_ref = get_ref_press(M_BH.value)
         pre_factor = (p_ext / p_ref)**2 if p_ext < p_ref else 1
 
-        bondi = 4 * 100 * np.pi * const.G**2 * M_BH**2 * density / c_s**3 * pre_factor
-        edd = 4 * np.pi * const.G * M_BH * const.m_p / (0.1 * const.sigma_T * const.c)
+        bondi = 4 * boost_factor * np.pi * const.G**2 * M_BH**2 * density / c_s**3 * pre_factor
+        edd = edd_ratio_max * 4 * np.pi * const.G * M_BH * const.m_p / (0.1 * const.sigma_T * const.c)
 
         acc_rate = min(bondi, edd)
         return acc_rate.to(u.Msun / u.Gyr).value * (1 - epsilon_r)
@@ -698,7 +713,7 @@ def get_masses_after_delay(merger_index, initial_m1, initial_m2, verbose = False
 
     # Cosmology setup
     H0 = LITTLE_H * 100
-    cosmo = FlatLambdaCDM(H0=H0, Om0=0.3065)
+    cosmo = FlatLambdaCDM(H0=H0, Om0=OMEGA_0)
     age_at_merger = cosmo.age(1 / time_of_numerical_merger - 1).value
 
     # Time at snapshots in relation to the numerical merger.
@@ -745,8 +760,13 @@ def calculate_accretion(verbose=False):
 
     already_processed_events = []
 
-    delay_path = '../data/generated_data/delay_data'
-    accretion_path = '/cosma7/data/dp012/dc-butt3/accretion_details_new'
+    # delay_path = '../data/generated_data/delay_data'
+    # accretion_path = '/cosma7/data/dp012/dc-butt3/accretion_details_new'
+
+    # check whether folder exists
+    if not os.path.exists(accretion_path):
+        os.makedirs(accretion_path, exist_ok = True)
+
     if rank == 0:
         events_to_process = []
         # get all the events that have already been processed
@@ -806,4 +826,41 @@ def calculate_accretion(verbose=False):
 
 
 if __name__ == "__main__":
-    calculate_accretion(verbose=False)
+
+    # Parameter initialization
+    initialize('macrophysical_delays', verbose=(MPI.COMM_WORLD.Get_rank() == 0))
+
+
+    # Set global parameters
+    basepath = parameters.sim_dir
+    path_to_extended_merger_files = parameters.output_dir_merger
+    tree_path = parameters.tree_dir
+    delay_path = parameters.output_dir_delay
+    accretion_path = parameters.output_dir_accretion
+
+    expansion_list_path = parameters.expansion_list
+
+    util.path_to_expansion_list = expansion_list_path
+    gc.offset_dir = parameters.offset_dir
+
+    # flags
+    verbose = parameters.verbose
+
+
+    # Set other parameters
+    boost_factor, edd_ratio_max = get_bh_params(basepath, simulation_suite = 'aesopica')
+    snap_final = get_final_snapshot(basepath)
+
+    # # Deal with possible file name error due to the group file format from "readtreeHDF5.py"
+    # # Need to modify "readtreeHDF5.py" later!! 
+    # if MPI.COMM_WORLD.Get_rank() == 0:
+    #     tree_file_0 = os.path.join(tree_path, 'tree_extended.0.hdf5')
+    #     tree_file = os.path.join(tree_path, 'tree_extended.hdf5')
+    #     if not os.path.exists(tree_file_0) and os.path.exists(tree_file):  
+    #         os.symlink(os.path.join(tree_path, tree_file), tree_file_0)
+    # MPI.COMM_WORLD.Barrier()
+
+    # Main
+    get_delays_only(verbose = verbose)
+    MPI.COMM_WORLD.Barrier()
+    calculate_accretion(verbose=verbose)

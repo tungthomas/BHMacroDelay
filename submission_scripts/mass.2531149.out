@@ -1,0 +1,1126 @@
+----BHMacroDelay----
+Executing script: generate_mass_file (2026-10-23 16:40:23)
+======== parameters ========
+  details_dir     = /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details
+  mass_file       = /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/bh_masses.hdf5
+============================
+
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_103.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_108.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_118.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_125.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_138.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_145.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_150.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_100.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_101.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_105.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_112.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_117.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_124.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_126.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_13.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_131.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_132.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_133.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_135.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_146.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_148.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_151.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_129.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_128.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_141.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_140.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_142.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_15.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_115.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_122.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_155.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_113.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_12.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_123.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_119.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_152.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_106.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_111.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_130.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_137.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_11.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_114.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_136.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_104.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_134.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_107.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_109.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_110.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_127.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_14.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_144.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_149.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_153.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_154.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_1.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_10.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_102.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_116.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_120.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_121.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_139.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_143.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_147.txt
+Error processing line: BH=1034490271BH=1078267055 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_154.txt
+Data: ['BH=1034490271BH=1078267055', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_210.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_201.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_165.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_195.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_176.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_17.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_16.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_192.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_190.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_21.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_160.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_170.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_2.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_187.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_209.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_211.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_199.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_162.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_194.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_175.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_181.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_191.txt
+Error converting values to float in line: BH=1027313110 0.16678 7.23865e-08 1.BH=1037315953 0.0883883 8.25556e-08 2.79047e-07 0.000710302 15.9194 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_16.txt
+Data: ['BH=1027313110', '0.16678', '7.23865e-08', '1.BH=1037315953', '0.0883883', '8.25556e-08', '2.79047e-07', '0.000710302', '15.9194']
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_196.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_203.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_166.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_171.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_208.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_184.txtRank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_185.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_182.txt
+
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_198.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_20.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_157.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_177.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_204.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_183.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_188.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_202.txtRank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_167.txt
+
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_173.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_161.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_200.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_197.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_163.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_158.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_189.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_169.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_207.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_193.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_164.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_212.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_178.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_18.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_19.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_179.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_180.txt
+Error converting values to float in line: BH=1134237032 0.0900796 6BH=1104145071 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_197.txt
+Data: ['BH=1134237032', '0.0900796', '6BH=1104145071', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_186.txt
+Error processing line: 664 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_201.txt
+Data: ['664']
+Error converting values to float in line: BH=1136473643 0.165991 BH=1134479708 0.0888082 6.79e-08 1.07434e-07 0.000196253 12.5116 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_201.txt
+Data: ['BH=1136473643', '0.165991', 'BH=1134479708', '0.0888082', '6.79e-08', '1.07434e-07', '0.000196253', '12.5116']
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_0.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_168.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_252.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_269.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_206.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_22.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_217.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_174.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_24.txtRank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_267.txt
+
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_223.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_159.txtRank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_239.txt
+
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_218.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_227.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_222.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_228.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_257.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_244.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_25.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_214.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_230.txtRank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_172.txt
+
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_253.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_242.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_27.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_233.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_260.txtRank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_205.txt
+
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_251.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_250.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_220.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_249.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_234.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_224.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_266.txtRank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_219.txt
+
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_259.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_240.txtRank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_248.txt
+
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_237.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_255.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_270.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_265.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_268.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_235.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_256.txtRank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_215.txt
+
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_226.txt
+Error converting values to float in line: BH=1138774551 0.BH=1134424903 0.0883883 6.90385e-08 1.00518e-07 0.000487071 17.5126 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_215.txt
+Data: ['BH=1138774551', '0.BH=1134424903', '0.0883883', '6.90385e-08', '1.00518e-07', '0.000487071', '17.5126']Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_245.txt
+
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_261.txt
+Error processing line: 8 1.11686e-07 0.000314451 14.887 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_249.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_221.txt
+Data: ['8', '1.11686e-07', '0.000314451', '14.887']
+Error converting values to float in line: BH=1070906827 0.165991BH=1084627691 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_249.txt
+Data: ['BH=1070906827', '0.165991BH=1084627691', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_229.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_258.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_247.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_236.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_246.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_254.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_241.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_243.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_238.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_232.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_262.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_26.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_156.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_225.txt
+Error processing line: 016119 16.319 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_262.txt
+Data: ['016119', '16.319']
+Error converting values to float in line: BH=1140472395 0.165991 BH=1134420349 0.0883883 6.95447e-08 1.84838e-07 0.000710862 16.2936 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_262.txt
+Data: ['BH=1140472395', '0.165991', 'BH=1134420349', '0.0883883', '6.95447e-08', '1.84838e-07', '0.000710862', '16.2936']
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_264.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_216.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_231.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_31.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_23.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_278.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_326.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_272.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_275.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_289.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_297.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_276.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_298.txt
+Error processing line: 17.2548 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_289.txt
+Data: ['17.2548']
+Error converting values to float in line: BH=1022059874 0.1BH=1028044216 0.0896538 7.08795e-08 1.31056e-07 0.000563745 17.1289 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_289.txt
+Data: ['BH=1022059874', '0.1BH=1028044216', '0.0896538', '7.08795e-08', '1.31056e-07', '0.000563745', '17.1289']
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_328.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_324.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_307.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_291.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_286.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_316.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_292.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_310.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_314.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_281.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_30.txtRank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_308.txt
+
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_301.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_322.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_295.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_309.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_279.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_312.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_323.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_277.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_325.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_280.txtRank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_305.txt
+
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_273.txt
+Error processing line: 564 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_328.txt
+Data: ['564']
+Error converting values to float in line: BH=1134968038 0.165991 7.06051e-08 9.8725BH=1134373777 0.0888082 6.79e-08 2.43777e-07 0.000391973 11.9906 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_328.txt
+Data: ['BH=1134968038', '0.165991', '7.06051e-08', '9.8725BH=1134373777', '0.0888082', '6.79e-08', '2.43777e-07', '0.000391973', '11.9906']
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_306.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_319.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_287.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_318.txtRank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_303.txt
+
+Error converting values to float in line: BH=1144184844 0.16678 6.85433e-08 1.BH=1134275511 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_30.txt
+Data: ['BH=1144184844', '0.16678', '6.85433e-08', '1.BH=1134275511', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_284.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_28.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_304.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_282.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_299.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_3.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_302.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_294.txt
+Error converting values to float in line: BH=1078065773 0.16678 6.82991e-08 2.84343e-08 0.000132196 17.149BH=1134377588 0.0883883 6.87778e-08 9.296e-08 0.000444731 17.3943 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_279.txt
+Data: ['BH=1078065773', '0.16678', '6.82991e-08', '2.84343e-08', '0.000132196', '17.149BH=1134377588', '0.0883883', '6.87778e-08', '9.296e-08', '0.000444731', '17.3943']
+Error processing line: BH=10BH=1030011253 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_318.txt
+Data: ['BH=10BH=1030011253', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_313.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_290.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_300.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_311.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_317.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_327.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_213.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_296.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_285.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_315.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_263.txt
+Error processing line: 13.8813 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_296.txt
+Data: ['13.8813']
+Error converting values to float in line: BH=1134058331 0.165991 8.50613e-08 7.91249e-08 0BH=1134439743 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_296.txt
+Data: ['BH=1134058331', '0.165991', '8.50613e-08', '7.91249e-08', '0BH=1134439743', '0.0883883', '6.79e-08', '0', '0', '0']
+Error processing line: 2893 14.2009 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_315.txt
+Data: ['2893', '14.2009']
+Error converting values to float in line: BH=1082562322 0.165991 6.96068e-08 6.27135e-08BH=1134187776 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_315.txt
+Data: ['BH=1082562322', '0.165991', '6.96068e-08', '6.27135e-08BH=1134187776', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_32.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_283.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_293.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_321.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_274.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_29.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_288.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_368.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_384.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_354.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_335.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_346.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_332.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_339.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_33.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_271.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_358.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_374.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_343.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_355.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_386.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_333.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_349.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_36.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_361.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_366.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_382.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_336.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_356.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_334.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_35.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_330.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_363.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_364.txtRank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_338.txt
+
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_337.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_367.txtRank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_365.txt
+
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_381.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_425.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_362.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_357.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_352.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_380.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_383.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_360.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_344.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_370.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_376.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_34.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_375.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_359.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_351.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_37.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_372.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_377.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_341.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_369.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_353.txt
+Error processing line: .000249982 13.8253 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_381.txt
+Data: ['.000249982', '13.8253']
+Error converting values to float in line: BH=1094227627 0.165991 6.79002e-08 1.97BH=1134243245 0.0907221 9.65193e-08 5.49697e-07 0.00425043 25.5871 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_381.txt
+Data: ['BH=1094227627', '0.165991', '6.79002e-08', '1.97BH=1134243245', '0.0907221', '9.65193e-08', '5.49697e-07', '0.00425043', '25.5871']
+Error processing line: 75089 14.9491 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_375.txt
+Data: ['75089', '14.9491']
+Error converting values to float in line: BH=1143196892 0.165991 1.39037e-07 1.34BH=1134290556 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_375.txt
+Data: ['BH=1143196892', '0.165991', '1.39037e-07', '1.34BH=1134290556', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_371.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_373.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_348.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_385.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_342.txt
+Error processing line: e-07 1BH=1033006797 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_371.txt
+Data: ['e-07', '1BH=1033006797', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_340.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_378.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_38.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_331.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_350.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_347.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_320.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_441.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_393.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_415.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_419.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_403.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_417.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_390.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_412.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_431.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_44.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_411.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_413.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_392.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_395.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_420.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_391.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_422.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_406.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_443.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_439.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_407.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_400.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_41.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_424.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_428.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_418.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_426.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_388.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_401.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_438.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_396.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_389.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_440.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_397.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_345.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_398.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_432.txtRank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_43.txt
+
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_430.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_42.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_427.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_434.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_409.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_421.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_429.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_435.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_433.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_394.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_414.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_410.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_416.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_442.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_399.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_40.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_423.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_437.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_4.txt
+Error converting values to float in line: BH=1144153556 0.165991 6.7BH=1033144200 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_414.txt
+Data: ['BH=1144153556', '0.165991', '6.7BH=1033144200', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_405.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_39.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_404.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_408.txt
+Error processing line: 0447937 14.6916 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_405.txt
+Data: ['0447937', '14.6916']
+Error processing line: BH=1141037683BH=1024206939 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_405.txt
+Data: ['BH=1141037683BH=1024206939', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_329.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_483.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_402.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_379.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_387.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_450.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_5.txt
+Error converting values to float in line: BH=1138310148 0.16678 1.43077e-07 1.0382e-06 0.BH=1090386700 0.0881792 8.39368e-08 4.36662e-07 0.0053276 27.1397 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_450.txt
+Data: ['BH=1138310148', '0.16678', '1.43077e-07', '1.0382e-06', '0.BH=1090386700', '0.0881792', '8.39368e-08', '4.36662e-07', '0.0053276', '27.1397']
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_473.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_477.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_470.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_49.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_475.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_498.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_452.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_461.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_45.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_480.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_448.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_465.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_479.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_486.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_500.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_47.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_496.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_482.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_484.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_471.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_455.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_445.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_464.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_490.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_436.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_488.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_468.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_459.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_499.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_453.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_446.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_451.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_489.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_491.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_476.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_46.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_467.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_449.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_469.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_458.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_493.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_48.txtRank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_454.txt
+
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_497.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_478.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_456.txtRank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_50.txt
+
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_492.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_485.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_472.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_495.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_487.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_457.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_474.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_462.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_447.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_481.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_463.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_466.txt
+Error processing line: 8e-11 2.6BH=1093432560 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_466.txt
+Data: ['8e-11', '2.6BH=1093432560', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_540.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_460.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_444.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_599.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_508.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_557.txt
+Error processing line: 9298 18.7285 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_557.txt
+Data: ['9298', '18.7285']
+Error processing line: BH=1134BH=1073526302 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_557.txt
+Data: ['BH=1134BH=1073526302', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_530.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_494.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_534.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_547.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_528.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_51.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_532.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_519.txtRank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_505.txt
+
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_566.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_555.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_538.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_543.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_548.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_553.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_529.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_54.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_522.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_536.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_527.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_559.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_546.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_614.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_537.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_515.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_526.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_507.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_510.txtRank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_516.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_545.txt
+
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_524.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_512.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_506.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_55.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_541.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_53.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_558.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_511.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_509.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_517.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_550.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_556.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_525.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_503.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_535.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_552.txtRank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_504.txt
+
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_520.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_544.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_542.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_52.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_523.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_514.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_539.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_521.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_549.txt
+Error processing line: 4 16.3569 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_556.txt
+Data: ['4', '16.3569']
+Error converting values to float in line: BH=1133673591 0.165991 9.556BH=1120875987 0.0883883 6.85033e-08 8.91993e-08 0.000334553 15.9962 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_556.txt
+Data: ['BH=1133673591', '0.165991', '9.556BH=1120875987', '0.0883883', '6.85033e-08', '8.91993e-08', '0.000334553', '15.9962']
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_502.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_531.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_513.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_533.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_554.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_518.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_501.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_589.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_604.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_592.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_568.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_585.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_586.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_57.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_596.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_577.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_583.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_563.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_565.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_570.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_6.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_567.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_590.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_603.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_615.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_608.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_601.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_598.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_561.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_594.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_605.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_579.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_656.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_61.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_587.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_606.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_616.txtRank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_588.txt
+
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_584.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_597.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_575.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_580.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_578.txtRank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_607.txt
+
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_582.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_60.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_58.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_564.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_576.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_591.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_569.txtError converting values to float in line: BH=1024817509 0BH=1008929274 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_606.txt
+Data: ['BH=1024817509', '0BH=1008929274', '0.0883883', '6.79e-08', '0', '0', '0']
+
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_600.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_571.txt
+Error converting values to float in line: BH=1114479570 0.16678 6.79585e-08 5.41502e-08 0BH=1134395955 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_588.txt
+Data: ['BH=1114479570', '0.16678', '6.79585e-08', '5.41502e-08', '0BH=1134395955', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_560.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_59.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_595.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_611.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_612.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_593.txt
+Error converting values to float in line: BH=1066909663 0.16678 7.052e-08 1.3695e-07 0.00027009BH=1134391271 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_612.txt
+Data: ['BH=1066909663', '0.16678', '7.052e-08', '1.3695e-07', '0.00027009BH=1134391271', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_581.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_610.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_562.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_56.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_613.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_573.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_551.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_574.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_572.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_602.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_713.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_623.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_609.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_672.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_681.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_662.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_646.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_73.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_643.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_625.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_634.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_640.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_642.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_627.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_628.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_653.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_622.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_66.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_648.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_65.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_663.txtRank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_624.txt
+
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_620.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_619.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_674.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_644.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_657.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_626.txtRank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_649.txt
+
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_673.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_651.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_665.txtRank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_645.txt
+
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_655.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_666.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_633.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_636.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_664.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_654.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_629.txtRank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_658.txt
+
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_632.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_641.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_668.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_638.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_637.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_659.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_618.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_670.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_621.txt
+Error converting values to float in line: BH=1112648853 0.16678 1.51731e-07 7.51172e-07 0.000361761 13.BH=1133914623 0.0909373 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_674.txt
+Data: ['BH=1112648853', '0.16678', '1.51731e-07', '7.51172e-07', '0.000361761', '13.BH=1133914623', '0.0909373', '6.79e-08', '0', '0', '0']
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_652.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_64.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_669.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_635.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_647.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_67.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_639.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_62.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_650.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_617.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_661.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_630.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_671.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_63.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_660.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_72.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_631.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_703.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_700.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_683.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_771.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_667.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_692.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_686.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_699.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_680.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_710.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_70.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_684.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_706.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_707.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_705.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_701.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_679.txtRank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_714.txt
+
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_720.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_691.txtRank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_690.txt
+
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_709.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_730.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_682.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_715.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_723.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_731.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_711.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_7.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_717.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_676.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_694.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_696.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_677.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_702.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_716.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_71.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_722.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_675.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_687.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_685.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_712.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_695.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_697.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_728.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_726.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_704.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_708.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_678.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_689.txtRank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_727.txt
+
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_725.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_693.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_729.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_719.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_698.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_68.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_718.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_721.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_688.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_69.txt
+Error processing line: 8.9874 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_718.txt
+Data: ['8.9874']
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_739.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_829.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_724.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_788.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_797.txt
+Rank 43 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_887.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_845.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_854.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_778.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_740.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_761.txt
+Rank 61 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_902.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_75.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_759.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_79.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_756.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_743.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_775.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_763.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_769.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_77.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_758.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_748.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_767.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_738.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_764.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_773.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_765.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_736.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_772.txtRank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_76.txt
+
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_781.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_742.txtRank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_786.txt
+
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_753.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_749.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_741.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_774.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_74.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_770.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_760.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_768.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_744.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_751.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_784.txt
+Error converting values to float in line: BH=1134427582 0.0900796 6.BH=1014659237 0.0883883 6.79e-08 0 0 0 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_781.txt
+Data: ['BH=1134427582', '0.0900796', '6.BH=1014659237', '0.0883883', '6.79e-08', '0', '0', '0']
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_733.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_734.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_757.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_746.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_779.txtRank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_732.txt
+
+Error converting values to float in line: BH=1041643002 0.0900796 7.33381e-BH=1028049870 0.0881792 1.09875e-07 9.20825e-07 0.00935416 30.5528 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_76.txt
+Data: ['BH=1041643002', '0.0900796', '7.33381e-BH=1028049870', '0.0881792', '1.09875e-07', '9.20825e-07', '0.00935416', '30.5528']
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_780.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_754.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_766.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_762.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_752.txt
+Error processing line: 2027 14.6991 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_744.txt
+Data: ['2027', '14.6991']
+Error converting values to float in line: BH=1139729452 0.1BH=1111226492 0.0883883 7.3289e-08 2.37895e-07 0.001034 17.5757 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_744.txt
+Data: ['BH=1139729452', '0.1BH=1111226492', '0.0883883', '7.3289e-08', '2.37895e-07', '0.001034', '17.5757']
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_787.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_777.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_789.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_785.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_735.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_750.txt
+Error processing line: 1020973730 0.165991 8.92766e-08 3.48344e-07 0.000705826 15.544 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_779.txt
+Data: ['1020973730', '0.165991', '8.92766e-08', '3.48344e-07', '0.000705826', '15.544']
+Error converting values to float in line: BH=1139332968 0.165991 BH=1078531429 0.0883883 6.86988e-08 1.69427e-07 0.000488745 14.6839 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_779.txt
+Data: ['BH=1139332968', '0.165991', 'BH=1078531429', '0.0883883', '6.86988e-08', '1.69427e-07', '0.000488745', '14.6839']
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_755.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_737.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_745.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_783.txtRank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_747.txt
+
+Error processing line: 000969886 17.2766 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_736.txt
+Data: ['000969886', '17.2766']
+Error converting values to float in line: BH=1142045777 0.162875 6.93898e-08 1BH=1017776339 0.0883883 7.31411e-08 3.32719e-07 0.00221435 20.2304 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_736.txt
+Data: ['BH=1142045777', '0.162875', '6.93898e-08', '1BH=1017776339', '0.0883883', '7.31411e-08', '3.32719e-07', '0.00221435', '20.2304']
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_776.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_78.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_782.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_835.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_819.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_799.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_807.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_816.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_815.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_822.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_824.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_839.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_847.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_83.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_8.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_832.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_800.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_805.txt
+Error processing line:  in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_822.txt
+Data: []
+Error converting values to float in line: BH=1134603594 0.165BH=1082077268 0.0888082 6.8812e-08 1.0934e-07 0.000453312 16.5891 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_822.txt
+Data: ['BH=1134603594', '0.165BH=1082077268', '0.0888082', '6.8812e-08', '1.0934e-07', '0.000453312', '16.5891']
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_810.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_813.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_827.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_80.txt
+Error processing line: .10883e-08 7.35158e-05 15.5214 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_847.txt
+Data: ['.10883e-08', '7.35158e-05', '15.5214']
+Error converting values to float in line: BH=1104207123 0.165991BH=1084354747 0.0888082 1.99908e-07 2.13315e-06 0.00208644 20.87 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_847.txt
+Data: ['BH=1104207123', '0.165991BH=1084354747', '0.0888082', '1.99908e-07', '2.13315e-06', '0.00208644', '20.87']
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_843.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_830.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_790.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_825.txt
+Rank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_82.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_838.txtRank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_828.txt
+
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_801.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_841.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_791.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_798.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_817.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_820.txt
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_81.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_806.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_834.txt
+Error processing line: 74 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_790.txt
+Error processing line: 86569160 0.162875 6.86565e-08 9.25849e-08 0BH=1134218239 0.0883883 1.79886e-07 2.1934e-06 0.00876746 31.0998 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_827.txt
+Data: ['86569160', '0.162875', '6.86565e-08', '9.25849e-08', '0BH=1134218239', '0.0883883', '1.79886e-07', '2.1934e-06', '0.00876746', '31.0998']
+Data: ['74']
+Error converting values to float in line: BH=1091271945 0.165207 1.76526e-07 1.23848e-06 0.000581191 15.BH=1088169629 0.0883883 7.23141e-08 1.91129e-07 0.000742802 16.7818 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_790.txt
+Data: ['BH=1091271945', '0.165207', '1.76526e-07', '1.23848e-06', '0.000581191', '15.BH=1088169629', '0.0883883', '7.23141e-08', '1.91129e-07', '0.000742802', '16.7818']
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_803.txt
+Error processing line: 73e-07 0.000348049 14.6209 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_830.txt
+Data: ['73e-07', '0.000348049', '14.6209']
+Error converting values to float in line: BH=1134749130 0.165991 1.2798BH=1104403663 0.0888082 7.36586e-08 2.89933e-07 0.00120234 17.3607 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_830.txt
+Data: ['BH=1134749130', '0.165991', '1.2798BH=1104403663', '0.0888082', '7.36586e-08', '2.89933e-07', '0.00120234', '17.3607']
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_794.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_846.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_808.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_842.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_792.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_823.txt
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_814.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_812.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_844.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_836.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_793.txt
+Error processing line: BH=1111BH=1134221365 0.0880748 1.44344e-06 0.00019398 0.0191035 36.271 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_791.txt
+Data: ['BH=1111BH=1134221365', '0.0880748', '1.44344e-06', '0.00019398', '0.0191035', '36.271']
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_795.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_796.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_802.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_831.txt
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_818.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_840.txt
+Error processing line: 5 16.8062 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_831.txtRank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_833.txt
+
+Data: ['5', '16.8062']
+Error converting values to float in line: BH=1141352145 0.165991 6.84847e-0BH=1134245524 0.0883883 8.70255e-08 3.19683e-07 0.00153979 20.3948 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_831.txt
+Data: ['BH=1141352145', '0.165991', '6.84847e-0BH=1134245524', '0.0883883', '8.70255e-08', '3.19683e-07', '0.00153979', '20.3948']
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_826.txt
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_84.txt
+Rank 32 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_877.txt
+Rank 50 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_893.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_837.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_856.txt
+Rank 28 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_873.txt
+Rank 19 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_865.txt
+Rank 38 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_882.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_821.txt
+Rank 44 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_888.txt
+Rank 54 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_897.txt
+Rank 36 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_880.txt
+Rank 7 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_911.txt
+Rank 17 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_863.txt
+Rank 23 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_869.txt
+Rank 63 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_904.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_809.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_861.txt
+Rank 45 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_889.txt
+Rank 30 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_875.txt
+Rank 47 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_890.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_848.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_859.txt
+Rank 53 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_896.txt
+Rank 42 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_886.txt
+Rank 29 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_874.txt
+Rank 18 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_864.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_804.txt
+Rank 41 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_885.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_811.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_855.txt
+Rank 26 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_871.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_85.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_86.txt
+Rank 34 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_879.txt
+Error processing line: 1684e-07 0.000423433 16.9772 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_861.txtRank 33 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_878.txt
+
+Data: ['1684e-07', '0.000423433', '16.9772']
+Error processing line: BH=1007339BH=1134268274 0.0881792 3.8264e-07 1.15777e-05 0.0081501 28.8325 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_861.txt
+Data: ['BH=1007339BH=1134268274', '0.0881792', '3.8264e-07', '1.15777e-05', '0.0081501', '28.8325']
+Rank 22 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_868.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_858.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_857.txt
+Rank 39 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_883.txt
+Rank 58 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_90.txtRank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_853.txt
+
+Rank 27 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_872.txt
+Rank 62 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_903.txt
+Rank 37 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_881.txt
+Rank 49 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_892.txt
+Rank 57 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_9.txt
+Rank 46 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_89.txt
+Rank 59 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_900.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_849.txt
+Rank 25 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_870.txt
+Rank 60 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_901.txt
+Rank 20 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_866.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_851.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_860.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_850.txtRank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_852.txt
+
+Rank 31 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_876.txt
+Rank 56 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_899.txt
+Rank 51 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_894.txt
+Error converting values to float in line: BH=1142289880 0.16678 6.79439e-08 1.11722e-10 7.41593e-07 19.243BH=1134296702 0.08923 1.72192e-07 1.3369e-06 0.00257746 23.6891 in file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_860.txt
+Data: ['BH=1142289880', '0.16678', '6.79439e-08', '1.11722e-10', '7.41593e-07', '19.243BH=1134296702', '0.08923', '1.72192e-07', '1.3369e-06', '0.00257746', '23.6891']
+Rank 55 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_898.txt
+Rank 48 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_891.txt
+Rank 40 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_884.txt
+Rank 52 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_895.txt
+Rank 35 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_88.txt
+Rank 24 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_87.txt
+Rank 16 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_862.txt
+Rank 21 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_867.txt
+Rank 9 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_93.txt
+Rank 11 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_95.txt
+Rank 1 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_906.txt
+Rank 3 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_908.txt
+Rank 13 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_97.txt
+Rank 5 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_91.txt
+Rank 12 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_96.txt
+Rank 10 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_94.txt
+Rank 8 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_92.txt
+Rank 0 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_905.txt
+Rank 6 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_910.txt
+Rank 14 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_98.txt
+Rank 4 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_909.txt
+Rank 15 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_99.txt
+Rank 2 processing file: /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_se_boostmax/blackhole_details/blackhole_details_907.txt
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Gathered all data, now merging.
+Merged data, now writing to HDF5.
+Finished writing 0/1460040 BHs to HDF5 file.
+Finished writing 100000/1460040 BHs to HDF5 file.
+Finished writing 200000/1460040 BHs to HDF5 file.
+Finished writing 300000/1460040 BHs to HDF5 file.
+Finished writing 400000/1460040 BHs to HDF5 file.
+Finished writing 500000/1460040 BHs to HDF5 file.
+Finished writing 600000/1460040 BHs to HDF5 file.
+Finished writing 700000/1460040 BHs to HDF5 file.
+Finished writing 800000/1460040 BHs to HDF5 file.
+Finished writing 900000/1460040 BHs to HDF5 file.
+Finished writing 1000000/1460040 BHs to HDF5 file.
+Finished writing 1100000/1460040 BHs to HDF5 file.
+Finished writing 1200000/1460040 BHs to HDF5 file.
+Finished writing 1300000/1460040 BHs to HDF5 file.
+Finished writing 1400000/1460040 BHs to HDF5 file.
+Finished writing to HDF5 file.

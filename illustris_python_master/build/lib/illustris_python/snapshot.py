@@ -16,10 +16,13 @@ def snapPath(basePath, snapNum, chunkNum=0):
     snapPath = basePath + '/snapdir_' + str(snapNum).zfill(3) + '/'
     filePath1 = snapPath + 'snap_' + str(snapNum).zfill(3) + '.' + str(chunkNum) + '.hdf5'
     filePath2 = filePath1.replace('/snap_', '/snapshot_')
+    filePath3 = basePath + f'/snap_{snapNum:03d}.hdf5'
 
     if isfile(filePath1):
         return filePath1
-    return filePath2
+    elif isfile(filePath2):
+        return filePath2
+    return filePath3
 
 def getNumPart(header):
     """ Calculate number of particles of all types given a snapshot header. """

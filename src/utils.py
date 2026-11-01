@@ -5,22 +5,36 @@ Simple utility functions for the FABLE simulation.
 
 Stephanie Buttigieg (sb2583@cam.ac.uk)
 
+Modified by Pei-Cheng Tung (pt26aae@herts.ac.uk)
 """
+
+path_to_expansion_list = None
+tree_path = None
 
 import numpy as np
 import h5py
 import os
 
+from os.path import isfile
+
+# simulation_name = 'seed1e4_se_boost'
+# path_to_expansion_list = f'/beegfs/general/skoudmani/aesopica_proj/data_release/{simulation_name}/ExpansionList_128'
+# path_to_expansion_list = f'/beegfs/general/skoudmani/aesopica_proj/data_release/ExpansionList_new'
+
+# tree_path = '/cosma7/data/dp012/dc-butt3/MergerTrees/output/Galaxies/FABLE/Fid_test' # path to merger trees
+
+
+
 def get_scale_factors():
     """
-    Read the scale factors from ExpansionList_128.
+    Read the scale factors (ex. ExpansionList_128).
 
     Returns
     -------
     scale_factors : numpy.ndarray
         Array of scale factors.
     """
-    path_to_expansion_list = '/cosma/home/dp012/dc-butt3/BHMacroDelay/data/required_data/expansion_list.txt' # modify this as required
+    # path_to_expansion_list = '/cosma/home/dp012/dc-butt3/BHMacroDelay/data/required_data/expansion_list.txt' # modify this as required
     scale_factors = []
     with open(path_to_expansion_list, 'r') as f:
         for line in f:
@@ -44,7 +58,7 @@ def get_subfind_ID(subhalo_index, snap):
     subfindID : int
         Subfind ID of the subhalo.
     """
-    tree_path = '/cosma7/data/dp012/dc-butt3/MergerTrees/output/Galaxies/FABLE/Fid_test' # path to merger trees
+    # tree_path = '/cosma7/data/dp012/dc-butt3/MergerTrees/output/Galaxies/FABLE/Fid_test' # path to merger trees
     offsets_path = os.path.join(tree_path, 'offsets') # path to offsets of subhalo merger trees
 
     offsets_file_path = os.path.join(offsets_path, f'offsets_{snap:03}.hdf5')
@@ -54,12 +68,17 @@ def get_subfind_ID(subhalo_index, snap):
 
     if subhaloID == -1:
         subfindID = -1
-    
     else:
         tree_number = int(np.floor(subhaloID/1e16))
-        tree_path = os.path.join(tree_path, f'tree_extended.{tree_number}.hdf5')
+        file_path1 = os.path.join(tree_path, f'tree_extended.{tree_number}.hdf5')  # for multiple output files (ex. Fable)
+        file_path2 = os.path.join(tree_path, 'tree_extended.hdf5')                 # for single output file
+        if isfile(file_path1):
+            tree_file = file_path1
+        else:
+            tree_file = file_path2
+        
 
-        with h5py.File(tree_path, 'r') as hf:
+        with h5py.File(tree_file, 'r') as hf:
             subhalo_indices = np.array(hf['SubhaloID'])
             index = np.where(subhalo_indices == subhaloID)[0][0]
             subfindID = np.array(hf['SubfindID'])[index]
