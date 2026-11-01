@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=eddington_rates           # Job name
+#SBATCH --job-name=eddington2           # Job name
 #SBATCH --partition=core256
 #SBATCH --nodes=1                    # Number of nodes
 #SBATCH --ntasks-per-node=256          # Tasks per node 
@@ -36,4 +36,5 @@ mpirun -np $SLURM_NTASKS python -u -m mpi4py ../src/eddington_rates.py \
     --expansion_list       $expansion_list \
     --offset_dir           $offset_dir \
     --output_dir_delay     $output_dir_delay \
-    --output_dir_eddington $output_dir_eddington
+    --output_dir_eddington $output_dir_eddington \
+    $flags

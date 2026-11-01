@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=macrophysical_delays           # Job name
+#SBATCH --job-name=delay2           # Job name
 #SBATCH --partition=core256
 #SBATCH --nodes=1                    # Number of nodes
 #SBATCH --ntasks-per-node=256          # Tasks per node 
@@ -11,7 +11,7 @@
 #
 # Parameters
 #
-
+min_mass=1e6
 simulation_name='seed1e4_se_boost' # seed1e2_se_boost, seed1e3_se_boostmax, seed1e4_se_boost
 flags='-v'    # -v, --verbose: Verbose mode
 
@@ -25,7 +25,7 @@ expansion_list=$sim_dir/../ExpansionList_new
 tree_dir=$sim_dir/sublink_galaxies
 offset_dir=$sim_dir/sublink_galaxies/offsets_illustris
 
-output_dir_merger=$output_dir/new_merger_events_extended
+output_dir_merger=$output_dir/new_merger_events_extended_$min_mass
 output_dir_delay=$output_dir/delay_data
 output_dir_accretion=$output_dir/accretion_details
 
