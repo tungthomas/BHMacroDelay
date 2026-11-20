@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #SBATCH --job-name=merger1           # Job name
-#SBATCH --partition=core256
+#SBATCH --partition=core64
 #SBATCH --nodes=1                    # Number of nodes
-#SBATCH --ntasks-per-node=256           # Tasks per node 
+#SBATCH --ntasks-per-node=64           # Tasks per node 
 #SBATCH --time=0-12:00:00               # Walltime
 #SBATCH --output=merger.%j.out    # Standard output
 
@@ -11,7 +11,7 @@
 #
 # Parameters
 #
-min_mass=1e5
+min_mass=1e3
 simulation_name='seed1e2_se_boost' # seed1e2_se_boost, seed1e3_se_boostmax, seed1e4_se_boost
 flags='-v'    # -v, --verbose: Verbose mode
 

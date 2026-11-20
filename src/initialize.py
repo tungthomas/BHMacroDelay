@@ -23,7 +23,7 @@ import re
 # Current params: Fiducial setup for AESOPICA and FABLE
 LITTLE_H = 0.679
 OMEGA_0 = 0.3065
-BOX_SIZE = 4e4  # 40 Mpc/h box
+# BOX_SIZE = 4e4  # 40 Mpc/h box
 # SOFTENING_LENGTH = 14.3606
 DM_MASS = 3.4e7 / LITTLE_H
 STELLAR_MASS = 6.4e6/LITTLE_H
@@ -42,7 +42,9 @@ PARAMS = {
     'sim_dir':        (str,   None, 'simulation directory (snapshots, group catalogs)'),
     'expansion_list': (str,   None, 'output scale factor list (ExpansionList)'),
     'tree_dir':       (str,   None, 'merger tree directory'),
-    'offset_dir':     (str,   None, 'offset directory from sublink process'),
+    'offset_dir':     (str,   None, 'Illustris-style offset directory (output of generate_offsets.py)'),
+    'src_root':       (str,   None, 'source directory tree to mirror (e.g. data_release)'),
+    'dst_root':       (str,   None, 'destination directory for the symbolic links'),
 
     'mass_file':      (str,   None, 'black hole mass file from generate_mass_file.py (bh_masses.hdf5)'),
     'output_dir_merger':     (str,   None, 'directory for merger-event hdf5 files'),
@@ -52,14 +54,19 @@ PARAMS = {
 
     # physical parameters
     'min_mass':       (float, 1e6,  'minimum mass of merger event for both BHs [M_sun]'),
+    'box_size':       (float, None, 'simulation box size [ckpc/h]'),
+    'subhalo_selection': (str, 'fable', 'host subhalo selection criteria: fable (Buttigieg et al. 2025) or aesopica (Koudmani et al. 2026)'),
+    'simulation_suite':  (str, 'aesopica', 'simulation suite: aesopica or fable'),  # Easier for this project. This parameter should be modified in the future for more general usage
 
     # flags
     'verbose':        (bool,  False, 'print progress messages'),
+    'dry_run':        (bool,  False, 'only print what would be done'),
 }
 
 # Parameters for scripts 
 # 'in': existing paths, 'out': output path
 SCRIPTS = {
+    # Main routines
     'generate_mass_file': {
         'details_dir': 'in', 
         'mass_file': 'out',
@@ -74,17 +81,36 @@ SCRIPTS = {
     'macrophysical_delays':{
         'sim_dir': 'in', 'expansion_list': 'in', 'tree_dir': 'in', 'output_dir_merger': 'in', 'offset_dir': 'in',
         'output_dir_delay': 'out', 'output_dir_accretion': 'out',
+        'box_size': None, 'subhalo_selection': None, 'simulation_suite': None,
         'verbose': None,
     },
     'eddington_rates':{
         'sim_dir': 'in', 'expansion_list': 'in', 'offset_dir': 'in', 'output_dir_delay': 'in',
         'output_dir_eddington': 'out',
-    }
+    },
+
+    # Helper routines
+    'make_links': {
+        'src_root': 'in',
+        'dst_root': 'out',
+        'dry_run': None,
+    },
+    'generate_offsets': {
+        'sim_dir': 'in', 'tree_dir': 'in',
+        'offset_dir': 'out',
+        'simulation_suite': None,
+    },
 }
 
 # Short version for input
 SHORT_FLAGS = {
     'verbose': '-v',
+}
+
+# Allowed values for input
+CHOICES = {
+    'subhalo_selection': ['fable', 'aesopica'],
+    'simulation_suite': ['fable', 'aesopica'],
 }
 
 # Boost factor and Eddington ratio of Aesopica simulations
@@ -126,10 +152,11 @@ def initialize(script, argv=None, verbose=True):
             continue
         
         # Parse paths and parameters
+        choices = CHOICES.get(name)
         if default is None:
-            parser.add_argument(f'--{name}', type=d_type, required=True, help=help_)
+            parser.add_argument(f'--{name}', type=d_type, required=True, choices=choices, help=help_)
         else:
-            parser.add_argument(f'--{name}', type=d_type, default=default, help=help_)
+            parser.add_argument(f'--{name}', type=d_type, default=default, choices=choices, help=help_)
 
     args = parser.parse_args(argv)   # missing or unknown arguments -> error and exit
 
@@ -161,6 +188,8 @@ def get_bh_params(sim_dir, simulation_suite = 'aesopica'):
     if simulation_suite == 'aesopica':
         bh_params_map = bh_params_map_aesopica
         feature_string = r"seed1e(\d)_(\S+)"
+    elif simulation_suite == 'fable':
+        return 100, 1
     else:
         raise NotImplementedError(f"Simulation suite {simulation_suite} is not implemented yet")
 
@@ -180,7 +209,7 @@ def get_bh_params(sim_dir, simulation_suite = 'aesopica'):
 
     return bh_params_map[key]
 
-def get_final_snapshot(sim_dir):
+def get_final_snapshot(sim_dir, simulation_suite = 'aesopica'):
 
     dir_list = os.listdir(sim_dir)
 
@@ -189,6 +218,9 @@ def get_final_snapshot(sim_dir):
     snap_list2 = [d for d in dir_list if 'snapshot_' in d]  
     if len(snap_dirs) != 0:
         # For group output
+        if simulation_suite == 'fable':
+            # remove the file with "fable" in the name
+            snap_dirs = [d for d in snap_dirs if 'fable' not in d]
         last_snap_index = max(int(d.split('_')[-1]) for d in snap_dirs)
     elif len(snap_list1) != 0:
         # For single output

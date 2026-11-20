@@ -12,6 +12,8 @@ This script will also include functionality to calculate the masses of the BHs a
     output_dir_merger: path_to_extended_merger_files
     output_dir_delay: delay_path
     output_dir_accretion: accretion_path
+    box_size: BOX_SIZE
+    subhalo_selection: subhalo_selection
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -38,7 +40,7 @@ from scipy.integrate import solve_ivp
 # DM_MASS = 3.4e7 / LITTLE_H
 # SOFTENING_LENGTH = 14.3606
 # STELLAR_MASS = 6.4e6/LITTLE_H
-from initialize import LITTLE_H, STELLAR_MASS, OMEGA_0, BOX_SIZE, initialize, get_bh_params, get_final_snapshot, parameters
+from initialize import LITTLE_H, STELLAR_MASS, OMEGA_0, initialize, get_bh_params, get_final_snapshot, parameters
 import illustris_python.groupcat as gc
 
 # basepath = '/cosma7/data/dp012/dc-bigw2/FABLE-NewICs/FABLE-newICs-100'
@@ -109,6 +111,7 @@ def process_one(merger_index, verbose = False):
             'SubfindID': dict(zip(snap_numbers, np.array(bh_data['SubfindID']))),
             'SubhaloMassInRad': dict(zip(snap_numbers, np.array(bh_data['SubhaloMassInRad']))),
             'Central_Subhalo': dict(zip(snap_numbers, np.array(bh_data['Central_Subhalo']))),
+            'SubhaloMassInRadType': dict(zip(snap_numbers, np.array(bh_data['SubhaloMassInRadType']))),
         }, snap_numbers
 
     file_path = os.path.join(path_to_extended_merger_files, filename)
@@ -139,6 +142,8 @@ def process_one(merger_index, verbose = False):
 
     total_mass_1 = bh1_data['SubhaloMassInRad'][initial_snap]*1e10/LITTLE_H
     total_mass_2 = bh2_data['SubhaloMassInRad'][initial_snap]*1e10/LITTLE_H
+    baryon_mass_1 = sum(bh1_data['SubhaloMassInRadType'][initial_snap][[0, 4]])*1e10/LITTLE_H
+    baryon_mass_2 = sum(bh2_data['SubhaloMassInRadType'][initial_snap][[0, 4]])*1e10/LITTLE_H
     snap_to_add_1 = 1
 
     # Check snap after if the mass is negative (i.e. the BH is not in a subhalo)
@@ -155,10 +160,15 @@ def process_one(merger_index, verbose = False):
         except KeyError:
             total_mass_2 = 0
         snap_to_add_2 += 1
-    
+
     # Only keep processing event if the host subhalos at initial_snap are massive enough.
-    if total_mass_1 < 100*STELLAR_MASS and total_mass_2 < 100*STELLAR_MASS:
-        return None, None, None, None, None
+    if subhalo_selection == 'fable':
+        if total_mass_1 < 100 * STELLAR_MASS and total_mass_2 < 100 * STELLAR_MASS:
+            return None, None, None, None, None
+    # According to AESOPICA's selection criteria (Koudmani et al. 2026)
+    elif subhalo_selection == 'aesopica':
+        if baryon_mass_1 < 200 * STELLAR_MASS and baryon_mass_2 < 200 * STELLAR_MASS:
+            return None, None, None, None, None
     
     tree = readtreeHDF5.TreeDB(tree_path)
 
@@ -839,6 +849,9 @@ if __name__ == "__main__":
     accretion_path = parameters.output_dir_accretion
 
     expansion_list_path = parameters.expansion_list
+    BOX_SIZE = parameters.box_size
+    subhalo_selection = parameters.subhalo_selection
+    simulation_suite = parameters.simulation_suite
 
     util.path_to_expansion_list = expansion_list_path
     gc.offset_dir = parameters.offset_dir
@@ -848,8 +861,9 @@ if __name__ == "__main__":
 
 
     # Set other parameters
-    boost_factor, edd_ratio_max = get_bh_params(basepath, simulation_suite = 'aesopica')
-    snap_final = get_final_snapshot(basepath)
+    simulation_suite = parameters.simulation_suite
+    boost_factor, edd_ratio_max = get_bh_params(basepath, simulation_suite = simulation_suite)
+    snap_final = get_final_snapshot(basepath, simulation_suite = simulation_suite)
 
     # # Deal with possible file name error due to the group file format from "readtreeHDF5.py"
     # # Need to modify "readtreeHDF5.py" later!! 

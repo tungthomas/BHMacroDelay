@@ -18,15 +18,11 @@ flags='-v'    # -v, --verbose: Verbose mode
 
 # paths
 sim_dir=/beegfs/general/skoudmani/aesopica_proj/data_release/$simulation_name
+output_dir=/home/pctung/beegfs_pctung/bh_merger_project/output/$simulation_name
 
 details_dir=$sim_dir/blackhole_details
-mass_file=$sim_dir/bh_masses.hdf5
 
-# job setup
-SBATCH_JOB_NAME=merger_$sim 
-SBATCH_OUTPUT=merger_$sim.%j.out 
-SBATCH_ERROR=merger_$sim.%j.err
-
+mass_file=$output_dir/bh_masses.hdf5
 
 
 export MV2_USE_ALIGNED_ALLOC=1 # better efficiency

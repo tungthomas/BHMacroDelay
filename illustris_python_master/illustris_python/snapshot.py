@@ -17,12 +17,15 @@ def snapPath(basePath, snapNum, chunkNum=0):
     filePath1 = snapPath + 'snap_' + str(snapNum).zfill(3) + '.' + str(chunkNum) + '.hdf5'
     filePath2 = filePath1.replace('/snap_', '/snapshot_')
     filePath3 = basePath + f'/snap_{snapNum:03d}.hdf5'
+    filePath4 = basePath + '/snapdir_' + str(snapNum).zfill(3) + '_fable/' + 'snap_' + str(snapNum).zfill(3) + '.' + str(chunkNum) + '.hdf5'  # only for FABLE for some reason
 
     if isfile(filePath1):
         return filePath1
     elif isfile(filePath2):
         return filePath2
-    return filePath3
+    elif isfile(filePath3):
+        return filePath3
+    return filePath4
 
 def getNumPart(header):
     """ Calculate number of particles of all types given a snapshot header. """

@@ -10,7 +10,7 @@ Files that already carry a chunk number (name.N.hdf5) and files inside
 'offsets' directories keep their names. Original data are never modified.
 
 Usage:
-    python make_links.py /beegfs/general/skoudmani/aesopica_proj/data_release /path/to/parent [--dry-run]
+    python make_links.py --src_root SOURCE_PATH --dst_root PATH_TO_LINKS [--dry_run]
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -21,6 +21,8 @@ Pei-Cheng Tung (pt26aae@herts.ac.uk)
 import argparse
 import os
 import re
+
+from initialize import initialize, parameters
 
 CHUNKED = re.compile(r'\.\d+\.hdf5$')
 FOF = re.compile(r'^fof_subhalo_tab_(\d+)\.hdf5$')
@@ -106,9 +108,13 @@ if __name__ == '__main__':
 
 
     # Direct input
-    src_root = "/beegfs/general/skoudmani/aesopica_proj/data_release/"
-    dst_root = "/home/pctung/beegfs_pctung/bh_merger_project/data_release_link/"
-    dry_run  = False
+    # src_root = "/beegfs/general/skoudmani/aesopica_proj/data_release/"
+    # dst_root = "/home/pctung/beegfs_pctung/bh_merger_project/data_release_link/"
+    # dry_run  = False
+    initialize('make_links')
+    src_root = parameters.src_root
+    dst_root = parameters.dst_root
+    dry_run  = parameters.dry_run
     if os.path.commonpath([os.path.abspath(src_root), os.path.abspath(dst_root)]) == os.path.abspath(src_root):    # make sure "dst_root" is not inside "src_root"
         raise ValueError('Destination must not be inside the source tree!')
 

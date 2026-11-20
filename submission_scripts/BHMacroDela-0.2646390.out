@@ -1,0 +1,26 @@
+----BHMacroDelay----
+Executing script: make_links (2026-11-10 23:32:35)
+======== parameters ========
+  src_root        = /beegfs/general/skoudmani/aesopica_proj/data_release
+  dst_root        = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link
+  dry_run         = False
+============================
+
+WARNING: /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e3_fiducial/sublink_galaxiestree.0.hdf5 already exists, not overwritten (wanted -> /beegfs/general/skoudmani/aesopica_proj/data_release/seed1e3_fiducial/sublink_galaxiestree.hdf5)
+created 0, already existed 22315, conflicts 1
+----BHMacroDelay----
+Executing script: macrophysical_delays (2026-11-10 23:33:12)
+======== parameters ========
+  sim_dir         = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e2_se_boost
+  expansion_list  = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e2_se_boost/../ExpansionList_new
+  tree_dir        = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e2_se_boost/sublink_galaxies
+  output_dir_merger = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e2_se_boost/new_merger_events_extended_1e6
+  offset_dir      = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e2_se_boost/sublink_galaxies/offsets_illustris
+  output_dir_delay = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e2_se_boost/delay_data_fable_
+  output_dir_accretion = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e2_se_boost/accretion_details_fable_
+  box_size        = 40000.0
+  subhalo_selection = fable
+  simulation_suite = aesopica
+  verbose         = True
+============================
+

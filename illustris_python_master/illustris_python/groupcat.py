@@ -17,6 +17,7 @@ def gcPath(basePath, snapNum, chunkNum=0):
     filePath2 = gcPath + 'fof_subhalo_tab_%03d.%d.hdf5' % (snapNum, chunkNum)
     filePath3 = gcPath + 'fof_subhalo_tab_%03d.hdf5' % snapNum
     filePath4 = basePath + '/fof_subhalo_tab_%03d.hdf5' % snapNum
+    filePath5 = basePath + '/groups_%03d_fable/' % snapNum + 'fof_subhalo_tab_%03d.%d.hdf5' % (snapNum, chunkNum)
 
     if isfile(expanduser(filePath1)):
         return filePath1
@@ -24,7 +25,9 @@ def gcPath(basePath, snapNum, chunkNum=0):
         return filePath2
     elif isfile(expanduser(filePath3)):
         return filePath3
-    return filePath4
+    elif isfile(expanduser(filePath4)):
+            return filePath4
+    return filePath5
 
 
 def offsetPath(snapNum):

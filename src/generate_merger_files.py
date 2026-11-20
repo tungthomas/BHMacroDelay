@@ -74,14 +74,14 @@ def create_file(merger_event, verbose = False):
 
     # Initialize data structures
     bh_data = {
-        1:{"SnapNum": [], "SubhaloMassInRad": [], "SubhaloMassInHalfRadType": [], "SubhaloPos": [], "SubfindID": [],
+        1:{"SnapNum": [], "SubhaloMassInRad": [], "SubhaloMassInRadType": [], "SubhaloMassInHalfRadType": [], "SubhaloPos": [], "SubfindID": [],
            "Coordinates": [], "Group_R_Crit200": [], "Group_Number": [], "BH_Mass": [], "Central_Subhalo": []},
-        2:{"SnapNum": [], "SubhaloMassInRad": [], "SubhaloMassInHalfRadType": [], "SubhaloPos": [], "SubfindID": [],
+        2:{"SnapNum": [], "SubhaloMassInRad": [], "SubhaloMassInRadType": [], "SubhaloMassInHalfRadType": [], "SubhaloPos": [], "SubfindID": [],
            "Coordinates": [], "Group_R_Crit200": [], "Group_Number": [], "BH_Mass": [], "Central_Subhalo": []},
     }
 
     # Initialize subhalo data, change fields as needed
-    subhalo_quants = ["SubhaloMassInRad", "SubhaloMassInHalfRadType", "SubhaloPos"]
+    subhalo_quants = ["SubhaloMassInRad", "SubhaloMassInRadType", "SubhaloMassInHalfRadType", "SubhaloPos"]
 
     def update_dictionaries(snap, look_for, gr_nr, subhalo_nr):
         which_host = []
@@ -119,6 +119,7 @@ def create_file(merger_event, verbose = False):
                 bh_data[host]["Group_Number"].append(gr_nr[host-1])
                 bh_data[host]["Group_R_Crit200"].append(group_vir[gr_nr[host-1]])
                 bh_data[host]["SubhaloMassInRad"].append(-1)
+                bh_data[host]["SubhaloMassInRadType"].append([-1] * 6)
                 bh_data[host]["SubhaloMassInHalfRadType"].append([-1] * 6)
                 bh_data[host]["SubhaloPos"].append([-1, -1, -1])
                 bh_data[host]["Central_Subhalo"].append(0)
@@ -128,6 +129,7 @@ def create_file(merger_event, verbose = False):
                 bh_data[host]["Group_Number"].append(-1)
                 bh_data[host]["Group_R_Crit200"].append(-1)
                 bh_data[host]["SubhaloMassInRad"].append(-1)
+                bh_data[host]["SubhaloMassInRadType"].append([-1] * 6)
                 bh_data[host]["SubhaloMassInHalfRadType"].append([-1] * 6)
                 bh_data[host]["SubhaloPos"].append([-1, -1, -1])
                 bh_data[host]["Central_Subhalo"].append(0)

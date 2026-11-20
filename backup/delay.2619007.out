@@ -1,0 +1,2430 @@
+----BHMacroDelay----
+Executing script: macrophysical_delays (2026-11-02 03:10:07)
+======== parameters ========
+  sim_dir         = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e4_se_boost
+  expansion_list  = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e4_se_boost/../ExpansionList_new
+  tree_dir        = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e4_se_boost/sublink_galaxies
+  output_dir_merger = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e4_se_boost/new_merger_events_extended_1e6
+  offset_dir      = /home/pctung/beegfs_pctung/bh_merger_project/data_release_link/seed1e4_se_boost/sublink_galaxies/offsets_illustris
+  output_dir_delay = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e4_se_boost/delay_data_1e6
+  output_dir_accretion = /home/pctung/beegfs_pctung/bh_merger_project/output/seed1e4_se_boost/accretion_details_1e6
+  verbose         = True
+============================
+
+Rank 0 Processing merger:Rank 38 Processing merger: 1492552132_1398860125
+Rank 32 Processing merger: 1681439177_1349850807
+ 1198207467_1236277544
+Rank 17 Processing merger:Rank 36 Processing merger: 1240765959_1228494393
+Rank 39 Processing merger: 1338649885_1290659408
+ 1256221671_1271244137Rank 24 Processing merger: 1167188057_1366362614
+Rank 41 Processing merger: 1535488068_1525527660
+
+Rank 1 Processing merger: 1209970415_1195526571
+Rank 21 Processing merger: 1353213804_1354253011
+Rank 12 Processing merger:Rank 53 Processing merger: 1670020865_1594063229
+Rank 55 Processing merger: 1299928319_1278775371
+ 1341961857_1315410291
+Rank 30 Processing merger: 1405363493_1306109536
+Rank 46 Processing merger: 1297163613_1303473955
+Rank 13 Processing merger:Rank 23 Processing merger: 1280193449_1265567692
+Rank 5 Processing merger: 1341910135_1341931541
+Rank 4 Processing merger: 1258974003_1244889831
+Rank 19 Processing merger: 1297018077_1294094626
+ Rank 45 Processing merger: 1620540484_1599645076
+1488646147_1374102477Rank 27 Processing merger: 1290591452_1280154000
+
+Rank 8 Processing merger:Rank 37 Processing merger: 1253799866_1239744323
+Rank 18 Processing merger: 1479243208_1491584996
+ 1571616166_1587241636
+Rank 15 Processing merger: 1583228074_1594104251
+Rank 16 Processing merger:Rank 33 Processing merger: 1389069989_1402411236
+Rank 44 Processing merger: 1456857643_1590744310
+Rank 43 Processing merger: 1587918758_1606539516
+ Rank 3 Processing merger: 1433784033_1448587869
+Rank 26 Processing merger: 1502901712_1505760865
+Rank 9 Processing merger: 1165104323_1165401338
+1589911495_1570093117
+Rank 42 Processing merger:Rank 6 Processing merger: 1554607416_1585921953
+Rank 50 Processing merger: 1226364167_1210225929
+ 1418609628_1205398869Rank 57 Processing merger: 1566632107_1511673801
+
+Rank 31 Processing merger: 1148132357_1146490851
+Rank 58 Processing merger:Rank 7 Processing merger: 1176514160_1162323291
+Rank 11 Processing merger: 1610059677_1542360855
+Rank 59 Processing merger: 1174124771_1172341770
+Rank 25 Processing merger: 1271338189_1259623070
+Rank 54 Processing merger: 1337588687_1253152515
+Rank 35 Processing merger: 1403905640_1197053180
+ Rank 2 Processing merger: 1416536354_1397439766
+1572790940_1533067296
+Rank 22 Processing merger: 1299307467_1283788476
+Rank 34 Processing merger: 1475674827_1445429947
+Rank 48 Processing merger:Rank 49 Processing merger: 1462301647_1478951085
+Rank 52 Processing merger: 1471169427_1465069974
+Rank 20 Processing merger: 1416567687_1353302885
+Rank 29 Processing merger: 1721831903_1686455204
+Rank 51 Processing merger: 1154291227_1246554978
+Rank 61 Processing merger: 1166380174_1164743292
+Rank 47 Processing merger: 1362423737_1354003484
+Rank 56 Processing merger: 1190904637_1188906850
+ Rank 14 Processing merger:1581832717_1529404155
+ 1219446733_1205724262Rank 63 Processing merger: 1320618350_1301082832
+Rank 40 Processing merger: 1172313891_1185353185
+
+Rank 28 Processing merger: 1504991720_1501713018
+Rank 10 Processing merger: 1176045238_1173076353
+Rank 60 Processing merger: 1147773319_1146971438
+Rank 62 Processing merger: 1457491288_1361864689
+Error processing merger: 1535488068_1525527660
+index 0 is out of bounds for axis 0 with size 0
+Rank 41 Processing merger: 1542595706_1471202285
+Error processing merger: 1341961857_1315410291
+np.int64(82)
+Rank 12 Processing merger: 1310346876_1251516659
+Error processing merger: 1572790940_1533067296
+min() iterable argument is empty
+Rank 58 Processing merger: 1362358139_1364865517
+Rank 63 Processing merger: 1163475687_1164552110
+Rank 44 Processing merger: 1286282442_1234244386
+Error processing merger: 1554607416_1585921953
+np.int64(113)
+Rank 6 Processing merger: 1212530722_1190036853
+Error processing merger: 1338649885_1290659408
+np.int64(81)
+Rank 39 Processing merger: 1330629384_1335449832
+Error processing merger: 1353213804_1354253011
+index 0 is out of bounds for axis 0 with size 0
+Rank 21 Processing merger: 1491855999_1494359550
+Error processing merger: 1462301647_1478951085
+np.int64(101)
+Rank 49 Processing merger: 1494250741_1420335095
+Error processing merger: 1256221671_1271244137
+np.int64(72)
+Rank 17 Processing merger: 1504184890_1446127063
+Rank 38 Processing merger: 1463256167_1484239105
+Rank 46 Processing merger: 1621540354_1556047591
+Rank 20 Processing merger: 1161885489_1161085818
+Rank 8 Processing merger: 1179220112_1378093300
+Rank 10 Processing merger: 1492178954_1390905847
+Rank 28 Processing merger: 1215625382_1219892860
+Rank 18 Processing merger: 1220967847_1220383089
+Rank 29 Processing merger: 1500926939_1498627773
+Rank 30 Processing merger: 1230234496_1191680914
+Rank 1 Processing merger: 1319092654_1304507147
+Rank 55 Processing merger: 1297001870_1285533146
+Rank 15 Processing merger: 1428391461_1380689672
+Rank 42 Processing merger: 1233763152_1233036255
+Rank 35 Processing merger: 1716074199_1675092461
+Rank 43 Processing merger: 1294895810_1272177836
+Rank 24 Processing merger: 1363739589_1403738401
+Rank 59 Processing merger: 1647819971_1460351351
+Rank 0 Processing merger: 1529247929_1548185350
+Rank 23 Processing merger: 1336698825_1338342695
+Rank 51 Processing merger: 1393259239_1406075400
+Rank 31 Processing merger: 1257372896_1271792298
+Error processing merger: 1492178954_1390905847
+index 0 is out of bounds for axis 0 with size 0
+Rank 10 Processing merger: 1348402486_1301780064
+Rank 28 Processing merger: 1574280960_1367725178
+Error processing merger: 1233763152_1233036255
+min() iterable argument is empty
+Rank 42 Processing merger: 1207476694_1198401839
+Error processing merger: 1230234496_1191680914
+index 0 is out of bounds for axis 0 with size 0
+Rank 30 Processing merger: 1257584925_1259998926
+Error processing merger: 1147773319_1146971438
+np.int64(54)
+Rank 60 Processing merger: 1515790569_1578338266
+Rank 27 Processing merger: 1141359968_1137935220
+Rank 30 Processing merger: 1510695101_1493059594
+Error processing merger: 1271338189_1259623070
+np.int64(72)
+Rank 25 Processing merger: 1342461176_1138422903
+Rank 47 Processing merger: 1233683493_1199555091
+Rank 4 Processing merger: 1356840846_1364503010
+Error processing merger: 1212530722_1190036853
+np.int64(65)
+Rank 6 Processing merger: 1518217379_1494322003
+Error processing merger: 1253799866_1239744323
+np.int64(71)
+Rank 37 Processing merger: 1228029970_1217704733
+Rank 61 Processing merger: 1271869614_1261700815
+Rank 11 Processing merger: 1638337170_1680336891
+Rank 41 Processing merger: 1189358137_1176085738
+Rank 57 Processing merger: 1342900201_1316541776
+Error processing merger: 1163475687_1164552110
+np.int64(57)
+Rank 63 Processing merger: 1478163987_1498870373
+Rank 26 Processing merger: 1483977909_1498407103
+Rank 50 Processing merger: 1316141803_1406673289
+Rank 5 Processing merger: 1358905725_1378850100
+Rank 45 Processing merger: 1246098002_1255746111
+Rank 3 Processing merger: 1188123324_1179216412
+Error processing merger: 1233683493_1199555091
+index 0 is out of bounds for axis 0 with size 0
+Rank 47 Processing merger: 1331712410_1331695433
+Rank 54 Processing merger: 1486208080_1513058419
+Rank 36 Processing merger: 1204783634_1165322157
+Rank 33 Processing merger: 1379831714_1255768597
+Rank 48 Processing merger: 1380051408_1353624457
+Error processing merger: 1220967847_1220383089
+np.int64(67)
+Rank 18 Processing merger: 1401096088_1366775761
+Rank 7 Processing merger: 1610068227_1505506032
+Rank 56 Processing merger: 1181597352_1176736694
+Rank 45 Processing merger: 1331122216_1319109988
+Rank 53 Processing merger: 1183731003_1160013841
+Rank 52 Processing merger: 1265301005_1262393352
+Rank 34 Processing merger: 1156002139_1153645507
+Rank 22 Processing merger: 1493342531_1627711520
+Rank 12 Processing merger: 1698767451_1574747014
+Rank 44 Processing merger: 1316954710_1279038315
+Rank 16 Processing merger: 1354275763_1374358884
+Rank 13 Processing merger: 1173342349_1173194747
+Rank 40 Processing merger: 1399947483_1312325486
+Rank 32 Processing merger: 1336838953_1326479240
+Rank 14 Processing merger: 1295690325_1216660617
+Rank 58 Processing merger: 1591998608_1528519780
+Rank 21 Processing merger: 1165949581_1171017332
+Rank 9 Processing merger: 1394819369_1356085837
+Rank 39 Processing merger: 1494677190_1451324223
+Rank 62 Processing merger: 1508095099_1484225561
+Rank 2 Processing merger: 1476860891_1487848365
+Rank 19 Processing merger: 1239205478_1240782205
+Rank 49 Processing merger: 1136778929_1136969885
+Rank 17 Processing merger: 1572209687_1566801183
+Rank 59 Processing merger: 1581834259_1515611746
+Rank 20 Processing merger: 1237914902_1227826445
+Rank 8 Processing merger: 1320759208_1331528020
+Rank 38 Processing merger: 1394809563_1316989088
+Rank 31 Processing merger: 1194044987_1203241030
+Rank 0 Processing merger: 1284893688_1262353256
+Rank 51 Processing merger: 1603242722_1608639448
+Rank 21 Processing merger: 1299932749_1281187083
+Error processing merger: 1508095099_1484225561
+min() iterable argument is empty
+Rank 62 Processing merger: 1603121118_1590595923
+Rank 55 Processing merger: 1262556453_1299438172
+Rank 15 Processing merger: 1705174169_1496763651
+Rank 35 Processing merger: 1634039569_1585019745
+Error processing merger: 1204783634_1165322157
+np.int64(64)
+Rank 36 Processing merger: 1503764115_1353164748
+Rank 24 Processing merger: 1601724886_1533460866
+Error processing merger: 1181597352_1176736694
+np.int64(61)
+Rank 56 Processing merger: 1214403044_1206752180
+Rank 28 Processing merger: 1378850100_1374824721
+Rank 42 Processing merger: 1573805703_1552090367
+Rank 29 Processing merger: 1209785812_1199182881
+Rank 4 Processing merger: 1390887448_1350629090
+Rank 25 Processing merger: 1517362260_1520887040
+Rank 46 Processing merger: 1395227722_1370733875
+Error processing merger: 1265301005_1262393352
+np.int64(72)
+Rank 52 Processing merger: 1255197865_1213101918
+Rank 1 Processing merger: 1140939446_1144914671
+Rank 43 Processing merger: 1579630136_1487916921
+Rank 23 Processing merger: 1209429125_1209336662
+Rank 30 Processing merger: 1135933243_1136560149
+Rank 10 Processing merger: 1157061264_1157490880
+Rank 27 Processing merger: 1214673306_1187048034
+Rank 6 Processing merger: 1230939394_1227264184
+Rank 60 Processing merger: 1656700622_1663540005
+Error processing merger: 1194044987_1203241030
+min() iterable argument is empty
+Rank 31 Processing merger: 1411944996_1300991784
+Rank 37 Processing merger: 1267954571_1244664601
+Rank 63 Processing merger: 1493641519_1460566530
+Rank 57 Processing merger: 1450010934_1454462158
+Rank 5 Processing merger: 1383336808_1325095857
+Rank 41 Processing merger: 1410647924_1409824984
+Rank 11 Processing merger: 1655918591_1568951637
+Rank 26 Processing merger: 1672823378_1682027150
+Rank 48 Processing merger: 1208397024_1201501228
+Rank 61 Processing merger: 1166617677_1168758843
+Rank 47 Processing merger: 1154523084_1153861110
+Rank 50 Processing merger: 1186308495_1180195432
+Error processing merger: 1166617677_1168758843
+index 0 is out of bounds for axis 0 with size 0
+Rank 61 Processing merger: 1265945278_1339144736
+Error processing merger: 1572209687_1566801183
+np.int64(110)
+Rank 17 Processing merger: 1442074028_1384751080
+Rank 7 Processing merger: 1689362082_1649794978
+Rank 60 Processing merger: 1524141817_1392014368
+Rank 3 Processing merger: 1353662182_1239795066
+Error processing merger: 1230939394_1227264184
+index 0 is out of bounds for axis 0 with size 0
+Rank 6 Processing merger: 1418829966_1496831525
+Rank 16 Processing merger: 1677008911_1538332251
+Rank 18 Processing merger: 1167557435_1158395771
+Rank 48 Processing merger: 1607327813_1549962415
+Rank 45 Processing merger: 1408380226_1402423779
+Rank 33 Processing merger: 1244979795_1217180753
+Rank 54 Processing merger: 1721831903_1655621543
+Rank 53 Processing merger: 1456560451_1473310373
+Rank 13 Processing merger: 1558865059_1493072503
+Rank 12 Processing merger: 1481876911_1462867899
+Rank 40 Processing merger: 1645042663_1570930790
+Rank 32 Processing merger: 1158742762_1175917964
+Rank 14 Processing merger: 1518155469_1624137336
+Rank 9 Processing merger: 1298671930_1315325916
+Rank 58 Processing merger: 1150961147_1158680655
+Error processing merger: 1255197865_1213101918
+np.int64(70)
+Rank 52 Processing merger: 1400459096_1439677165
+Rank 39 Processing merger: 1572274437_1315339056
+Rank 38 Processing merger: 1184848261_1156158562
+Rank 22 Processing merger: 1241017307_1224325009
+Rank 44 Processing merger: 1328949638_1288563754
+Rank 34 Processing merger: 1644879509_1617003085
+Rank 55 Processing merger: 1693028068_1675074754
+Rank 51 Processing merger: 1342155270_1305410979
+Error processing merger: 1158742762_1175917964
+min() iterable argument is empty
+Rank 32 Processing merger: 1388823274_1440856363
+Rank 2 Processing merger: 1229543743_1233938257
+Rank 8 Processing merger: 1432629413_1461482629
+Rank 49 Processing merger: 1434460912_1408650219
+Rank 0 Processing merger: 1384107378_1390537250
+Rank 20 Processing merger: 1246070337_1221562460
+Error processing merger: 1298671930_1315325916
+index 0 is out of bounds for axis 0 with size 0
+Rank 9 Processing merger: 1626457122_1544696484
+Rank 36 Processing merger: 1537816667_1526187211
+Rank 24 Processing merger: 1350364676_1327906759
+Error processing merger: 1229543743_1233938257
+index 0 is out of bounds for axis 0 with size 0
+Rank 2 Processing merger: 1309461155_1325642952
+Rank 21 Processing merger: 1373828065_1389988587
+Rank 46 Processing merger: 1557494681_1419514774
+Rank 28 Processing merger: 1271713610_1280049346
+Rank 25 Processing merger: 1657706124_1716605376
+Rank 15 Processing merger: 1393080455_1392764296
+Rank 35 Processing merger: 1442694335_1309233864
+Rank 19 Processing merger: 1596240086_1642376960
+Rank 59 Processing merger: 1247850236_1254040507
+Rank 4 Processing merger: 1476763288_1460443012
+Rank 62 Processing merger: 1491584996_1465153343
+Rank 27 Processing merger: 1592139729_1401752583
+Rank 42 Processing merger: 1463426559_1454319017
+Rank 1 Processing merger: 1237045598_1243679953
+Rank 23 Processing merger: 1477927851_1233642536
+Rank 57 Processing merger: 1145440741_1147876132
+Rank 30 Processing merger: 1354911402_1337418024
+Rank 31 Processing merger: 1493883629_1493163446
+Rank 41 Processing merger: 1448867983_1383214394
+Rank 43 Processing merger: 1353743567_1326373689
+Rank 26 Processing merger: 1193896618_1181040178
+Error processing merger: 1237045598_1243679953
+index 0 is out of bounds for axis 0 with size 0
+Rank 1 Processing merger: 1149687261_1153148722
+Rank 10 Processing merger: 1172522624_1171928225
+Rank 47 Processing merger: 1247962905_1287085148
+Rank 63 Processing merger: 1379635968_1339974178
+Error processing merger: 1193896618_1181040178
+index 0 is out of bounds for axis 0 with size 0
+Rank 26 Processing merger: 1655417000_1540023473
+Rank 5 Processing merger: 1156245438_1160709497
+Error processing merger: 1493883629_1493163446
+min() iterable argument is empty
+Rank 31 Processing merger: 1305429368_1257727227
+Rank 3 Processing merger: 1287816434_1295544398
+Rank 61 Processing merger: 1274940010_1259560035
+Error processing merger: 1209785812_1199182881
+np.int64(64)
+Rank 29 Processing merger: 1392542553_1386136670
+Rank 17 Processing merger: 1379503632_1365227865
+Rank 60 Processing merger: 1335291329_1387730859
+Rank 56 Processing merger: 1306717895_1263301004
+Rank 37 Processing merger: 1192268214_1183279237
+Rank 11 Processing merger: 1213051667_1204185009
+Rank 41 Processing merger: 1196368735_1192148274
+Rank 50 Processing merger: 1633504242_1597444877
+Rank 6 Processing merger: 1436321858_1288236850
+Rank 54 Processing merger: 1555994655_1493564587
+Rank 16 Processing merger: 1645042663_1605339842
+Rank 45 Processing merger: 1554660389_1494232483
+Rank 33 Processing merger: 1717695949_1641969945
+Rank 7 Processing merger: 1290544266_1290668957
+Rank 48 Processing merger: 1600331406_1312842434
+Rank 12 Processing merger: 1187479569_1192249287
+Rank 52 Processing merger: 1522690662_1359438092
+Rank 39 Processing merger: 1148661135_1142000080
+Rank 13 Processing merger: 1437330699_1478135296
+Rank 18 Processing merger: 1463353532_1436874060
+Rank 58 Processing merger: 1419306653_1375619377
+Rank 53 Processing merger: 1360798513_1247820207
+Rank 14 Processing merger: 1300619068_1280950072
+Rank 8 Processing merger: 1290535715_1278712280
+Rank 38 Processing merger: 1416066109_1346584652
+Error processing merger: 1522690662_1359438092
+min() iterable argument is empty
+Rank 52 Processing merger: 1560667999_1532639457
+Rank 32 Processing merger: 1591219555_1627869625
+Rank 22 Processing merger: 1350364676_1390597365
+Rank 55 Processing merger: 1429373351_1433229899
+Rank 51 Processing merger: 1204158479_1190312590
+Rank 44 Processing merger: 1492563665_1555383958
+Rank 20 Processing merger: 1327181858_1319493979
+Rank 34 Processing merger: 1347029309_1420003064
+Rank 24 Processing merger: 1698610337_1693576647
+Rank 40 Processing merger: 1553359404_1550876053
+Rank 49 Processing merger: 1270571563_1246224908
+Rank 21 Processing merger: 1194995187_1198750418
+Rank 46 Processing merger: 1596072459_1431111919
+Rank 35 Processing merger: 1254875002_1217188918
+Error processing merger: 1194995187_1198750418
+index 0 is out of bounds for axis 0 with size 0
+Rank 21 Processing merger: 1188972345_1191325567
+Rank 9 Processing merger: 1380055190_1407341584
+Rank 0 Processing merger: 1303575207_1231568924
+Rank 25 Processing merger: 1405977715_1375494466
+Rank 4 Processing merger: 1457840991_1402928278
+Rank 15 Processing merger: 1209239922_1194590679
+Rank 62 Processing merger: 1667761049_1327282174
+Rank 2 Processing merger: 1230101589_1220442312
+Rank 19 Processing merger: 1588019681_1558816994
+Rank 36 Processing merger: 1409234749_1352041571
+Error processing merger: 1156245438_1160709497
+np.int64(56)
+Rank 5 Processing merger: 1431247248_1385150465
+Rank 28 Processing merger: 1354003484_1308145407
+Rank 27 Processing merger: 1248539082_1217021320
+Rank 23 Processing merger: 1191530061_1203300983
+Rank 42 Processing merger: 1537719807_1443667941
+Rank 40 Processing merger: 1182896571_1175738295
+Rank 63 Processing merger: 1172260395_1172166335
+Rank 57 Processing merger: 1183454489_1179671952
+Rank 47 Processing merger: 1160908465_1161789686
+Error processing merger: 1196368735_1192148274
+np.int64(63)
+Rank 41 Processing merger: 1551319043_1459123023
+Rank 30 Processing merger: 1168448309_1168536724
+Error processing merger: 1191530061_1203300983
+min() iterable argument is empty
+Rank 23 Processing merger: 1277891643_1310284082
+Error processing merger: 1182896571_1175738295
+index 0 is out of bounds for axis 0 with size 0
+Rank 40 Processing merger: 1681299661_1021973211
+Rank 26 Processing merger: 1409397509_1388859495
+Rank 43 Processing merger: 1449044359_1493883629
+Rank 56 Processing merger: 1418252141_1361391687
+Rank 1 Processing merger: 1277290589_1289869370
+Rank 63 Processing merger: 1538355022_1510907415
+Rank 59 Processing merger: 1247772671_1246046961
+Rank 3 Processing merger: 1341478553_1397971238
+Rank 50 Processing merger: 1385159579_1368737327
+Rank 10 Processing merger: 1336849015_1311655775
+Rank 17 Processing merger: 1224397440_1226206044
+Rank 60 Processing merger: 1394622229_1368925048
+Rank 6 Processing merger: 1230000371_1236894304
+Rank 11 Processing merger: 1214304948_1214320303
+Rank 29 Processing merger: 1581834259_1499948837
+Rank 37 Processing merger: 1355228727_1281940580
+Error processing merger: 1204158479_1190312590
+np.int64(64)
+Rank 51 Processing merger: 1227848106_1288796307
+Rank 12 Processing merger: 1680646707_1643984099
+Rank 61 Processing merger: 1306162469_1292484688
+Rank 7 Processing merger: 1588719340_1401782532
+Rank 33 Processing merger: 1170052887_1172024584
+Rank 54 Processing merger: 1344211542_1275405419
+Rank 48 Processing merger: 1362812184_1342308951
+Rank 16 Processing merger: 1366444880_1331389027
+Rank 31 Processing merger: 1591606207_1588606505
+Rank 13 Processing merger: 1448741627_1444777641
+Rank 58 Processing merger: 1221093480_1215855458
+Rank 31 Processing merger: 1234201802_1238726028
+Error processing merger: 1209239922_1194590679
+np.int64(64)
+Rank 15 Processing merger: 1178661383_1156582757
+Rank 45 Processing merger: 1572247713_1555942829
+Rank 8 Processing merger: 1255581402_1250382645
+Rank 55 Processing merger: 1433767844_1413177320
+Rank 13 Processing merger: 1186933298_1237814839
+Rank 32 Processing merger: 1400515271_1401074449
+Rank 18 Processing merger: 1722735512_1244227958
+Rank 53 Processing merger: 1188427746_1188893051
+Rank 38 Processing merger: 1430924947_1393095805
+Rank 44 Processing merger: 1147344468_1145643333
+Rank 39 Processing merger: 1267195861_1225524715
+Error processing merger: 1178661383_1156582757
+index 0 is out of bounds for axis 0 with size 0
+Rank 15 Processing merger: 1246015339_1257751335
+Rank 52 Processing merger: 1567520528_1588439932
+Rank 24 Processing merger: 1225756755_1233617916
+Rank 22 Processing merger: 1443233234_1439214625
+Rank 46 Processing merger: 1237337988_1248030861
+Rank 20 Processing merger: 1662130666_1557524333
+Rank 34 Processing merger: 1590531078_1468978112
+Rank 49 Processing merger: 1333649927_1319652087
+Rank 14 Processing merger: 1566145953_1614367700
+Error processing merger: 1248539082_1217021320
+np.int64(70)
+Rank 27 Processing merger: 1596072459_1556717498
+Rank 0 Processing merger: 1449159237_1443664629
+Rank 9 Processing merger: 1215802352_1207497178
+Rank 4 Processing merger: 1140244003_1137342250
+Rank 36 Processing merger: 1352350275_1354174932
+Rank 2 Processing merger: 1179321995_1175375217
+Error processing merger: 1449044359_1493883629
+np.int64(100)
+Rank 43 Processing merger: 1154943353_1153321242
+Error processing merger: 1160908465_1161789686
+np.int64(56)
+Rank 47 Processing merger: 1335023452_1313788489
+Rank 19 Processing merger: 1258884243_1257556185
+Rank 25 Processing merger: 1248454903_1234972812
+Rank 42 Processing merger: 1172165776_1168182206
+Rank 62 Processing merger: 1352696642_1331068341
+Error processing merger: 1224397440_1226206044
+np.int64(67)
+Rank 17 Processing merger: 1379381852_1358008112
+Rank 35 Processing merger: 1463071707_1330810529
+Rank 21 Processing merger: 1479143607_1494544600
+Rank 41 Processing merger: 1516034716_1520563936
+Error processing merger: 1248454903_1234972812
+index 0 is out of bounds for axis 0 with size 0
+Rank 25 Processing merger: 1375491862_1335877685
+Rank 0 Processing merger: 1446553635_1463948673
+Rank 62 Processing merger: 1643314215_1522961433
+Rank 4 Processing merger: 1643997890_1605217873
+Error processing merger: 1179321995_1175375217
+index 0 is out of bounds for axis 0 with size 0
+Rank 2 Processing merger: 1518810212_1527273151
+Rank 63 Processing merger: 1149434540_1149530378
+Rank 5 Processing merger: 1397496568_1389392451
+Rank 3 Processing merger: 1399554887_1356373385
+Rank 57 Processing merger: 1417527561_1402832117
+Rank 30 Processing merger: 1192268214_1162489745
+Rank 23 Processing merger: 1428237810_1309083033
+Rank 1 Processing merger: 1702294348_1411530828
+Error processing merger: 1214304948_1214320303
+np.int64(65)
+Rank 11 Processing merger: 1299474589_1288579372
+Rank 51 Processing merger: 1263942710_1263942762
+Rank 56 Processing merger: 1391032295_1364515959
+Rank 37 Processing merger: 1592139729_1568051781
+Rank 63 Processing merger: 1577510724_1660703784
+Rank 6 Processing merger: 1428330435_1434481827
+Rank 40 Processing merger: 1573158362_1453257592
+Rank 59 Processing merger: 1323636333_1314762899
+Rank 10 Processing merger: 1716080219_1732401730
+Rank 26 Processing merger: 1244158030_1256899223
+Rank 60 Processing merger: 1189676890_1193130614
+Rank 61 Processing merger: 1501927399_1323949854
+Rank 28 Processing merger: 1310392354_1257751335
+Error processing merger: 1267195861_1225524715
+np.int64(72)
+Rank 39 Processing merger: 1139268019_1138904423
+Rank 12 Processing merger: 1494150399_1515825966
+Rank 54 Processing merger: 1626447591_1492766339
+Rank 33 Processing merger: 1606741459_1447804175
+Error processing merger: 1263942710_1263942762
+index 0 is out of bounds for axis 0 with size 0
+Rank 51 Processing merger: 1419664881_1395924659
+Rank 29 Processing merger: 1663499371_1636736542
+Rank 7 Processing merger: 1369691100_1292458822
+Rank 48 Processing merger: 1323467976_1320360679
+Rank 50 Processing merger: 1446129199_1607279481
+Rank 31 Processing merger: 1271707320_1263548893
+Rank 58 Processing merger: 1500926939_1558133769
+Rank 45 Processing merger: 1494626629_1430008740
+Rank 60 Processing merger: 1281822184_1261223654
+Rank 32 Processing merger: 1275943482_1300168488
+Rank 8 Processing merger: 1407990404_1431118772
+Rank 16 Processing merger: 1156655024_1157182822
+Error processing merger: 1215802352_1207497178
+np.int64(66)
+Rank 9 Processing merger: 1419228756_1345252227
+Rank 39 Processing merger: 1272133019_1264161661
+Rank 38 Processing merger: 1316954710_1281112553
+Error processing merger: 1154943353_1153321242
+np.int64(56)
+Rank 43 Processing merger: 1365051717_1380135595
+Error processing merger: 1375491862_1335877685
+np.int64(85)
+Rank 25 Processing merger: 1270478036_1272348481
+Rank 18 Processing merger: 1288050678_1261454634
+Rank 13 Processing merger: 1361419933_1315007326
+Rank 55 Processing merger: 1645042663_1471424349
+Error processing merger: 1446553635_1463948673
+np.int64(96)
+Rank 0 Processing merger: 1481164248_1488526791
+Rank 39 Processing merger: 1572115839_1588649730
+Rank 52 Processing merger: 1558087664_1602376833
+Rank 14 Processing merger: 1365355969_1348931297
+Rank 53 Processing merger: 1202304814_1190873224
+Rank 46 Processing merger: 1391008286_1365293248
+Rank 25 Processing merger: 1540920735_1447111523
+Rank 34 Processing merger: 1684259366_1570480568
+Rank 49 Processing merger: 1329643393_1315782741
+Rank 44 Processing merger: 1387491630_1340379755
+Rank 24 Processing merger: 1502809658_1489173429
+Error processing merger: 1399554887_1356373385
+np.int64(91)
+Rank 3 Processing merger: 1202387400_1172242116
+Rank 20 Processing merger: 1315062021_1226943552
+Rank 15 Processing merger: 1315248770_1328386945
+Rank 27 Processing merger: 1259017951_1271440335
+Rank 35 Processing merger: 1453755996_1424893472
+Rank 42 Processing merger: 1452452433_1378039773
+Error processing merger: 1192268214_1162489745
+np.int64(62)
+Rank 30 Processing merger: 1658319737_1624254670
+Rank 27 Processing merger: 1347287715_1269847858
+Rank 36 Processing merger: 1158107161_1156913308
+Error processing merger: 1387491630_1340379755
+index 0 is out of bounds for axis 0 with size 0
+Rank 44 Processing merger: 1471882302_1479097634
+Rank 17 Processing merger: 1209836480_1196981667
+Rank 22 Processing merger: 1259584486_1240227511
+Rank 57 Processing merger: 1737755254_1731488871
+Error processing merger: 1329643393_1315782741
+index 0 is out of bounds for axis 0 with size 0
+Rank 49 Processing merger: 1341773883_1393217837
+Rank 19 Processing merger: 1473929667_1403271334
+Rank 21 Processing merger: 1272057222_1260151946
+Rank 47 Processing merger: 1711674830_1565485284
+Rank 4 Processing merger: 1331983619_1313488371
+Rank 41 Processing merger: 1687909783_1487334695
+Rank 62 Processing merger: 1460620561_1463646493
+Error processing merger: 1341773883_1393217837
+min() iterable argument is empty
+Rank 49 Processing merger: 1379299577_1285156427
+Error processing merger: 1331983619_1313488371
+min() iterable argument is empty
+Rank 4 Processing merger: 1305819084_1298021339
+Rank 5 Processing merger: 1315234329_1304566972
+Rank 1 Processing merger: 1530360224_1553370477
+Rank 23 Processing merger: 1491075773_1431773526
+Rank 59 Processing merger: 1188949054_1190079728
+Rank 2 Processing merger: 1184059004_1168082449
+Rank 26 Processing merger: 1432770136_1376506791
+Rank 56 Processing merger: 1232697045_1232914105
+Rank 6 Processing merger: 1341509697_1296969663
+Rank 63 Processing merger: 1331954445_1331050949
+Rank 11 Processing merger: 1184524677_1178269390
+Error processing merger: 1271707320_1263548893
+np.int64(72)
+Rank 31 Processing merger: 1290284159_1278582194
+Rank 37 Processing merger: 1449127510_1453189504
+Rank 10 Processing merger: 1557451224_1538298288
+Error processing merger: 1500926939_1558133769
+np.int64(108)
+Rank 58 Processing merger: 1465657974_1485298527
+Rank 48 Processing merger: 1404352743_1364389442
+Rank 28 Processing merger: 1264715019_1388499405
+Error processing merger: 1481164248_1488526791
+np.int64(102)
+Rank 0 Processing merger: 1539162691_1526165690
+Rank 7 Processing merger: 1179268982_1173880658
+Rank 29 Processing merger: 1531276095_1590652121
+Error processing merger: 1539162691_1526165690
+min() iterable argument is empty
+Rank 0 Processing merger: 1146785760_1143537429
+Rank 12 Processing merger: 1496649308_1455481186
+Rank 51 Processing merger: 1271869614_1253089414
+Rank 40 Processing merger: 1247841119_1248550214
+Rank 61 Processing merger: 1322688454_1332862585
+Rank 33 Processing merger: 1353743567_1363236473
+Rank 54 Processing merger: 1692233215_1752384787
+Error processing merger: 1247841119_1248550214
+index 0 is out of bounds for axis 0 with size 0
+Rank 40 Processing merger: 1272348481_1260106426
+Rank 50 Processing merger: 1438540069_1361419933
+Rank 9 Processing merger: 1270644010_1247630733
+Error processing merger: 1558087664_1602376833
+np.int64(114)
+Rank 52 Processing merger: 1603856102_1480048552
+Rank 8 Processing merger: 1418708400_1349215657
+Rank 43 Processing merger: 1241506451_1236001003
+Rank 45 Processing merger: 1432334634_1459908451
+Rank 60 Processing merger: 1318343283_1300330155
+Rank 38 Processing merger: 1278599947_1214245018
+Rank 16 Processing merger: 1333927353_1291519786
+Error processing merger: 1259584486_1240227511
+np.int64(71)
+Rank 22 Processing merger: 1535488068_1542294755
+Rank 53 Processing merger: 1299720520_1290428758
+Error processing merger: 1209836480_1196981667
+np.int64(64)
+Rank 17 Processing merger: 1664153972_1525803472
+Rank 34 Processing merger: 1482210309_1427283644
+Rank 55 Processing merger: 1200631266_1202828373
+Rank 32 Processing merger: 1427809425_1540434665
+Rank 18 Processing merger: 1272239006_1270587293
+Rank 13 Processing merger: 1395632676_1433850967
+Rank 25 Processing merger: 1696675994_1703699680
+Rank 39 Processing merger: 1638421333_1570762393
+Rank 36 Processing merger: 1334506283_1335582310
+Rank 30 Processing merger: 1478720433_1284715220
+Rank 20 Processing merger: 1506057292_1497130674
+Error processing merger: 1278599947_1214245018
+index 0 is out of bounds for axis 0 with size 0
+Rank 38 Processing merger: 1334014569_1326219439
+Error processing merger: 1315234329_1304566972
+np.int64(78)
+Rank 5 Processing merger: 1434338723_1433893130
+Rank 42 Processing merger: 1272663185_1322612398
+Rank 46 Processing merger: 1233434034_1223325219
+Rank 24 Processing merger: 1683520619_1550083341
+Rank 15 Processing merger: 1331802268_1343500369
+Rank 35 Processing merger: 1413194721_1423610810
+Rank 21 Processing merger: 1526112495_1495528306
+Rank 14 Processing merger: 1520984663_1548095163
+Rank 27 Processing merger: 1719035883_1477203355
+Rank 3 Processing merger: 1141323013_1140434389
+Rank 44 Processing merger: 1692126132_1589727546
+Rank 62 Processing merger: 1208456144_1209604359
+Rank 19 Processing merger: 1331760046_1323911559
+Rank 47 Processing merger: 1695065508_1634294248
+Rank 41 Processing merger: 1328340666_1256184799
+Error processing merger: 1233434034_1223325219
+index 0 is out of bounds for axis 0 with size 0
+Rank 46 Processing merger: 1608778122_1642095978
+Error processing merger: 1404352743_1364389442
+np.int64(89)
+Rank 48 Processing merger: 1387718488_1403927177
+Rank 59 Processing merger: 1413264877_1436226626
+Rank 49 Processing merger: 1669338500_1554831374
+Error processing merger: 1449127510_1453189504
+np.int64(97)
+Rank 37 Processing merger: 1489837781_1418627302
+Rank 57 Processing merger: 1515790569_1444980125
+Rank 2 Processing merger: 1202380778_1197901774
+Rank 4 Processing merger: 1220453500_1215559095
+Error processing merger: 1146785760_1143537429
+np.int64(52)
+Rank 0 Processing merger: 1548682563_1232730330
+Rank 1 Processing merger: 1462157711_1415411996
+Error processing merger: 1202380778_1197901774
+index 0 is out of bounds for axis 0 with size 0
+Rank 2 Processing merger: 1199673454_1147365088
+Error processing merger: 1272348481_1260106426
+np.int64(72)
+Rank 40 Processing merger: 1298206783_1300441658
+Rank 56 Processing merger: 1634897727_1562572350
+Rank 10 Processing merger: 1395228877_1375463934
+Rank 6 Processing merger: 1347964866_1297363495
+Rank 26 Processing merger: 1404264510_1330519368
+Rank 63 Processing merger: 1376633690_1338624183
+Rank 23 Processing merger: 1476721597_1479143607
+Rank 11 Processing merger: 1174987569_1161085894
+Rank 31 Processing merger: 1254230012_1221069542
+Rank 8 Processing merger: 1258257654_1263640699
+Rank 9 Processing merger: 1423772785_1365822518
+Rank 28 Processing merger: 1699015063_1385391150
+Error processing merger: 1333927353_1291519786
+np.int64(84)
+Rank 16 Processing merger: 1320028611_1164819423
+Rank 61 Processing merger: 1329714110_1359033117
+Rank 52 Processing merger: 1602828155_1361254102
+Rank 12 Processing merger: 1299468401_1246600164
+Rank 29 Processing merger: 1343618085_1312661966
+Rank 58 Processing merger: 1366946631_1247259542
+Rank 54 Processing merger: 1688623610_1678640407
+Rank 33 Processing merger: 1218486609_1214164913
+Rank 51 Processing merger: 1341509697_1324452948
+Rank 7 Processing merger: 1174632732_1197819577
+Rank 8 Processing merger: 1220909328_1202572814
+Rank 50 Processing merger: 1274977982_1277860142
+Error processing merger: 1520984663_1548095163
+np.int64(108)
+Rank 14 Processing merger: 1305381235_1299075863
+Error processing merger: 1334506283_1335582310
+np.int64(81)
+Rank 36 Processing merger: 1378174381_1352744499
+Rank 32 Processing merger: 1273863002_1298366165
+Rank 22 Processing merger: 1349306685_1370856625
+Rank 43 Processing merger: 1247358050_1317180877
+Rank 18 Processing merger: 1232008944_1226352585
+Rank 34 Processing merger: 1330814668_1318310571
+Rank 30 Processing merger: 1151903643_1151329492
+Rank 17 Processing merger: 1207270164_1196411286
+Rank 45 Processing merger: 1432378921_1440700192
+Rank 55 Processing merger: 1145158937_1145532190
+Rank 60 Processing merger: 1309396905_1297376683
+Rank 38 Processing merger: 1241507793_1199141683
+Rank 42 Processing merger: 1537681232_1451900102
+Rank 13 Processing merger: 1505760865_1526112495
+Rank 25 Processing merger: 1297592393_1238739586
+Error processing merger: 1395228877_1375463934
+np.int64(89)
+Rank 10 Processing merger: 1180039397_1176181958
+Rank 53 Processing merger: 1142145083_1138168484
+Rank 35 Processing merger: 1428375998_1428939179
+Rank 5 Processing merger: 1163622885_1154996950
+Error processing merger: 1634897727_1562572350
+np.int64(121)
+Rank 56 Processing merger: 1398602460_1330078418
+Rank 39 Processing merger: 1548095163_1164870429
+Rank 46 Processing merger: 1193566165_1186196620
+Rank 27 Processing merger: 1526660117_1536532044
+Rank 48 Processing merger: 1506120723_1422181177
+Rank 44 Processing merger: 1172043988_1166406682
+Rank 3 Processing merger: 1275323130_1272787511
+Rank 19 Processing merger: 1199035470_1153960128
+Error processing merger: 1142145083_1138168484
+min() iterable argument is empty
+Rank 53 Processing merger: 1544782491_1490027132
+Rank 37 Processing merger: 1354911402_1354918623
+Rank 47 Processing merger: 1403359308_1379953552
+Rank 57 Processing merger: 1716605376_1608951309
+Rank 24 Processing merger: 1290402279_1280931923
+Rank 15 Processing merger: 1485958542_1435234435
+Error processing merger: 1347964866_1297363495
+np.int64(82)
+Rank 6 Processing merger: 1551990248_1379398435
+Error processing merger: 1254230012_1221069542
+np.int64(70)
+Rank 31 Processing merger: 1277943305_1270044275
+Rank 49 Processing merger: 1303924992_1255800288
+Rank 21 Processing merger: 1448741627_1430680691
+Rank 4 Processing merger: 1546866921_1535746981
+Rank 62 Processing merger: 1322244248_1297535214
+Rank 41 Processing merger: 1175224937_1179321995
+Rank 20 Processing merger: 1575407790_1427151955
+Rank 0 Processing merger: 1499758573_1450678533
+Rank 40 Processing merger: 1510736646_1503519671
+Rank 2 Processing merger: 1246357260_1228419903
+Error processing merger: 1241507793_1199141683
+np.int64(69)
+Rank 38 Processing merger: 1550752811_1607756373
+Rank 1 Processing merger: 1469552382_1494550074
+Error processing merger: 1175224937_1179321995
+min() iterable argument is empty
+Rank 41 Processing merger: 1479114915_1479314181
+Error processing merger: 1174632732_1197819577
+np.int64(64)
+Rank 7 Processing merger: 1376647860_1381473221
+Rank 16 Processing merger: 1365960422_1365705350
+Rank 23 Processing merger: 1569562095_1671509287
+Error processing merger: 1207270164_1196411286
+np.int64(64)
+Rank 17 Processing merger: 1137099223_1138529896
+Rank 58 Processing merger: 1237871505_1255040426
+Rank 26 Processing merger: 1516331639_1262674410
+Rank 12 Processing merger: 1183906027_1176149240
+Rank 28 Processing merger: 1367964973_1330936324
+Rank 59 Processing merger: 1175368616_1167342683
+Rank 63 Processing merger: 1664051147_1592082264
+Rank 29 Processing merger: 1641998517_1358244872
+Rank 9 Processing merger: 1244669041_1234875005
+Rank 33 Processing merger: 1192253102_1202922456
+Rank 51 Processing merger: 1263069927_1240432828
+Rank 55 Processing merger: 1458141866_1386616171
+Rank 30 Processing merger: 1404264510_1392996724
+Rank 22 Processing merger: 1569981945_1526004655
+Rank 61 Processing merger: 1170845741_1179703430
+Error processing merger: 1244669041_1234875005
+index 0 is out of bounds for axis 0 with size 0
+Rank 9 Processing merger: 1208207784_1189886142
+Rank 8 Processing merger: 1485292040_1461829183
+Rank 11 Processing merger: 1677008911_1604047084
+Rank 52 Processing merger: 1153414157_1140825187
+Rank 54 Processing merger: 1421885754_1438349851
+Rank 50 Processing merger: 1753925552_1740905256
+Rank 25 Processing merger: 1348472061_1309584686
+Rank 14 Processing merger: 1680336891_1374773562
+Rank 43 Processing merger: 1478760695_1478524058
+Error processing merger: 1428375998_1428939179
+np.int64(93)
+Rank 35 Processing merger: 1306660185_1304707468
+Rank 36 Processing merger: 1168834124_1167431540
+Error processing merger: 1163622885_1154996950
+np.int64(57)
+Rank 5 Processing merger: 1340976163_1317579621
+Error processing merger: 1193566165_1186196620
+np.int64(62)
+Rank 46 Processing merger: 1508632893_1448858160
+Rank 42 Processing merger: 1299906163_1299125948
+Rank 32 Processing merger: 1249726768_1239264587
+Rank 18 Processing merger: 1525071117_1423327428
+Error processing merger: 1170845741_1179703430
+min() iterable argument is empty
+Rank 61 Processing merger: 1255914173_1263405507
+Rank 34 Processing merger: 1448498059_1429381982
+Rank 50 Processing merger: 1441337606_1328766400
+Error processing merger: 1153414157_1140825187
+index 0 is out of bounds for axis 0 with size 0
+Rank 52 Processing merger: 1364804048_1376647860
+Error processing merger: 1550752811_1607756373
+np.int64(114)
+Rank 38 Processing merger: 1607380123_1560728172
+Rank 39 Processing merger: 1734991691_1603066227
+Rank 60 Processing merger: 1238044591_1240282201
+Rank 45 Processing merger: 1306576158_1252029098
+Rank 27 Processing merger: 1464472828_1569453857
+Error processing merger: 1479114915_1479314181
+np.int64(100)
+Rank 41 Processing merger: 1494646585_1494907155
+Rank 10 Processing merger: 1608804348_1626457122
+Rank 13 Processing merger: 1183610428_1184867346
+Rank 56 Processing merger: 1197744584_1174428217
+Rank 19 Processing merger: 1240182685_1241598807
+Rank 31 Processing merger: 1254230012_1225972109
+Rank 3 Processing merger: 1403802957_1431764604
+Rank 37 Processing merger: 1214421530_1211005794
+Rank 6 Processing merger: 1366264560_1324409214
+Rank 4 Processing merger: 1391919382_1355110710
+Rank 53 Processing merger: 1246827062_1221859814
+Rank 48 Processing merger: 1460606098_1522235342
+Rank 47 Processing merger: 1183462412_1173073784
+Rank 49 Processing merger: 1228435435_1223485359
+Rank 44 Processing merger: 1299489692_1269302305
+Rank 21 Processing merger: 1429544218_1408046111
+Rank 15 Processing merger: 1376647655_1418885502
+Rank 24 Processing merger: 1330876752_1337682146
+Rank 57 Processing merger: 1575619951_1565424805
+Rank 0 Processing merger: 1404891543_1405892387
+Rank 62 Processing merger: 1622674709_1586601687
+Rank 40 Processing merger: 1592139729_1590504554
+Rank 20 Processing merger: 1329648878_1359479852
+Rank 26 Processing merger: 1429911179_1376605578
+Rank 2 Processing merger: 1286801044_1293466938
+Rank 30 Processing merger: 1254381969_1250179285
+Error processing merger: 1306660185_1304707468
+np.int64(77)
+Rank 35 Processing merger: 1168841747_1166026561
+Error processing merger: 1286801044_1293466938
+min() iterable argument is empty
+Rank 2 Processing merger: 1469474601_1411475457
+Rank 58 Processing merger: 1663103509_1668164293
+Rank 12 Processing merger: 1157885607_1155407565
+Rank 54 Processing merger: 1533684094_1384388457
+Error processing merger: 1348472061_1309584686
+np.int64(84)
+Rank 25 Processing merger: 1330008209_1305146299
+Rank 16 Processing merger: 1359002170_1333501156
+Rank 57 Processing merger: 1443812222_1400495046
+Rank 23 Processing merger: 1342889253_1337611853
+Rank 30 Processing merger: 1423351908_1421803110
+Rank 17 Processing merger: 1458923108_1448528173
+Rank 7 Processing merger: 1279430349_1270609695
+Rank 63 Processing merger: 1329573689_1323408357
+Rank 22 Processing merger: 1183277570_1184751703
+Rank 1 Processing merger: 1540810808_1441393393
+Error processing merger: 1168841747_1166026561
+index 0 is out of bounds for axis 0 with size 0
+Rank 35 Processing merger: 1510206013_1540384537
+Rank 51 Processing merger: 1220565121_1215705152
+Rank 29 Processing merger: 1275325900_1261190676
+Rank 28 Processing merger: 1445461157_1502244837
+Rank 43 Processing merger: 1179146628_1221003390
+Rank 59 Processing merger: 1619188116_1638337170
+Rank 61 Processing merger: 1355073524_1305504808
+Rank 8 Processing merger: 1234875005_1222591352
+Rank 9 Processing merger: 1633349012_1536488374
+Rank 11 Processing merger: 1562154379_1491577556
+Rank 50 Processing merger: 1606652768_1590154535
+Rank 36 Processing merger: 1551319043_1508673408
+Rank 55 Processing merger: 1216061333_1194069887
+Rank 18 Processing merger: 1331271122_1290910797
+Error processing merger: 1306576158_1252029098
+np.int64(77)
+Rank 45 Processing merger: 1277191163_1278712280
+Rank 5 Processing merger: 1375507313_1218580753
+Rank 14 Processing merger: 1241210537_1215779753
+Error processing merger: 1183462412_1173073784
+np.int64(61)
+Rank 47 Processing merger: 1232604454_1182023907
+Rank 32 Processing merger: 1171924100_1170611795
+Rank 42 Processing merger: 1330631195_1319335685
+Error processing merger: 1241210537_1215779753
+index 0 is out of bounds for axis 0 with size 0
+Rank 14 Processing merger: 1581005569_1580172473
+Rank 14 Processing merger: 1419253383_1400572924
+Error processing merger: 1606652768_1590154535
+np.int64(114)
+Rank 50 Processing merger: 1144472221_1141555659
+Rank 50 Processing merger: 1249003877_1230518465
+Error processing merger: 1249003877_1230518465
+np.int64(70)
+Rank 50 Processing merger: 1510736646_1370190149
+Rank 38 Processing merger: 1176036544_1175748106
+Rank 34 Processing merger: 1491636177_1452396067
+Rank 46 Processing merger: 1556843777_1572669660
+Rank 39 Processing merger: 1279258766_1269788566
+Rank 33 Processing merger: 1474471273_1427100364
+Rank 41 Processing merger: 1171851829_1168680732
+Rank 60 Processing merger: 1572081330_1550699202
+Rank 52 Processing merger: 1308753230_1330533320
+Rank 10 Processing merger: 1558583750_1474881176
+Rank 13 Processing merger: 1289788578_1278314235
+Rank 27 Processing merger: 1298727394_1241592683
+Rank 31 Processing merger: 1320156527_1296992503
+Rank 56 Processing merger: 1174987569_1186922737
+Rank 19 Processing merger: 1606641027_1644163136
+Rank 53 Processing merger: 1324040139_1331533116
+Rank 48 Processing merger: 1255048209_1239890545
+Rank 3 Processing merger: 1414693265_1503595783
+Rank 37 Processing merger: 1425407039_1385364571
+Rank 4 Processing merger: 1136560149_1136939988
+Rank 15 Processing merger: 1276063370_1269343921
+Rank 62 Processing merger: 1320966624_1331074042
+Rank 44 Processing merger: 1183345183_1171894641
+Rank 6 Processing merger: 1591606207_1572760628
+Rank 21 Processing merger: 1549365446_1639145979
+Rank 49 Processing merger: 1310427828_1286799157
+Rank 24 Processing merger: 1382842417_1405410073
+Rank 20 Processing merger: 1202922456_1223393015
+Rank 2 Processing merger: 1296066602_1296963829
+Rank 17 Processing merger: 1244387341_1252655130
+Rank 54 Processing merger: 1591606207_1423238849
+Rank 57 Processing merger: 1740005706_1573504351
+Rank 26 Processing merger: 1280939551_1290678882
+Rank 0 Processing merger: 1234138931_1229025380
+Rank 16 Processing merger: 1286053363_1300033900
+Rank 35 Processing merger: 1196739889_1198744582
+Rank 58 Processing merger: 1336035104_1343358302
+Rank 23 Processing merger: 1541464965_1600495037
+Rank 40 Processing merger: 1177011742_1181158535
+Rank 7 Processing merger: 1175168031_1180032040
+Rank 12 Processing merger: 1155236285_1151808790
+Rank 25 Processing merger: 1270550680_1250805811
+Rank 28 Processing merger: 1366702868_1428341411
+Rank 41 Processing merger: 1321158054_1308158905
+Rank 30 Processing merger: 1315248770_1297513948
+Rank 63 Processing merger: 1264056938_1263131704
+Rank 22 Processing merger: 1424184017_1422668160
+Rank 59 Processing merger: 1379083704_1393212709
+Rank 1 Processing merger: 1341267980_1381769992
+Rank 61 Processing merger: 1418696691_1327795570
+Rank 8 Processing merger: 1539994955_1557409044
+Rank 51 Processing merger: 1315051999_1329714110
+Rank 47 Processing merger: 1272239006_1269610106
+Rank 36 Processing merger: 1368400151_1339735272
+Rank 43 Processing merger: 1505760865_1443014685
+Rank 9 Processing merger: 1248203269_1223288700
+Rank 29 Processing merger: 1558155508_1521523293
+Rank 55 Processing merger: 1214322593_1270793698
+Error processing merger: 1183345183_1171894641
+index 0 is out of bounds for axis 0 with size 0
+Rank 44 Processing merger: 1476721597_1430018041
+Rank 18 Processing merger: 1448679570_1307192150
+Rank 32 Processing merger: 1183566684_1187551920
+Rank 11 Processing merger: 1140152444_1142107649
+Rank 14 Processing merger: 1733534733_1505516883
+Rank 42 Processing merger: 1452326174_1234713445
+Rank 45 Processing merger: 1644077506_1539757068
+Rank 50 Processing merger: 1357458385_1327071538
+Error processing merger: 1341267980_1381769992
+min() iterable argument is empty
+Rank 1 Processing merger: 1140242475_1139395333
+Rank 46 Processing merger: 1622815482_1450248547
+Rank 10 Processing merger: 1399396676_1455166544
+Rank 23 Processing merger: 1503743153_1510649108
+Rank 56 Processing merger: 1521388617_1502415303
+Error processing merger: 1366702868_1428341411
+np.int64(93)
+Rank 28 Processing merger: 1362059777_1364928909
+Error processing merger: 1558155508_1521523293
+np.int64(108)
+Rank 29 Processing merger: 1615589413_1499165610
+Error processing merger: 1289788578_1278314235
+index 0 is out of bounds for axis 0 with size 0
+Rank 13 Processing merger: 1177945333_1178546908
+Error processing merger: 1244387341_1252655130
+np.int64(71)
+Rank 17 Processing merger: 1231157883_1185121297
+Error processing merger: 1321158054_1308158905
+np.int64(78)
+Rank 41 Processing merger: 1281331012_1239902285
+Rank 34 Processing merger: 1478951085_1493883629
+Error processing merger: 1320966624_1331074042
+np.int64(80)
+Rank 62 Processing merger: 1589252087_1618540448
+Error processing merger: 1315051999_1329714110
+np.int64(81)
+Rank 51 Processing merger: 1330814128_1350509874
+Rank 4 Processing merger: 1316109994_1342938868
+Rank 27 Processing merger: 1575507867_1500392787
+Rank 60 Processing merger: 1262581506_1260931389
+Error processing merger: 1362059777_1364928909
+np.int64(84)
+Rank 28 Processing merger: 1241231604_1229961896
+Rank 15 Processing merger: 1214101906_1203959377
+Rank 22 Processing merger: 1378899807_1341427105
+Rank 38 Processing merger: 1473868266_1430991370
+Rank 52 Processing merger: 1443233234_1463480165
+Rank 3 Processing merger: 1240275963_1247310619
+Rank 42 Processing merger: 1256174451_1390599714
+Rank 30 Processing merger: 1535380239_1496506612
+Rank 49 Processing merger: 1318490547_1313216141
+Rank 53 Processing merger: 1161789686_1159483664
+Rank 21 Processing merger: 1475674827_1458214417
+Rank 37 Processing merger: 1272048538_1260099090
+Rank 44 Processing merger: 1638866211_1642570155
+Rank 50 Processing merger: 1379908426_1302284775
+Rank 6 Processing merger: 1434613721_1314902901
+Rank 19 Processing merger: 1363014600_1335868386
+Rank 45 Processing merger: 1377942603_1340472792
+Rank 55 Processing merger: 1253872581_1255211934
+Error processing merger: 1241231604_1229961896
+index 0 is out of bounds for axis 0 with size 0
+Rank 28 Processing merger: 1256056866_1252393131
+Rank 14 Processing merger: 1281216326_1258747156
+Rank 53 Processing merger: 1642821245_1505507124
+Rank 32 Processing merger: 1710368265_1704514296
+Rank 43 Processing merger: 1315402360_1310275019
+Rank 40 Processing merger: 1176339667_1172321226
+Rank 7 Processing merger: 1523749224_1399150816
+Rank 47 Processing merger: 1181202997_1184176376
+Rank 26 Processing merger: 1524778389_1444355685
+Rank 61 Processing merger: 1233172069_1225605107
+Rank 39 Processing merger: 1168841747_1160697555
+Rank 33 Processing merger: 1636249825_1608107065
+Rank 8 Processing merger: 1241065658_1209701666
+Rank 25 Processing merger: 1497991956_1463948673
+Error processing merger: 1240275963_1247310619
+min() iterable argument is empty
+Rank 3 Processing merger: 1160987585_1155521554
+Rank 57 Processing merger: 1348544880_1306687726
+Error processing merger: 1363014600_1335868386
+np.int64(84)
+Rank 19 Processing merger: 1684400204_1695725680
+Rank 18 Processing merger: 1330028531_1256884455
+Rank 12 Processing merger: 1446601203_1378184862
+Rank 36 Processing merger: 1294895810_1263911299
+Rank 2 Processing merger: 1286055264_1386396471
+Rank 16 Processing merger: 1494721981_1487203591
+Rank 19 Processing merger: 1303570092_1305445076
+Rank 11 Processing merger: 1420477514_1364450542
+Error processing merger: 1214101906_1203959377
+np.int64(65)
+Rank 15 Processing merger: 1553954156_1456948707
+Rank 59 Processing merger: 1213767843_1236527179
+Rank 54 Processing merger: 1689362082_1483031339
+Rank 0 Processing merger: 1273175289_1271978790
+Rank 23 Processing merger: 1165094279_1144964475
+Rank 35 Processing merger: 1149995609_1145141032
+Rank 56 Processing merger: 1364351429_1334944476
+Rank 9 Processing merger: 1159695302_1156701170
+Rank 63 Processing merger: 1203456753_1202846463
+Error processing merger: 1241065658_1209701666
+index 0 is out of bounds for axis 0 with size 0
+Rank 8 Processing merger: 1377601462_1498446940
+Rank 10 Processing merger: 1632119327_1650264702
+Rank 58 Processing merger: 1483075492_1319272280
+Rank 17 Processing merger: 1203593535_1195960203
+Error processing merger: 1330028531_1256884455
+index 0 is out of bounds for axis 0 with size 0
+Rank 18 Processing merger: 1524052032_1407852842
+Error processing merger: 1535380239_1496506612
+np.int64(106)
+Rank 30 Processing merger: 1501663093_1317758625
+Rank 1 Processing merger: 1397999070_1317487294
+Error processing merger: 1168841747_1160697555
+index 0 is out of bounds for axis 0 with size 0
+Rank 39 Processing merger: 1549160639_1293470177
+Rank 31 Processing merger: 1749421738_1714018122
+Rank 48 Processing merger: 1685045886_1703026966
+Rank 29 Processing merger: 1228122412_1206881943
+Rank 13 Processing merger: 1309520478_1293495888
+Rank 41 Processing merger: 1201027860_1185453072
+Rank 60 Processing merger: 1470841204_1418011443
+Rank 27 Processing merger: 1389479655_1380095352
+Rank 24 Processing merger: 1207424831_1205873016
+Rank 50 Processing merger: 1431251377_1434278151
+Rank 42 Processing merger: 1245026216_1248711893
+Error processing merger: 1434613721_1314902901
+np.int64(93)
+Rank 6 Processing merger: 1549593549_1432473495
+Error processing merger: 1149995609_1145141032
+min() iterable argument is empty
+Rank 35 Processing merger: 1342337311_1338696717
+Rank 24 Processing merger: 1348759870_1298778205
+Rank 43 Processing merger: 1175717351_1191286619
+Rank 40 Processing merger: 1296859539_1293617751
+Rank 37 Processing merger: 1375447819_1354626397
+Error processing merger: 1201027860_1185453072
+index 0 is out of bounds for axis 0 with size 0
+Rank 41 Processing merger: 1366319247_1367408648
+Error processing merger: 1203456753_1202846463
+index 0 is out of bounds for axis 0 with size 0
+Rank 63 Processing merger: 1523955738_1448326099
+Error processing merger: 1203593535_1195960203
+index 0 is out of bounds for axis 0 with size 0
+Rank 17 Processing merger: 1593662437_1615748765
+Rank 44 Processing merger: 1226412493_1216027907
+Rank 49 Processing merger: 1570016217_1590744310
+Rank 55 Processing merger: 1193566819_1190642577
+Rank 53 Processing merger: 1207416078_1200211164
+Rank 46 Processing merger: 1536758240_1290163411
+Rank 38 Processing merger: 1626447591_1530591992
+Rank 47 Processing merger: 1271460796_1280752873
+Rank 51 Processing merger: 1575535081_1517530010
+Rank 21 Processing merger: 1413576222_1409318968
+Rank 61 Processing merger: 1662039416_1620780397
+Error processing merger: 1165094279_1144964475
+np.int64(57)
+Rank 2 Processing merger: 1502508572_1479857666
+Rank 23 Processing merger: 1575507867_1427045684
+Rank 53 Processing merger: 1587918758_1460655411
+Rank 57 Processing merger: 1556767307_1494233762
+Rank 26 Processing merger: 1309411826_1308372477
+Rank 3 Processing merger: 1230101589_1232816634
+Rank 32 Processing merger: 1732401730_1536257264
+Rank 28 Processing merger: 1290651992_1281216326
+Rank 59 Processing merger: 1357049603_1265321313
+Rank 5 Processing merger: 1494646585_1401461630
+Rank 36 Processing merger: 1448679570_1447338592
+Rank 33 Processing merger: 1351641461_1346613740
+Rank 10 Processing merger: 1680336891_1520780767
+Rank 0 Processing merger: 1601724886_1510573899
+Rank 12 Processing merger: 1231580965_1217022237
+Rank 62 Processing merger: 1359094197_1348759870
+Rank 18 Processing merger: 1205645211_1204174174
+Rank 9 Processing merger: 1522664046_1308755342
+Rank 16 Processing merger: 1334968549_1255885998
+Rank 11 Processing merger: 1478146463_1500969921
+Rank 48 Processing merger: 1214320303_1211001495
+Rank 39 Processing merger: 1443126641_1422765026
+Rank 54 Processing merger: 1188680762_1171786736
+Rank 7 Processing merger: 1589471741_1450751072
+Rank 48 Processing merger: 1210259312_1220824937
+Rank 14 Processing merger: 1681403969_1705286882
+Rank 25 Processing merger: 1198790486_1200423109
+Rank 13 Processing merger: 1663580325_1648465096
+Rank 29 Processing merger: 1341993091_1331671908
+Rank 22 Processing merger: 1289867590_1288408813
+Rank 56 Processing merger: 1227294929_1231744512
+Rank 45 Processing merger: 1254411072_1227532157
+Rank 52 Processing merger: 1626457122_1590055665
+Rank 30 Processing merger: 1374202629_1369876723
+Rank 60 Processing merger: 1216496069_1207106205
+Rank 31 Processing merger: 1693652273_1647618757
+Rank 15 Processing merger: 1434541971_1290631666
+Rank 41 Processing merger: 1155792264_1164652312
+Rank 27 Processing merger: 1636431226_1509784253
+Rank 50 Processing merger: 1308825366_1342330166
+Rank 34 Processing merger: 1348772907_1330611595
+Rank 30 Processing merger: 1180168436_1179040771
+Rank 42 Processing merger: 1738664305_1327200171
+Rank 6 Processing merger: 1564635927_1408338227
+Error processing merger: 1205645211_1204174174
+np.int64(65)
+Rank 18 Processing merger: 1323507297_1321158054
+Rank 35 Processing merger: 1626447591_1532592223
+Rank 8 Processing merger: 1408865038_1354011558
+Rank 63 Processing merger: 1215457561_1209168489
+Rank 24 Processing merger: 1353521838_1212972175
+Rank 43 Processing merger: 1558583750_1651161443
+Rank 37 Processing merger: 1592736325_1511131181
+Rank 1 Processing merger: 1309479658_1307199993
+Rank 49 Processing merger: 1447214776_1447743994
+Rank 58 Processing merger: 1259060898_1270681077
+Rank 21 Processing merger: 1168440470_1158204294
+Error processing merger: 1323507297_1321158054
+index 0 is out of bounds for axis 0 with size 0
+Rank 18 Processing merger: 1557374113_1504026594
+Rank 40 Processing merger: 1358905725_1252478484
+Rank 23 Processing merger: 1240723282_1213472045
+Rank 44 Processing merger: 1267443860_1209223310
+Rank 4 Processing merger: 1260796128_1257247790
+Rank 38 Processing merger: 1416458319_1386956660
+Rank 55 Processing merger: 1182250233_1172653912
+Error processing merger: 1341993091_1331671908
+np.int64(81)
+Rank 29 Processing merger: 1734991691_1573865481
+Rank 51 Processing merger: 1462917879_1449183472
+Error processing merger: 1303570092_1305445076
+np.int64(77)
+Rank 19 Processing merger: 1601973827_1610831974
+Rank 47 Processing merger: 1450101901_1443146036
+Rank 17 Processing merger: 1165479550_1153277579
+Rank 61 Processing merger: 1320325818_1342947606
+Rank 4 Processing merger: 1255755886_1244865097
+Rank 3 Processing merger: 1515656696_1231502316
+Error processing merger: 1240723282_1213472045
+min() iterable argument is empty
+Rank 23 Processing merger: 1542317490_1499176419
+Rank 57 Processing merger: 1289867590_1289974384
+Rank 36 Processing merger: 1367836721_1281180578
+Rank 53 Processing merger: 1316505751_1300171235
+Rank 28 Processing merger: 1214956028_1212529842
+Error processing merger: 1450101901_1443146036
+min() iterable argument is empty
+Rank 47 Processing merger: 1388328962_1263499236
+Rank 26 Processing merger: 1445045119_1427639480
+Rank 2 Processing merger: 1394637541_1376048771
+Rank 10 Processing merger: 1500926939_1472551089
+Rank 16 Processing merger: 1244408973_1262584926
+Rank 5 Processing merger: 1447106100_1420008361
+Rank 59 Processing merger: 1204453250_1198665185
+Error processing merger: 1289867590_1289974384
+min() iterable argument is empty
+Rank 57 Processing merger: 1330701774_1326585330
+Rank 12 Processing merger: 1314380599_1357049603
+Rank 33 Processing merger: 1606792053_1617745382
+Rank 4 Processing merger: 1333205601_1313741317
+Rank 32 Processing merger: 1548130706_1535233473
+Rank 0 Processing merger: 1376643462_1371438886
+Rank 48 Processing merger: 1243324340_1240995278
+Rank 7 Processing merger: 1662825112_1652663053
+Rank 9 Processing merger: 1418885502_1363418550
+Rank 11 Processing merger: 1525527660_1511047710
+Rank 13 Processing merger: 1533778040_1458041103
+Rank 62 Processing merger: 1311672947_1324361764
+Error processing merger: 1462917879_1449183472
+np.int64(96)
+Rank 39 Processing merger: 1228415950_1225538920
+Rank 51 Processing merger: 1645042663_1515211628
+Error processing merger: 1267443860_1209223310
+np.int64(72)
+Rank 44 Processing merger: 1270780417_1251956410
+Rank 7 Processing merger: 1672194692_1358884197
+Rank 54 Processing merger: 1603779814_1598796315
+Rank 52 Processing merger: 1483687869_1486613503
+Rank 14 Processing merger: 1320177143_1377171247
+Rank 25 Processing merger: 1383157293_1387502623
+Error processing merger: 1606792053_1617745382
+index 0 is out of bounds for axis 0 with size 0
+Rank 33 Processing merger: 1608639448_1589272144
+Rank 45 Processing merger: 1503767821_1361816073
+Error processing merger: 1243324340_1240995278
+min() iterable argument is empty
+Rank 48 Processing merger: 1204243025_1209632854
+Rank 56 Processing merger: 1235377615_1241014433
+Rank 50 Processing merger: 1680336891_1490683522
+Rank 35 Processing merger: 1381735046_1417072108
+Rank 60 Processing merger: 1331122216_1316780435
+Error processing merger: 1235377615_1241014433
+index 0 is out of bounds for axis 0 with size 0
+Rank 56 Processing merger: 1490617521_1369896454
+Rank 22 Processing merger: 1388471235_1374940213
+Rank 34 Processing merger: 1421739014_1327047293
+Rank 30 Processing merger: 1341457602_1327861053
+Error processing merger: 1418885502_1363418550
+index 0 is out of bounds for axis 0 with size 0
+Rank 9 Processing merger: 1525369186_1523387167
+Rank 41 Processing merger: 1658371053_1572931512
+Rank 42 Processing merger: 1417527561_1403223162
+Rank 6 Processing merger: 1213551452_1518155469
+Rank 48 Processing merger: 1189878804_1539615742
+Rank 37 Processing merger: 1265301005_1309396905
+Rank 24 Processing merger: 1390063932_1371891867
+Rank 18 Processing merger: 1343365834_1280981632
+Rank 63 Processing merger: 1268730533_1254651391
+Rank 49 Processing merger: 1179669038_1168549456
+Rank 43 Processing merger: 1651324657_1419689806
+Rank 58 Processing merger: 1558583750_1481180505
+Rank 40 Processing merger: 1299972030_1289548488
+Rank 1 Processing merger: 1699490749_1697196365
+Rank 28 Processing merger: 1366908530_1341709947
+Rank 29 Processing merger: 1293749579_1237660622
+Rank 53 Processing merger: 1702286774_1678604786
+Rank 61 Processing merger: 1231530196_1244979795
+Rank 38 Processing merger: 1550208786_1451808459
+Rank 55 Processing merger: 1164835236_1179304678
+Error processing merger: 1179669038_1168549456
+index 0 is out of bounds for axis 0 with size 0
+Rank 49 Processing merger: 1322688454_1297175916
+Rank 21 Processing merger: 1263129469_1252000082
+Rank 19 Processing merger: 1198443802_1197921793
+Rank 23 Processing merger: 1246234394_1273324453
+Rank 26 Processing merger: 1202495671_1194316862
+Rank 12 Processing merger: 1427596229_1434091899
+Error processing merger: 1299972030_1289548488
+index 0 is out of bounds for axis 0 with size 0
+Rank 40 Processing merger: 1164818816_1164446489
+Rank 32 Processing merger: 1345040094_1340926222
+Rank 0 Processing merger: 1166352426_1172865750
+Rank 10 Processing merger: 1401588720_1370810544
+Rank 36 Processing merger: 1525294991_1488819545
+Rank 16 Processing merger: 1329695574_1317929576
+Rank 3 Processing merger: 1309734913_1295082062
+Rank 4 Processing merger: 1354695409_1380003059
+Rank 47 Processing merger: 1549603477_1433198967
+Rank 52 Processing merger: 1609561387_1599782766
+Rank 5 Processing merger: 1727115128_1720112921
+Rank 12 Processing merger: 1589808075_1465902081
+Rank 57 Processing merger: 1313192733_1352098322
+Rank 7 Processing merger: 1553359404_1438335687
+Rank 59 Processing merger: 1186086385_1178448572
+Rank 62 Processing merger: 1209545811_1204169477
+Rank 33 Processing merger: 1239604103_1215259908
+Error processing merger: 1322688454_1297175916
+index 0 is out of bounds for axis 0 with size 0
+Rank 49 Processing merger: 1156046442_1149589736
+Rank 51 Processing merger: 1378850100_1351875773
+Rank 54 Processing merger: 1390625802_1403971568
+Rank 46 Processing merger: 1609213662_1625657642
+Rank 52 Processing merger: 1186161856_1194756768
+Rank 45 Processing merger: 1158219101_1160092979
+Rank 56 Processing merger: 1214832935_1193970137
+Rank 39 Processing merger: 1196342757_1174486944
+Rank 62 Processing merger: 1346662339_1348808324
+Rank 2 Processing merger: 1627141377_1541516240
+Rank 6 Processing merger: 1216266205_1208526472
+Rank 11 Processing merger: 1510206013_1495873757
+Rank 30 Processing merger: 1214731156_1180965416
+Rank 25 Processing merger: 1184302960_1179988075
+Rank 37 Processing merger: 1180462246_1171702779
+Rank 34 Processing merger: 1296713335_1211043646
+Rank 24 Processing merger: 1569592141_1588022624
+Error processing merger: 1196342757_1174486944
+index 0 is out of bounds for axis 0 with size 0
+Rank 39 Processing merger: 1196684187_1203572491
+Rank 22 Processing merger: 1229335051_1216184956
+Rank 9 Processing merger: 1273289299_1292462660
+Rank 35 Processing merger: 1475674827_1445382544
+Rank 45 Processing merger: 1416500973_1434084688
+Rank 42 Processing merger: 1525242387_1105350701
+Rank 8 Processing merger: 1182134318_1174932392
+Rank 13 Processing merger: 1255370010_1246440154
+Rank 50 Processing merger: 1405071222_1313710782
+Rank 41 Processing merger: 1507709624_1543386768
+Rank 1 Processing merger: 1300171235_1291648245
+Rank 48 Processing merger: 1193596935_1193767835
+Rank 29 Processing merger: 1166283026_1163495781
+Rank 43 Processing merger: 1255861958_1294622363
+Rank 63 Processing merger: 1207563523_1204814260
+Rank 18 Processing merger: 1704283008_1530920540
+Rank 58 Processing merger: 1233143859_1220362670
+Rank 40 Processing merger: 1299418019_1280495896
+Rank 28 Processing merger: 1355208808_1350920212
+Rank 60 Processing merger: 1644879509_1616210911
+Rank 26 Processing merger: 1536514635_1549297065
+Rank 13 Processing merger: 1234598493_1233865922
+Rank 19 Processing merger: 1547320524_1453026999
+Rank 55 Processing merger: 1378819390_1345708964
+Rank 61 Processing merger: 1214213149_1205838899
+Rank 36 Processing merger: 1583755728_1558658993
+Rank 0 Processing merger: 1249520349_1246835660
+Rank 23 Processing merger: 1693793839_1548767506
+Rank 5 Processing merger: 1161415544_1157047213
+Rank 12 Processing merger: 1368696016_1393778018
+Rank 33 Processing merger: 1463948673_1399038386
+Rank 5 Processing merger: 1492800062_1384351125
+Rank 49 Processing merger: 1300306051_1281262560
+Rank 47 Processing merger: 1388899831_1449615420
+Rank 16 Processing merger: 1150864610_1150840036
+Rank 53 Processing merger: 1215316720_1214711356
+Rank 4 Processing merger: 1163806169_1163536208
+Error processing merger: 1234598493_1233865922
+index 0 is out of bounds for axis 0 with size 0
+Rank 13 Processing merger: 1301789208_1300333186
+Rank 7 Processing merger: 1146134473_1141900154
+Rank 51 Processing merger: 1458436455_1418104605
+Rank 10 Processing merger: 1335137342_1314938156
+Rank 56 Processing merger: 1440899079_1402336299
+Rank 59 Processing merger: 1280864652_1274482823
+Rank 38 Processing merger: 1635661998_1627711520
+Rank 21 Processing merger: 1254177998_1255504079
+Rank 46 Processing merger: 1362767556_1370314257
+Rank 2 Processing merger: 1726004028_1474430587
+Rank 52 Processing merger: 1645837634_1636003762
+Rank 3 Processing merger: 1319464291_1239234745
+Rank 30 Processing merger: 1361376391_1224830545
+Rank 54 Processing merger: 1247558084_1236935790
+Rank 57 Processing merger: 1198692872_1209794528
+Rank 11 Processing merger: 1304630611_1310469301
+Rank 37 Processing merger: 1568807251_1607112274
+Rank 62 Processing merger: 1305178028_1273266380
+Rank 35 Processing merger: 1645042663_1555337349
+Rank 25 Processing merger: 1249520349_1258775939
+Rank 45 Processing merger: 1254381969_1231650860
+Rank 34 Processing merger: 1366168965_1301121865
+Error processing merger: 1305178028_1273266380
+index 0 is out of bounds for axis 0 with size 0
+Rank 62 Processing merger: 1392715936_1385900588
+Rank 6 Processing merger: 1462216539_1373117186
+Error processing merger: 1355208808_1350920212
+np.int64(82)
+Rank 28 Processing merger: 1233172069_1240723282
+Rank 22 Processing merger: 1572911299_1459150706
+Error processing merger: 1214213149_1205838899
+np.int64(65)
+Rank 61 Processing merger: 1420487721_1361370261
+Rank 8 Processing merger: 1388471235_1365424531
+Error processing merger: 1249520349_1246835660
+np.int64(70)
+Rank 0 Processing merger: 1464705149_1287676058
+Error processing merger: 1299418019_1280495896
+np.int64(76)
+Rank 40 Processing merger: 1694696704_1697899193
+Rank 1 Processing merger: 1353727706_1319039009
+Error processing merger: 1247558084_1236935790
+index 0 is out of bounds for axis 0 with size 0
+Rank 54 Processing merger: 1612126586_1566842818
+Rank 42 Processing merger: 1753070769_1717690353
+Rank 41 Processing merger: 1549603477_1551537479
+Rank 9 Processing merger: 1408380226_1407690121
+Rank 37 Processing merger: 1372042413_1354987487
+Rank 24 Processing merger: 1479399727_1464068288
+Error processing merger: 1372042413_1354987487
+index 0 is out of bounds for axis 0 with size 0
+Rank 37 Processing merger: 1315037342_1286356853
+Rank 39 Processing merger: 1590051612_1541728205
+Rank 58 Processing merger: 1548839785_1283442315
+Rank 18 Processing merger: 1207060304_1195583499
+Rank 43 Processing merger: 1358555961_1353739641
+Rank 26 Processing merger: 1367414507_1379146493
+Rank 50 Processing merger: 1493774011_1454231373
+Rank 48 Processing merger: 1505491603_1514365232
+Rank 29 Processing merger: 1154404451_1149363632
+Rank 27 Processing merger: 1380003059_1377445140
+Rank 63 Processing merger: 1389376331_1331076794
+Rank 42 Processing merger: 1541487466_1525868636
+Rank 36 Processing merger: 1346045112_1298310957
+Rank 60 Processing merger: 1431764604_1420274902
+Rank 55 Processing merger: 1167790288_1167026680
+Rank 23 Processing merger: 1457461639_1414195533
+Rank 12 Processing merger: 1232103478_1237926103
+Rank 5 Processing merger: 1493883629_1437469660
+Rank 19 Processing merger: 1404826474_1376434970
+Rank 47 Processing merger: 1252764819_1254374911
+Rank 49 Processing merger: 1256607452_1223375500
+Error processing merger: 1304630611_1310469301
+np.int64(78)
+Rank 11 Processing merger: 1480465372_1424857597
+Rank 16 Processing merger: 1330368414_1286459272
+Error processing merger: 1167790288_1167026680
+index 0 is out of bounds for axis 0 with size 0
+Rank 55 Processing merger: 1538355022_1548095163
+Rank 4 Processing merger: 1289714130_1307994666
+Rank 51 Processing merger: 1402220204_1388548250
+Rank 13 Processing merger: 1600495037_1529912783
+Rank 10 Processing merger: 1494359550_1549858532
+Rank 38 Processing merger: 1473184968_1456609284
+Rank 59 Processing merger: 1255762559_1243340224
+Rank 56 Processing merger: 1557347869_1544782491
+Rank 7 Processing merger: 1459070673_1378470722
+Error processing merger: 1549603477_1551537479
+np.int64(109)
+Rank 41 Processing merger: 1266489609_1288716508
+Rank 53 Processing merger: 1241153425_1253519836
+Rank 30 Processing merger: 1406329535_1364901098
+Rank 52 Processing merger: 1372054178_1326611498
+Rank 25 Processing merger: 1308809235_1288933575
+Rank 21 Processing merger: 1610864078_1401723873
+Rank 59 Processing merger: 1143088385_1143117262
+Rank 62 Processing merger: 1313237886_1285338518
+Rank 45 Processing merger: 1366774156_1330597503
+Rank 61 Processing merger: 1213645935_1210025986
+Rank 14 Processing merger: 1178551062_1170280466
+Rank 34 Processing merger: 1221336235_1209276733
+Rank 0 Processing merger: 1506134516_1393488413
+Error processing merger: 1612126586_1566842818
+np.int64(121)
+Rank 54 Processing merger: 1608703134_1593338997
+Rank 40 Processing merger: 1504362966_1403990384
+Rank 28 Processing merger: 1221448280_1247825288
+Rank 6 Processing merger: 1314886625_1291906967
+Rank 57 Processing merger: 1711894269_1619855219
+Rank 35 Processing merger: 1187952619_1188713272
+Rank 2 Processing merger: 1333324544_1354754065
+Rank 9 Processing merger: 1455030273_1472387758
+Rank 31 Processing merger: 1145725818_1149570389
+Rank 3 Processing merger: 1608703134_1624552261
+Rank 8 Processing merger: 1530596563_1547429317
+Rank 31 Processing merger: 1281354653_1245355017
+Rank 22 Processing merger: 1298565867_1280541983
+Rank 26 Processing merger: 1540434665_1507955276
+Error processing merger: 1178551062_1170280466
+index 0 is out of bounds for axis 0 with size 0
+Rank 14 Processing merger: 1320104638_1263316442
+Error processing merger: 1473184968_1456609284
+np.int64(98)
+Rank 38 Processing merger: 1493471196_1492391335
+Rank 39 Processing merger: 1698096797_1642604046
+Rank 18 Processing merger: 1232697045_1208207784
+Rank 58 Processing merger: 1318343283_1308667479
+Error processing merger: 1698096797_1642604046
+min() iterable argument is empty
+Rank 39 Processing merger: 1257767185_1248597517
+Rank 50 Processing merger: 1428939179_1432207570
+Rank 29 Processing merger: 1621428369_1329904248
+Error processing merger: 1298565867_1280541983
+index 0 is out of bounds for axis 0 with size 0
+Rank 22 Processing merger: 1178012823_1176234220
+Rank 48 Processing merger: 1290233585_1286734831
+Error processing merger: 1315037342_1286356853
+index 0 is out of bounds for axis 0 with size 0
+Rank 37 Processing merger: 1262202532_1197417317
+Rank 43 Processing merger: 1378082945_1418787668
+Rank 24 Processing merger: 1353727706_1335129271
+Rank 23 Processing merger: 1337846480_1342249436
+Rank 19 Processing merger: 1706585048_1663489466
+Rank 27 Processing merger: 1270889721_1268627671
+Rank 63 Processing merger: 1752964525_1736404569
+Rank 11 Processing merger: 1348544880_1374937461
+Error processing merger: 1372054178_1326611498
+np.int64(85)
+Rank 52 Processing merger: 1482982413_1420789193
+Rank 47 Processing merger: 1148783235_1147917267
+Rank 15 Processing merger: 1143470983_1149593461
+Rank 36 Processing merger: 1648341043_1712617177
+Rank 42 Processing merger: 1557336070_1551588126
+Rank 1 Processing merger: 1227823171_1217527961
+Rank 5 Processing merger: 1214699827_1221485373
+Rank 4 Processing merger: 1161131363_1168196545
+Rank 44 Processing merger: 1385214953_1388823274
+Rank 55 Processing merger: 1255885936_1245153088
+Rank 16 Processing merger: 1558155508_1558155506
+Rank 49 Processing merger: 1201141008_1203549141
+Error processing merger: 1187952619_1188713272
+np.int64(61)
+Rank 35 Processing merger: 1714745483_1714253560
+Rank 60 Processing merger: 1574200333_1470027368
+Rank 56 Processing merger: 1299186110_1300332001
+Rank 10 Processing merger: 1271944523_1163931063
+Rank 51 Processing merger: 1535838350_1534366755
+Rank 62 Processing merger: 1215559519_1214797774
+Rank 47 Processing merger: 1687324708_1678343349
+Rank 25 Processing merger: 1233791683_1204038274
+Rank 30 Processing merger: 1175712923_1175470029
+Rank 59 Processing merger: 1438540069_1446693998
+Rank 45 Processing merger: 1645621898_1504710813
+Rank 40 Processing merger: 1268815029_1267463638
+Rank 41 Processing merger: 1193001795_1187115570
+Rank 54 Processing merger: 1219425638_1209732611
+Rank 28 Processing merger: 1672255666_1461674250
+Rank 8 Processing merger: 1658319737_1406959823
+Rank 61 Processing merger: 1658319737_1693793839
+Rank 21 Processing merger: 1161030699_1161961409
+Rank 57 Processing merger: 1205106854_1214171615
+Rank 3 Processing merger: 1625495867_1659075478
+Rank 26 Processing merger: 1644233272_1429873689
+Rank 6 Processing merger: 1280843900_1235983587
+Rank 0 Processing merger: 1603998686_1686400416
+Rank 31 Processing merger: 1233967939_1232949416
+Rank 2 Processing merger: 1310346876_1278213198
+Rank 46 Processing merger: 1561358386_1541612065
+Rank 14 Processing merger: 1692273271_1622030267
+Rank 7 Processing merger: 1272133019_1240936017
+Rank 48 Processing merger: 1215690467_1193927776
+Rank 9 Processing merger: 1617154599_1632720120
+Rank 18 Processing merger: 1165171763_1164962605
+Rank 63 Processing merger: 1378093300_1350808529
+Rank 29 Processing merger: 1306547168_1285693619
+Rank 52 Processing merger: 1392392569_1377540885
+Error processing merger: 1233791683_1204038274
+np.int64(68)
+Rank 25 Processing merger: 1341129033_1422503277
+Rank 12 Processing merger: 1382009837_1356894244
+Rank 23 Processing merger: 1147736455_1145957193
+Rank 37 Processing merger: 1418645361_1417531131
+Rank 17 Processing merger: 1349469786_1336456740
+Rank 44 Processing merger: 1611394119_1219111541
+Rank 50 Processing merger: 1298504741_1252632537
+Rank 58 Processing merger: 1486540012_1348873226
+Rank 16 Processing merger: 1193818614_1193796506
+Error processing merger: 1227823171_1217527961
+np.int64(67)
+Rank 1 Processing merger: 1364755166_1354514555
+Rank 56 Processing merger: 1158167829_1153381128
+Rank 43 Processing merger: 1404525147_1356008025
+Error processing merger: 1268815029_1267463638
+index 0 is out of bounds for axis 0 with size 0
+Rank 40 Processing merger: 1572721139_1537143304
+Error processing merger: 1215690467_1193927776
+np.int64(65)
+Rank 48 Processing merger: 1575606092_1371750803
+Rank 47 Processing merger: 1285375658_1246809550
+Error processing merger: 1272133019_1240936017
+np.int64(72)
+Rank 7 Processing merger: 1367231913_1401002772
+Rank 36 Processing merger: 1197586850_1197880054
+Rank 15 Processing merger: 1286921136_1305148103
+Rank 51 Processing merger: 1286871867_1211517804
+Rank 49 Processing merger: 1644009891_1502266636
+Rank 5 Processing merger: 1477318506_1400792720
+Rank 60 Processing merger: 1342774140_1371293452
+Rank 39 Processing merger: 1517077112_1522763581
+Rank 16 Processing merger: 1521593705_1554659713
+Rank 8 Processing merger: 1145180614_1143474791
+Rank 38 Processing merger: 1364643966_1323178281
+Error processing merger: 1364755166_1354514555
+np.int64(85)
+Rank 1 Processing merger: 1374429116_1446693998
+Rank 13 Processing merger: 1367529210_1329928307
+Rank 24 Processing merger: 1309396905_1299658930
+Rank 30 Processing merger: 1329714110_1323376641
+Rank 59 Processing merger: 1619118822_1589350040
+Error processing merger: 1382009837_1356894244
+np.int64(89)
+Rank 12 Processing merger: 1542204442_1537618445
+Rank 0 Processing merger: 1732701489_1422150025
+Rank 2 Processing merger: 1655712739_1581549249
+Rank 28 Processing merger: 1461690253_1382823859
+Rank 31 Processing merger: 1318570950_1400217484
+Rank 45 Processing merger: 1490617521_1364978259
+Rank 42 Processing merger: 1448679570_1418738116
+Rank 26 Processing merger: 1209423767_1213979641
+Rank 61 Processing merger: 1197633067_1193231049
+Rank 4 Processing merger: 1342781453_1354918623
+Rank 33 Processing merger: 1406152549_1340163674
+Rank 46 Processing merger: 1299561353_1274023964
+Rank 29 Processing merger: 1235887025_1220812923
+Rank 3 Processing merger: 1429544218_1364249725
+Rank 10 Processing merger: 1592283132_1553976274
+Rank 44 Processing merger: 1310216636_1308007636
+Rank 6 Processing merger: 1690831855_1590729354
+Rank 21 Processing merger: 1366444880_1307051437
+Rank 56 Processing merger: 1518425430_1524144513
+Rank 25 Processing merger: 1209360573_1208314492
+Rank 53 Processing merger: 1436172190_1433241781
+Rank 11 Processing merger: 1716074199_1652744960
+Rank 37 Processing merger: 1320392236_1236046904
+Rank 47 Processing merger: 1218168946_1253152515
+Rank 7 Processing merger: 1429359686_1433362748
+Error processing merger: 1366444880_1307051437
+index 0 is out of bounds for axis 0 with size 0
+Rank 21 Processing merger: 1138133932_1137134394
+Rank 25 Processing merger: 1336771922_1367478153
+Rank 16 Processing merger: 1500229006_1449153181
+Rank 5 Processing merger: 1157976290_1155220128
+Rank 50 Processing merger: 1645456650_1660579943
+Rank 55 Processing merger: 1200235832_1364986575
+Error processing merger: 1209423767_1213979641
+np.int64(65)
+Rank 26 Processing merger: 1419664881_1429544218
+Rank 8 Processing merger: 1434374152_1397845182
+Rank 13 Processing merger: 1227538094_1212805790
+Rank 15 Processing merger: 1409469270_1368451396
+Rank 36 Processing merger: 1308840011_1305992662
+Rank 1 Processing merger: 1254574318_1254574314
+Rank 49 Processing merger: 1187809628_1182944433
+Rank 19 Processing merger: 1542317490_1473030513
+Rank 60 Processing merger: 1555321497_1551460079
+Rank 12 Processing merger: 1191017517_1188352513
+Rank 59 Processing merger: 1663499371_1672738496
+Error processing merger: 1178012823_1176234220
+index 0 is out of bounds for axis 0 with size 0
+Rank 22 Processing merger: 1228435435_1224822744
+Rank 39 Processing merger: 1365502777_1349232887
+Rank 31 Processing merger: 1198692872_1188384067
+Rank 42 Processing merger: 1297960891_1227148044
+Rank 45 Processing merger: 1555083831_1523494458
+Error processing merger: 1299561353_1274023964
+np.int64(76)
+Rank 46 Processing merger: 1309786256_1308137050
+Rank 51 Processing merger: 1626998751_1652294614
+Rank 38 Processing merger: 1713305519_1540816678
+Rank 54 Processing merger: 1137599297_1136548567
+Rank 40 Processing merger: 1556859851_1516331639
+Rank 28 Processing merger: 1476763288_1474050673
+Rank 24 Processing merger: 1471393559_1477318870
+Rank 54 Processing merger: 1370868277_1243701400
+Rank 10 Processing merger: 1502823950_1462248493
+Rank 14 Processing merger: 1541560768_1417536414
+Rank 56 Processing merger: 1475674827_1380517032
+Rank 3 Processing merger: 1261954520_1260679450
+Rank 46 Processing merger: 1518175463_1521610884
+Rank 29 Processing merger: 1573158362_1566632107
+Rank 61 Processing merger: 1295544398_1258696454
+Rank 30 Processing merger: 1553542197_1581005569
+Error processing merger: 1429359686_1433362748
+np.int64(93)
+Rank 7 Processing merger: 1304332748_1210265628
+Rank 53 Processing merger: 1379415793_1289677203
+Rank 41 Processing merger: 1250173246_1277187127
+Rank 2 Processing merger: 1547426014_1534035858
+Rank 11 Processing merger: 1553277319_1607282993
+Rank 47 Processing merger: 1403494637_1422526984
+Rank 6 Processing merger: 1320739058_1306992232
+Rank 58 Processing merger: 1641188143_1656987770
+Rank 21 Processing merger: 1455097753_1494721981
+Error processing merger: 1215559519_1214797774
+np.int64(65)
+Rank 62 Processing merger: 1448679570_1435699967
+Rank 48 Processing merger: 1255897844_1239218398
+Rank 37 Processing merger: 1691622958_1614953070
+Rank 5 Processing merger: 1177658782_1161885371
+Rank 27 Processing merger: 1340628560_1318372598
+Rank 36 Processing merger: 1282600202_1300642120
+Rank 48 Processing merger: 1342461176_1332383021
+Rank 3 Processing merger: 1196197138_1186851146
+Rank 25 Processing merger: 1298758371_1299298359
+Rank 59 Processing merger: 1680336891_1607279481
+Rank 19 Processing merger: 1167530732_1161365538
+Error processing merger: 1221336235_1209276733
+np.int64(67)
+Rank 34 Processing merger: 1282283969_1283466895
+Rank 6 Processing merger: 1462157711_1385159579
+Error processing merger: 1202922456_1223393015
+np.int64(67)
+Rank 20 Processing merger: 1570744742_1506120723
+Rank 1 Processing merger: 1254356903_1233148405
+Rank 44 Processing merger: 1222916595_1214234066
+Error processing merger: 1187809628_1182944433
+np.int64(62)
+Rank 49 Processing merger: 1395198271_1443179928
+Rank 12 Processing merger: 1445651162_1400215907
+Rank 26 Processing merger: 1406538547_1379601748
+Error processing merger: 1177658782_1161885371
+index 0 is out of bounds for axis 0 with size 0
+Rank 5 Processing merger: 1363243905_1340197763
+Rank 50 Processing merger: 1462157711_1442074028
+Rank 60 Processing merger: 1404525147_1373344049
+Error processing merger: 1282283969_1283466895
+index 0 is out of bounds for axis 0 with size 0
+Rank 34 Processing merger: 1602828155_1504184890
+Rank 8 Processing merger: 1391349587_1330059312
+Rank 55 Processing merger: 1516994023_1471503061
+Rank 22 Processing merger: 1554239613_1523530588
+Rank 39 Processing merger: 1643375434_1671231221
+Rank 15 Processing merger: 1611449505_1588589641
+Rank 40 Processing merger: 1226972525_1227430992
+Rank 45 Processing merger: 1215046708_1197526927
+Rank 38 Processing merger: 1180219845_1179547076
+Rank 16 Processing merger: 1468345252_1552664857
+Rank 32 Processing merger: 1372268544_1360341141
+Rank 10 Processing merger: 1677008911_1621768024
+Rank 28 Processing merger: 1580927301_1592757489
+Rank 43 Processing merger: 1167682090_1166207818
+Rank 0 Processing merger: 1382050264_1385323917
+Error processing merger: 1165171763_1164962605
+np.int64(57)
+Rank 18 Processing merger: 1283666384_1251915325
+Rank 14 Processing merger: 1281198137_1283912019
+Rank 29 Processing merger: 1354918623_1250808402
+Rank 42 Processing merger: 1617800611_1406869024
+Rank 30 Processing merger: 1192801377_1185932189
+Rank 56 Processing merger: 1665690083_1541896365
+Error processing merger: 1282600202_1300642120
+np.int64(77)
+Rank 36 Processing merger: 1254458538_1264081230
+Rank 31 Processing merger: 1347307481_1202522785
+Rank 51 Processing merger: 1374202629_1251539522
+Rank 41 Processing merger: 1510736646_1298652911
+Rank 46 Processing merger: 1196980622_1185474729
+Rank 61 Processing merger: 1424300652_1433865721
+Rank 24 Processing merger: 1227069474_1224023462
+Rank 35 Processing merger: 1299870138_1264780511
+Rank 21 Processing merger: 1261279060_1228312991
+Rank 53 Processing merger: 1168448309_1167385980
+Rank 37 Processing merger: 1232396265_1267195749
+Error processing merger: 1281198137_1283912019
+min() iterable argument is empty
+Rank 14 Processing merger: 1193709098_1195631468
+Rank 62 Processing merger: 1283808334_1275456716
+Rank 27 Processing merger: 1203456753_1191832618
+Rank 58 Processing merger: 1643504645_1541603034
+Error processing merger: 1404525147_1373344049
+np.int64(89)
+Rank 60 Processing merger: 1255237353_1251562480
+Error processing merger: 1167682090_1166207818
+min() iterable argument is empty
+Rank 43 Processing merger: 1303127964_1331298889
+Rank 60 Processing merger: 1542751625_1570744742
+Rank 12 Processing merger: 1452438093_1425275711
+Rank 6 Processing merger: 1262012016_1230379032
+Rank 47 Processing merger: 1232752085_1246002074
+Rank 14 Processing merger: 1544782491_1544731501
+Rank 20 Processing merger: 1340926222_1264668912
+Rank 59 Processing merger: 1309464552_1304993904
+Rank 1 Processing merger: 1422114620_1432729016
+Rank 48 Processing merger: 1712426334_1539811903
+Rank 25 Processing merger: 1473772254_1472621576
+Rank 26 Processing merger: 1225739874_1190030320
+Rank 19 Processing merger: 1421096940_1388557494
+Rank 8 Processing merger: 1753070769_1676791060
+Rank 34 Processing merger: 1509908536_1554093007
+Rank 44 Processing merger: 1179743142_1185067365
+Rank 3 Processing merger: 1504229696_1432937635
+Rank 15 Processing merger: 1424300652_1416905935
+Rank 39 Processing merger: 1696633165_1621476309
+Rank 50 Processing merger: 1677933821_1581696375
+Rank 7 Processing merger: 1200791256_1190188571
+Rank 49 Processing merger: 1594094760_1187644735
+Rank 2 Processing merger: 1305788033_1303771739
+Rank 5 Processing merger: 1537816667_1510046228
+Rank 22 Processing merger: 1610945933_1467780310
+Error processing merger: 1374202629_1251539522
+np.int64(85)
+Rank 51 Processing merger: 1611501251_1643997890
+Rank 8 Processing merger: 1624942932_1598384620
+Rank 4 Processing merger: 1696551940_1607490553
+Error processing merger: 1192801377_1185932189
+np.int64(62)
+Rank 30 Processing merger: 1134941826_1134955821
+Rank 55 Processing merger: 1191287622_1189381660
+Error processing merger: 1147736455_1145957193
+index 0 is out of bounds for axis 0 with size 0
+Rank 23 Processing merger: 1538921085_1308796326
+Rank 57 Processing merger: 1213585042_1193579238
+Rank 45 Processing merger: 1501572837_1309673189
+Rank 30 Processing merger: 1447798834_1540975610
+Rank 55 Processing merger: 1236123500_1222069901
+Rank 38 Processing merger: 1434541971_1356694385
+Rank 28 Processing merger: 1185555634_1190023819
+Rank 18 Processing merger: 1453912787_1457316728
+Rank 32 Processing merger: 1277202290_1287869619
+Error processing merger: 1236123500_1222069901
+index 0 is out of bounds for axis 0 with size 0
+Rank 55 Processing merger: 1547320524_1540810245
+Rank 16 Processing merger: 1201667418_1191147526
+Error processing merger: 1227069474_1224023462
+np.int64(68)
+Rank 24 Processing merger: 1531348280_1540334012
+Rank 56 Processing merger: 1331336434_1340505671
+Rank 42 Processing merger: 1352350275_1284464410
+Rank 36 Processing merger: 1277193020_1222542545
+Rank 10 Processing merger: 1339522956_1341570652
+Rank 0 Processing merger: 1153676835_1148784177
+Rank 35 Processing merger: 1392629776_1338276936
+Error processing merger: 1309464552_1304993904
+np.int64(77)
+Rank 59 Processing merger: 1214306657_1203908947
+Rank 31 Processing merger: 1221007242_1253877375
+Rank 40 Processing merger: 1542595706_1444741640
+Rank 46 Processing merger: 1302628527_1307583957
+Rank 61 Processing merger: 1288101070_1238534650
+Error processing merger: 1262012016_1230379032
+np.int64(72)
+Rank 6 Processing merger: 1341570652_1254651778
+Rank 37 Processing merger: 1451479107_1627896778
+Error processing merger: 1201667418_1191147526
+index 0 is out of bounds for axis 0 with size 0
+Rank 16 Processing merger: 1198489039_1189088661
+Rank 29 Processing merger: 1544263101_1553393561
+Rank 12 Processing merger: 1378174381_1377524429
+Rank 60 Processing merger: 1443811117_1433941246
+Rank 41 Processing merger: 1330368908_1280592737
+Rank 58 Processing merger: 1156072828_1154617419
+Rank 21 Processing merger: 1236123500_1229272508
+Rank 43 Processing merger: 1180176492_1170813888
+Error processing merger: 1624942932_1598384620
+np.int64(118)
+Rank 8 Processing merger: 1268619115_1262719919
+Rank 27 Processing merger: 1629072175_1659931120
+Rank 14 Processing merger: 1320963588_1299832270
+Error processing merger: 1288101070_1238534650
+index 0 is out of bounds for axis 0 with size 0
+Rank 61 Processing merger: 1217273829_1208418685
+Rank 62 Processing merger: 1193518447_1190610887
+Error processing merger: 1180176492_1170813888
+index 0 is out of bounds for axis 0 with size 0
+Rank 43 Processing merger: 1325062731_1320184942
+Rank 25 Processing merger: 1223919905_1241363429
+Rank 47 Processing merger: 1644722148_1616372547
+Rank 48 Processing merger: 1251983027_1277633177
+Rank 44 Processing merger: 1256005324_1248687429
+Rank 1 Processing merger: 1309936871_1274094042
+Error processing merger: 1217273829_1208418685
+index 0 is out of bounds for axis 0 with size 0
+Rank 61 Processing merger: 1171911851_1168502255
+Rank 52 Processing merger: 1153532319_1154856085
+Rank 3 Processing merger: 1348544880_1319201816
+Rank 20 Processing merger: 1172172757_1170420583
+Rank 62 Processing merger: 1330820895_1314404249
+Rank 34 Processing merger: 1523478574_1499114917
+Error processing merger: 1236123500_1229272508
+index 0 is out of bounds for axis 0 with size 0
+Rank 21 Processing merger: 1643504645_1542234541
+Rank 50 Processing merger: 1399619161_1393192212
+Rank 4 Processing merger: 1229362803_1247846415
+Error processing merger: 1330820895_1314404249
+index 0 is out of bounds for axis 0 with size 0
+Rank 62 Processing merger: 1215680649_1213503851
+Rank 15 Processing merger: 1369517830_1325330132
+Rank 26 Processing merger: 1288960334_1260653135
+Rank 23 Processing merger: 1285161204_1277572019
+Rank 39 Processing merger: 1240844274_1233632359
+Rank 19 Processing merger: 1173675765_1175925266
+Rank 2 Processing merger: 1202307968_1223257240
+Error processing merger: 1330368908_1280592737
+np.int64(82)
+Rank 41 Processing merger: 1392696836_1362569963
+Rank 38 Processing merger: 1558196156_1487211244
+Rank 61 Processing merger: 1388328962_1371045154
+Rank 52 Processing merger: 1419664881_1397645170
+Rank 24 Processing merger: 1221545211_1207782633
+Rank 49 Processing merger: 1401663142_1396238668
+Rank 22 Processing merger: 1392510018_1366413759
+Rank 28 Processing merger: 1216099879_1201230556
+Error processing merger: 1215680649_1213503851
+min() iterable argument is empty
+Rank 62 Processing merger: 1502002681_1370958723
+Rank 20 Processing merger: 1182899753_1194450223
+Error processing merger: 1156072828_1154617419
+np.int64(56)
+Rank 58 Processing merger: 1318035530_1297885299
+Error processing merger: 1285161204_1277572019
+index 0 is out of bounds for axis 0 with size 0
+Rank 23 Processing merger: 1431247248_1407520492
+Error processing merger: 1443811117_1433941246
+np.int64(94)
+Rank 60 Processing merger: 1247951969_1290458874
+Error processing merger: 1318035530_1297885299
+index 0 is out of bounds for axis 0 with size 0
+Rank 58 Processing merger: 1488498721_1387456899
+Rank 55 Processing merger: 1155103504_1156000756
+Rank 32 Processing merger: 1298602320_1299708253
+Rank 57 Processing merger: 1671455197_1648388718
+Rank 40 Processing merger: 1368380313_1281856395
+Rank 7 Processing merger: 1263129469_1262993768
+Rank 18 Processing merger: 1296910781_1297445079
+Rank 9 Processing merger: 1259939369_1284592433
+Error processing merger: 1629072175_1659931120
+np.int64(121)
+Rank 27 Processing merger: 1549429071_1598308917
+Rank 5 Processing merger: 1611401870_1516374127
+Rank 36 Processing merger: 1520874930_1497397838
+Rank 42 Processing merger: 1256279786_1178673159
+Rank 0 Processing merger: 1485347185_1402583044
+Rank 35 Processing merger: 1168367483_1169980053
+Rank 16 Processing merger: 1651339532_1674163152
+Rank 46 Processing merger: 1249723617_1239190611
+Rank 6 Processing merger: 1489786390_1472415132
+Rank 51 Processing merger: 1189285739_1194591955
+Rank 10 Processing merger: 1310174300_1294998244
+Rank 29 Processing merger: 1237922461_1248593096
+Rank 11 Processing merger: 1545399151_1545399128
+Rank 12 Processing merger: 1165718792_1160426664
+Rank 56 Processing merger: 1315818101_1298917762
+Rank 17 Processing merger: 1674984209_1589911495
+Rank 37 Processing merger: 1680336891_1576855636
+Error processing merger: 1165718792_1160426664
+index 0 is out of bounds for axis 0 with size 0
+Rank 12 Processing merger: 1472619839_1403414582
+Rank 25 Processing merger: 1137178108_1138932044
+Rank 59 Processing merger: 1601628546_1607924017
+Rank 31 Processing merger: 1311950480_1331002641
+Rank 47 Processing merger: 1636003762_1526112486
+Rank 14 Processing merger: 1510609028_1488035742
+Rank 43 Processing merger: 1286458107_1240397947
+Rank 48 Processing merger: 1198920728_1195489161
+Rank 21 Processing merger: 1261954520_1246621425
+Rank 1 Processing merger: 1404282672_1436053169
+Rank 34 Processing merger: 1401080244_1399478656
+Rank 8 Processing merger: 1513838450_1439661086
+Rank 3 Processing merger: 1608674072_1676010543
+Rank 15 Processing merger: 1234331219_1219206671
+Rank 38 Processing merger: 1206805703_1216434850
+Rank 41 Processing merger: 1752564044_1682572983
+Rank 50 Processing merger: 1500473541_1475085777
+Rank 24 Processing merger: 1180604881_1161553064
+Rank 61 Processing merger: 1162761558_1160969036
+Rank 52 Processing merger: 1532845693_1517035577
+Rank 19 Processing merger: 1588719340_1578827218
+Rank 49 Processing merger: 1298923024_1262214899
+Rank 28 Processing merger: 1513899240_1483725322
+Rank 39 Processing merger: 1420555700_1261947714
+Rank 26 Processing merger: 1281275122_1273241615
+Rank 44 Processing merger: 1478078534_1478535859
+Rank 2 Processing merger: 1448888036_1389003379
+Rank 21 Processing merger: 1263843349_1240863226
+Rank 23 Processing merger: 1551125512_1538890751
+Rank 22 Processing merger: 1609133567_1564984027
+Error processing merger: 1298923024_1262214899
+min() iterable argument is empty
+Rank 49 Processing merger: 1282717463_1180192256
+Rank 60 Processing merger: 1665493715_1617766327
+Error processing merger: 1256279786_1178673159
+np.int64(72)
+Rank 42 Processing merger: 1520180696_1490390719
+Rank 62 Processing merger: 1260796128_1226856527
+Rank 13 Processing merger: 1306717352_1308675783
+Rank 63 Processing merger: 1609133567_1548079509
+Error processing merger: 1162761558_1160969036
+index 0 is out of bounds for axis 0 with size 0
+Error processing merger: 1282717463_1180192256
+index 0 is out of bounds for axis 0 with size 0
+Error processing merger: 1406152549_1340163674
+np.int64(89)
+Rank 33 Processing merger: 1283691270_1286565547
+Rank 20 Processing merger: 1281362844_1246302635
+Rank 55 Processing merger: 1248241915_1247879785
+Error processing merger: 1189285739_1194591955
+np.int64(64)
+Rank 51 Processing merger: 1581005569_1610267279
+Rank 40 Processing merger: 1642083864_1681324409
+Rank 58 Processing merger: 1305381235_1305060661
+Rank 51 Processing merger: 1510713303_1336874565
+Error processing merger: 1249723617_1239190611
+np.int64(70)
+Rank 46 Processing merger: 1162331277_1175435749
+Rank 36 Processing merger: 1161195935_1158966611
+Rank 54 Processing merger: 1246346189_1240483140
+Error processing merger: 1246346189_1240483140
+index 0 is out of bounds for axis 0 with size 0
+Rank 54 Processing merger: 1223926760_1197956614
+Rank 0 Processing merger: 1276335397_1271360686
+Rank 27 Processing merger: 1493657770_1492977117
+Rank 36 Processing merger: 1197490287_1191112902
+Rank 57 Processing merger: 1195743020_1190873309
+Rank 7 Processing merger: 1434377993_1419143825
+Rank 18 Processing merger: 1315308254_1248909206
+Rank 16 Processing merger: 1242618848_1246051107
+Rank 5 Processing merger: 1544313341_1465058037
+Rank 32 Processing merger: 1352253311_1321700788
+Rank 9 Processing merger: 1233733973_1197387779
+Rank 53 Processing merger: 1695268481_1531620564
+Error processing merger: 1276335397_1271360686
+index 0 is out of bounds for axis 0 with size 0
+Rank 0 Processing merger: 1434613721_1446191491
+Rank 17 Processing merger: 1246346189_1248802583
+Rank 35 Processing merger: 1608028474_1639108606
+Rank 4 Processing merger: 1556051502_1477450830
+Rank 12 Processing merger: 1228356193_1210825540
+Rank 37 Processing merger: 1699015063_1690761835
+Rank 29 Processing merger: 1337400070_1254588687
+Error processing merger: 1197490287_1191112902
+index 0 is out of bounds for axis 0 with size 0
+Rank 36 Processing merger: 1479347550_1479190259
+Rank 56 Processing merger: 1418249993_1319532453
+Rank 25 Processing merger: 1507485589_1468583260
+Rank 43 Processing merger: 1219405902_1228356193
+Rank 47 Processing merger: 1636203069_1575688989
+Rank 6 Processing merger: 1167294085_1172463332
+Rank 31 Processing merger: 1716116312_1752564044
+Rank 45 Processing merger: 1180673896_1176817399
+Rank 1 Processing merger: 1161481156_1155804085
+Rank 10 Processing merger: 1535012252_1472262041
+Rank 59 Processing merger: 1271817413_1265503773
+Error processing merger: 1260796128_1226856527
+np.int64(71)
+Rank 62 Processing merger: 1592849862_1513735991
+Rank 48 Processing merger: 1538120738_1621476309
+Rank 8 Processing merger: 1207458005_1196614896
+Rank 14 Processing merger: 1199837827_1198439050
+Rank 3 Processing merger: 1317900216_1297507447
+Error processing merger: 1219405902_1228356193
+min() iterable argument is empty
+Rank 43 Processing merger: 1330622680_1242620901
+Error processing merger: 1263843349_1240863226
+np.int64(71)
+Rank 21 Processing merger: 1326925854_1319560334
+Rank 24 Processing merger: 1460466925_1448792377
+Rank 50 Processing merger: 1192139173_1184273367
+Rank 34 Processing merger: 1147852183_1148300904
+Rank 15 Processing merger: 1456171875_1217258640
+Rank 8 Processing merger: 1233553179_1225002217
+Rank 19 Processing merger: 1442694335_1437160771
+Rank 38 Processing merger: 1508679463_1489806711
+Rank 28 Processing merger: 1643390278_1353086826
+Rank 39 Processing merger: 1155976458_1157423301
+Rank 60 Processing merger: 1188972345_1167236759
+Rank 44 Processing merger: 1404869683_1393292549
+Rank 42 Processing merger: 1341267980_1338046170
+Rank 23 Processing merger: 1520807539_1497435186
+Rank 11 Processing merger: 1553359404_1463570265
+Rank 63 Processing merger: 1509902868_1414944250
+Rank 26 Processing merger: 1467004343_1467637711
+Error processing merger: 1233553179_1225002217
+index 0 is out of bounds for axis 0 with size 0
+Rank 8 Processing merger: 1609580678_1513728717
+Rank 52 Processing merger: 1488635107_1482358987
+Rank 22 Processing merger: 1175599041_1170396640
+Error processing merger: 1608028474_1639108606
+np.int64(119)
+Rank 35 Processing merger: 1168779348_1185006163
+Rank 33 Processing merger: 1269165381_1265946779
+Rank 40 Processing merger: 1264060908_1258995288
+Rank 2 Processing merger: 1523458931_1275091083
+Rank 13 Processing merger: 1608721891_1565984460
+Rank 33 Processing merger: 1251983027_1240482450
+Rank 20 Processing merger: 1502315007_1476050762
+Rank 58 Processing merger: 1366767013_1239444579
+Rank 55 Processing merger: 1224385175_1226485819
+Rank 51 Processing merger: 1281315405_1308137050
+Error processing merger: 1167294085_1172463332
+np.int64(58)
+Rank 6 Processing merger: 1429895090_1336920925
+Rank 18 Processing merger: 1140873540_1142940939
+Rank 46 Processing merger: 1388838715_1377147147
+Rank 32 Processing merger: 1204019739_1199919457
+Rank 9 Processing merger: 1403223162_1348877278
+Rank 53 Processing merger: 1621143541_1624921137
+Rank 4 Processing merger: 1153728562_1161348510
+Rank 54 Processing merger: 1460547463_1492877526
+Rank 0 Processing merger: 1456935809_1445559793
+Rank 7 Processing merger: 1393310813_1267584782
+Rank 5 Processing merger: 1340183381_1355214091
+Rank 57 Processing merger: 1588719340_1575509266
+Rank 56 Processing merger: 1146754179_1149815916
+Rank 36 Processing merger: 1280471057_1260921845
+Rank 17 Processing merger: 1498681813_1505760865
+Error processing merger: 1161481156_1155804085
+np.int64(56)
+Rank 1 Processing merger: 1348329900_1343718502
+Rank 31 Processing merger: 1418875985_1395828165
+Rank 16 Processing merger: 1270471608_1280607791
+Rank 37 Processing merger: 1493774011_1493437621
+Rank 27 Processing merger: 1434157321_1363058231
+Rank 29 Processing merger: 1214810579_1211243063
+Rank 12 Processing merger: 1753925552_1695017717
+Rank 14 Processing merger: 1525249323_1486610404
+Rank 10 Processing merger: 1566862071_1487448884
+Rank 24 Processing merger: 1662142718_1383396209
+Error processing merger: 1270471608_1280607791
+index 0 is out of bounds for axis 0 with size 0
+Rank 16 Processing merger: 1402220204_1405962738
+Rank 59 Processing merger: 1702286774_1578298105
+Rank 43 Processing merger: 1364892945_1319055270
+Rank 34 Processing merger: 1303570092_1249411012
+Error processing merger: 1281315405_1308137050
+np.int64(77)
+Rank 42 Processing merger: 1587158684_1693652273
+Rank 45 Processing merger: 1236890579_1248582860
+Rank 3 Processing merger: 1331795422_1327727230
+Rank 23 Processing merger: 1627039505_1529414447
+Rank 38 Processing merger: 1512432374_1552757172
+Error processing merger: 1588719340_1575509266
+np.int64(120)
+Rank 57 Processing merger: 1533701430_1469575932
+Rank 19 Processing merger: 1341986823_1322075295
+Error processing merger: 1498681813_1505760865
+np.int64(102)
+Rank 17 Processing merger: 1252840453_1249997894
+Rank 63 Processing merger: 1442560577_1419178804
+Error processing merger: 1153728562_1161348510
+np.int64(57)
+Rank 4 Processing merger: 1263843349_1247980190
+Rank 15 Processing merger: 1278423160_1249142235
+Rank 60 Processing merger: 1238697014_1222807236
+Rank 35 Processing merger: 1376414713_1146466203
+Rank 44 Processing merger: 1148956152_1151382390
+Rank 26 Processing merger: 1290544266_1272282298
+Rank 11 Processing merger: 1587996854_1556598470
+Rank 2 Processing merger: 1575407790_1450698278
+Rank 13 Processing merger: 1406538547_1319423592
+Rank 52 Processing merger: 1666913279_1702286774
+Rank 6 Processing merger: 1433438815_1416458319
+Error processing merger: 1252840453_1249997894
+index 0 is out of bounds for axis 0 with size 0
+Rank 17 Processing merger: 1214331738_1193531633
+Rank 22 Processing merger: 1371226755_1365511449
+Error processing merger: 1290544266_1272282298
+index 0 is out of bounds for axis 0 with size 0
+Rank 26 Processing merger: 1220386870_1212048825
+Rank 20 Processing merger: 1203746709_1186668403
+Rank 33 Processing merger: 1513717406_1496287202
+Rank 9 Processing merger: 1506401152_1423783541
+Error processing merger: 1148956152_1151382390
+index 0 is out of bounds for axis 0 with size 0
+Rank 44 Processing merger: 1363981486_1361339532
+Rank 46 Processing merger: 1621278327_1546869184
+Rank 54 Processing merger: 1520284889_1432195873
+Rank 7 Processing merger: 1151299616_1151903643
+Error processing merger: 1303570092_1249411012
+np.int64(77)
+Rank 34 Processing merger: 1228060992_1217925624
+Rank 18 Processing merger: 1493615176_1430439574
+Rank 32 Processing merger: 1254417368_1239898441
+Error processing merger: 1666913279_1702286774
+min() iterable argument is empty
+Rank 52 Processing merger: 1478760695_1351184415
+Rank 0 Processing merger: 1717709523_1739305390
+Rank 53 Processing merger: 1271436319_1248506997
+Rank 5 Processing merger: 1546944275_1458007443
+Rank 27 Processing merger: 1360639903_1339099534
+Rank 56 Processing merger: 1236996960_1252212089
+Rank 31 Processing merger: 1512568125_1406727329
+Rank 37 Processing merger: 1333287765_1354433462
+Error processing merger: 1203746709_1186668403
+index 0 is out of bounds for axis 0 with size 0
+Rank 20 Processing merger: 1257038863_1295627662
+Rank 1 Processing merger: 1319102534_1493423530
+Rank 29 Processing merger: 1330634702_1304475825
+Rank 10 Processing merger: 1390192064_1365440512
+Rank 14 Processing merger: 1205654783_1215085639
+Rank 24 Processing merger: 1408709527_1402384438
+Rank 59 Processing merger: 1663369465_1626241936
+Rank 12 Processing merger: 1259589860_1364073872
+Rank 23 Processing merger: 1232914105_1234004399
+Rank 45 Processing merger: 1639108606_1504252186
+Error processing merger: 1151299616_1151903643
+np.int64(54)
+Rank 7 Processing merger: 1384268340_1448978491
+Rank 38 Processing merger: 1230893122_1242982374
+Rank 57 Processing merger: 1189519803_1184869427
+Rank 43 Processing merger: 1460524863_1430609710
+Rank 19 Processing merger: 1572143828_1553398872
+Rank 15 Processing merger: 1626937259_1535776380
+Rank 11 Processing merger: 1659489163_1552731902
+Rank 13 Processing merger: 1204448084_1232617038
+Rank 63 Processing merger: 1180529817_1174511246
+Rank 3 Processing merger: 1335023452_1334940652
+Rank 35 Processing merger: 1496569052_1355653660
+Rank 22 Processing merger: 1365524560_1319172304
+Rank 44 Processing merger:Error processing merger: 1271436319_1248506997
+np.int64(72)
+Rank 53 Processing merger: 1619362390_1578148835
+ 1266546104_1300168488
+Rank 18 Processing merger: 1649250352_1662613878
+Rank 46 Processing merger: 1615692898_1515055747
+Rank 17 Processing merger: 1237455279_1201716999
+Rank 2 Processing merger: 1309520478_1273845291
+Rank 9 Processing merger: 1245514753_1241603285
+Rank 33 Processing merger: 1619362390_1555308678
+Rank 54 Processing merger: Rank 52 Processing merger: 1209285060_1199593589
+1252503200_1242718074
+Error processing merger: 1245514753_1241603285
+index 0 is out of bounds for axis 0 with size 0
+Rank 9 Processing merger: 1342781453_1280812301
+Rank 32 Processing merger: 1193616646_1185649707
+Rank 27 Processing merger: 1626457122_1614472227
+Rank 34 Processing merger: 1275726827_1289281379
+Rank 5 Processing merger: 1216801641_1207637442
+Rank 1 Processing merger: 1312869567_1361370261
+Rank 20 Processing merger: 1336031248_1318828334
+Rank 59 Processing merger: 1404465954_1373962004
+Rank 31 Processing merger: 1416458319_1360393954
+Error processing merger: 1342781453_1280812301
+np.int64(81)
+Rank 9 Processing merger: 1158167829_1156749228
+Rank 45 Processing merger: 1494279307_1250799838Rank 29 Processing merger: 1680628667_1683280570
+
+Rank 19 Processing merger: 1392985792_1272608932
+Error processing merger: 1193616646_1185649707
+np.int64(62)
+Rank 32 Processing merger: 1600470853_1596087188
+Rank 11 Processing merger: 1448978175_1448508454
+Rank 24 Processing merger: 1591362748_1428766446
+Rank 35 Processing merger: 1738664153_1668441316
+Rank 57 Processing merger: 1189207596_1214812664
+Rank 7 Processing merger: 1198737423_1179125940
+Rank 14 Processing merger: 1342810307_1285534454
+Rank 63 Processing merger: 1269719724_1271944523
+Rank 18 Processing merger: 1230163125_1211052135
+Rank 13 Processing merger: 1662680712_1533596792
+Rank 15 Processing merger: 1429883640_1408365244
+Rank 22 Processing merger: 1307940851_1299060420
+Rank 3 Processing merger: 1558502839_1190963885
+Rank 17 Processing merger: 1390081569_1388956955
+Rank 2 Processing merger: 1699015063_1665897698
+Rank 46 Processing merger: 1163328037_1161891903
+Rank 33 Processing merger: 1296633522_1366413759
+Rank 53 Processing merger: 1179967720_1160523434
+Error processing merger: 1230163125_1211052135
+index 0 is out of bounds for axis 0 with size 0
+Error processing merger: 1189207596_1214812664
+np.int64(65)
+Rank 57 Processing merger: 1409278225_1375551071
+Rank 31 Processing merger: 1215220950_1197010283
+Rank 5 Processing merger: 1258409923_1228385607
+Rank 34 Processing merger: 1245514753_1227523763
+Rank 54 Processing merger: 1195130580_1185741222
+Rank 27 Processing merger: 1366867798_1298705403
+Rank 9 Processing merger: 1168883183_1163403748
+Rank 45 Processing merger: Error processing merger: 1179967720_1160523434
+index 0 is out of bounds for axis 0 with size 0
+Rank 53 Processing merger: 1416996375_1366163335
+1505866234_1505844481
+Error processing merger: 1258409923_1228385607
+np.int64(71)
+Rank 5 Processing merger: 1221943652_1216740787
+Error processing merger: 1168883183_1163403748
+index 0 is out of bounds for axis 0 with size 0
+Rank 9 Processing merger: 1234321459_1233243372
+Error processing merger: 1699015063_1665897698
+np.int64(126)
+Rank 63 Processing merger: 1520984555_1446545825
+Rank 11 Processing merger: 1340862537_1336911956
+Rank 19 Processing merger: 1178188933_1174104165
+Rank 32 Processing merger: 1200418549_1186531947
+Error processing merger: 1245514753_1227523763
+index 0 is out of bounds for axis 0 with size 0
+Rank 34 Processing merger: 1233542188_1243085026
+Error processing merger: 1558502839_1190963885
+np.int64(112)
+Rank 3 Processing merger: 1221626820_1208521172
+Rank 24 Processing merger: 1420089046_1390100485
+Error processing merger: 1520984555_1446545825
+np.int64(104)
+Rank 63 Processing merger: 1490590862_1172370225
+Rank 14 Processing merger: 1658488469_1396822789
+Rank 15 Processing merger: 1418645361_1270319550
+Rank 33 Processing merger: 1207193481_1220182114
+Rank 46 Processing merger: 1500301850_1526588997
+Error processing merger: 1221626820_1208521172
+index 0 is out of bounds for axis 0 with size 0
+Rank 57 Processing merger: 1525491601_1432685800
+Rank 13 Processing merger: 1392629776_1313032177
+Rank 58 Processing merger: 1209962397_1209247397
+Error processing merger: 1207193481_1220182114
+min() iterable argument is empty
+Rank 33 Processing merger: 1518392201_1640670973
+Rank 54 Processing merger: 1221548524_1208306945
+Rank 27 Processing merger: 1157880822_1163106323
+Error processing merger: 1224385175_1226485819
+np.int64(67)
+Rank 55 Processing merger: 1268012713_1331792065
+Rank 44 Processing merger: 1669212508_1481122450
+Error processing merger:Rank 22 Processing merger: 1322552813_1317128335
+ 1680628667_1683280570
+min() iterable argument is empty
+Error processing merger: 1392629776_1313032177
+np.int64(89)
+Rank 13 Processing merger: 1289535922_1295517269
+Rank 7 Processing merger: 1228293297_1241312100
+Rank 17 Processing merger: 1226352585_1221012596
+Rank 11 Processing merger: 1390578066_1377163747
+Rank 58 Processing merger: 1342765604_1367231913
+Rank 32 Processing merger: 1253938327_1266599486
+Rank 34 Processing merger: 1249572914_1261523935
+Rank 19 Processing merger: 1333109196_1222264037
+Rank 53 Processing merger: 1716805708_1644102467
+Error processing merger: 1289535922_1295517269
+np.int64(76)
+Rank 13 Processing merger: 1237628328_1241287704
+Rank 15 Processing merger: 1193954422_1181015996
+Rank 33 Processing merger: 1182628868_1166706554
+Rank 20 Processing merger: 1565386228_1573348770
+Rank 16 Processing merger: 1334616973_1301543100
+Rank 27 Processing merger: 1227902172_1209459374
+Rank 54 Processing merger: 1254761718_1223036518
+Error processing merger: 1227902172_1209459374
+index 0 is out of bounds for axis 0 with size 0
+Rank 27 Processing merger: 1397933072_1354697342
+Rank 22 Processing merger: 1681381623_1644933425
+Error processing merger: 1334616973_1301543100
+min() iterable argument is empty
+Rank 16 Processing merger: 1405210017_1426538541
+Rank 11 Processing merger: 1198508138_1189969310
+Rank 17 Processing merger: 1595580057_1533636547
+Rank 10 Processing merger: 1659931120_1638728295
+Rank 58 Processing merger: 1483454226_1409664216
+Rank 32 Processing merger: 1152947119_1150004701
+Rank 15 Processing merger: 1169680900_1163781291
+Error processing merger: 1595580057_1533636547
+np.int64(114)
+Rank 17 Processing merger: 1175202033_1172277320
+Rank 13 Processing merger: 1432357315_1417072108
+Rank 33 Processing merger: 1407289901_1385754225
+Error processing merger: 1152947119_1150004701
+index 0 is out of bounds for axis 0 with size 0
+Rank 32 Processing merger: 1187279597_1195375282
+Rank 4 Processing merger: 1701762503_1713847913
+Rank 10 Processing merger: 1609461851_1517074126
+Error processing merger: 1198508138_1189969310
+np.int64(63)
+Rank 11 Processing merger: 1557672013_1419264849
+Error processing merger: 1187279597_1195375282
+min() iterable argument is empty
+Rank 32 Processing merger: 1207115663_1208801768
+Rank 20 Processing merger: 1283066090_1263872892
+Error processing merger: 1557672013_1419264849
+index 0 is out of bounds for axis 0 with size 0
+Rank 11 Processing merger: 1261871598_1263707924
+Error processing merger: 1261871598_1263707924
+index 0 is out of bounds for axis 0 with size 0
+Rank 15 Processing merger: 1462681540_1371178559
+Rank 17 Processing merger: 1258884243_1308825366
+Rank 4 Processing merger: 1524778389_1443582834
+Rank 20 Processing merger: 1401842397_1288426807
+Rank 17 Processing merger: 1259203423_1265952860
+Error processing merger: 1259203423_1265952860
+np.int64(72)
+Rank 4 Processing merger: 1196646074_1192177327
+Rank 20 Processing merger: 1198645001_1196296317
+Error processing merger: Error processing merger: 1196646074_1192177327
+np.int64(63)
+1198645001_1196296317
+index 0 is out of bounds for axis 0 with size 0
+Rank 20 Processing merger: 1316299371_1323389175
+Rank 20 Processing merger: 1589251173_1586424219
+Rank 34 Processing merger: 1485987262_1482918524
+Rank 20 Processing merger: 1373524448_1265226205
+Rank 33 Processing merger: 1276989451_1297156042
+Rank 20 Processing merger: 1437469660_1375457401
+Rank 33 Processing merger: 1207476694_1209780187
+Rank 20 Processing merger: 1610267279_1335533845
